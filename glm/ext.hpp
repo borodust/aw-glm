@@ -97,12 +97,6 @@
 #include "./gtx/raw_data.hpp"
 #include "./gtx/rotate_vector.hpp"
 
-#if GLM_ARCH & GLM_ARCH_SSE2_BIT
-#	include "./gtx/simd_mat4.hpp"
-#	include "./gtx/simd_quat.hpp"
-#	include "./gtx/simd_vec4.hpp"
-#endif
-
 #include "./gtx/spline.hpp"
 #include "./gtx/std_based_type.hpp"
 
