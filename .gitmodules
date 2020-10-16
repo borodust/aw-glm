@@ -1,0 +1,3 @@
+[submodule "src/lib/glm"]
+	path = src/lib/glm
+	url = https://github.com/borodust/glm.git
