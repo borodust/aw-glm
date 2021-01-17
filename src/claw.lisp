@@ -8,10 +8,10 @@
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (defun instantiate-some (decl)
-    (when (string= "glm" (claw.resect::declaration-namespace decl))
-      (let* ((name (claw.resect::declaration-name decl))
-             (location (claw.resect::declaration-location decl))
-             (params (claw.resect::declaration-template-parameters decl))
+    (when (string= "glm" (claw.resect:declaration-namespace decl))
+      (let* ((name (claw.resect:declaration-name decl))
+             (location (claw.resect:declaration-location decl))
+             (params (claw.resect:declaration-template-parameters decl))
              (types (cond
                       ((member name '("isMultiple"
                                       "findMSB"
@@ -51,16 +51,22 @@
 
 
 (claw.wrapper:defwrapper (glm::claw-glm
+                          (:system :claw-glm/wrapper)
                           (:headers "claw_glm.hpp")
                           (:includes :glm-includes)
-                          (:intrinsics :sse42 :avx)
-                          (:targets :local)
                           (:instantiate #'instantiate-some)
-                          (:persistent nil)
-                          (:language :c++)
                           (:include-definitions "glm::.*")
                           (:exclude-definitions "glm::detail::"
-                                                "vec<.*bool.*>"))
+                                                "vec<.*bool.*>")
+                          (:targets ((:and :x86-64 :linux) "x86_64-pc-linux-gnu"
+                                     (:intrinsics :sse42 :avx))
+                                    ((:and :aarch64 :android) "aarch64-linux-android"
+                                     (:intrinsics :neon)))
+                          (:persistent :claw-glm-bindings
+                           :asd-path "../claw-glm-bindings.asd"
+                           :bindings-path "../bindings/"
+                           :depends-on (:claw-utils))
+                          (:language :c++))
   :in-package :%glm
   :trim-enum-prefix t
   :recognize-bitfields t

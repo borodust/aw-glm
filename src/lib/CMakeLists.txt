@@ -12,7 +12,11 @@ if (MSVC)
 else()
     add_compile_options(-O2)
     if (NOT ANDROID_ABI)
+      set(TARGET_TRIPLE x86_64-pc-linux-gnu)
       add_compile_options(-mavx)
+    else()
+      set(TARGET_TRIPLE aarch64-linux-android)
+      add_compile_options(-mfpu=neon)
     endif()
 endif()
 
@@ -24,7 +28,7 @@ option(BUILD_SHARED_LIBS OFF)
 # MAIN
 #
 set(TARGET glm.clawed)
-set(ADAPTER adapter.cxx)
+set(ADAPTER "adapter.${TARGET_TRIPLE}.cxx")
 
 add_library(${TARGET} SHARED ${ADAPTER})
 set_source_files_properties(${ADAPTER} PROPERTIES LANGUAGE CXX)
