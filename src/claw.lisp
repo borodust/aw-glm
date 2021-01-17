@@ -66,6 +66,6 @@
   :recognize-bitfields t
   :recognize-strings t
   :with-adapter (:static
-                 :path "lib/adapter.c")
+                 :path "lib/adapter.cxx")
   :override-types ((:string claw-utils:claw-string)
                    (:pointer claw-utils:claw-pointer)))

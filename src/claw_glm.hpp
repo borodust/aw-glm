@@ -1,8 +1,13 @@
 #define GLM_FORCE_MESSAGES
 #define GLM_FORCE_INLINE
 #define GLM_FORCE_DEFAULT_ALIGNED_GENTYPES
-#define GLM_FORCE_AVX
 #define GLM_FORCE_SINGLE_ONLY
+
+#ifdef __ANDROID__
+#  define GLM_FORCE_NEON
+#else
+#  define GLM_FORCE_AVX
+#endif
 
 /*
  * MAIN
