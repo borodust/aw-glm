@@ -116,14 +116,6 @@
               (%glm::arg1
                (:pointer %glm::glm+vec<4+float+glm+aligned-lowp>)))
 
-(iffi:defistruct (%glm::glm+detail+storage<3+float+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_float_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_float_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
-
 (iffi:deficlass (%glm::glm+vec<3+float+glm+packed-lowp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_3_float_glm_packed_lowp_"
@@ -142,14 +134,6 @@
                (:pointer %glm::glm+vec<3+float+glm+packed-lowp>))
               (%glm::arg0
                (:pointer %glm::glm+vec<3+float+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+float+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_float_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_float_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<2+float+glm+aligned-highp>
                  :size-reporter
@@ -172,14 +156,6 @@
                (:pointer %glm::glm+vec<2+float+glm+aligned-highp>))
               (%glm::arg1
                (:pointer %glm::glm+vec<2+float+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+float+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_float_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_float_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+float+glm+aligned-highp>
                  :size-reporter
@@ -814,14 +790,6 @@
               (%glm::arg0
                (:pointer %glm::glm+vec<4+float+glm+aligned-highp>)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+int+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_int_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_int_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<2+unsigned+int+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_unsigned_int_glm_aligned_highp_"
@@ -849,14 +817,6 @@
                (:pointer
                 %glm::glm+vec<2+unsigned+int+glm+aligned-highp>))
               (%glm::arg1 %glm::glm+uint))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+int+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_int_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_int_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+int+glm+aligned-highp>
                  :size-reporter
@@ -3371,14 +3331,6 @@
               (%glm::arg0
                (:pointer %glm::glm+vec<4+float+glm+aligned-highp>)))
 
-(iffi:defistruct (%glm::glm+detail+storage<1+float+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_float_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_float_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<1+float+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_1_float_glm_aligned_highp_"
@@ -3992,14 +3944,6 @@
               (%glm::arg0
                (:pointer %glm::glm+vec<4+float+glm+aligned-highp>)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+int+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_int_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_int_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<2+int+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_int_glm_aligned_highp_"
@@ -4020,14 +3964,6 @@
                (:pointer %glm::glm+vec<2+float+glm+aligned-highp>))
               (%glm::arg1
                (:pointer %glm::glm+vec<2+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+int+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_int_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_int_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+int+glm+aligned-highp>
                  :size-reporter
@@ -5531,14 +5467,6 @@
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/type_ptr.inl:41:24"
               (%glm::arg0
                (:pointer %glm::glm+vec<4+float+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+int+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_int_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_int_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+int+glm+aligned-highp>
                  :size-reporter
@@ -10205,14 +10133,6 @@
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/packing.hpp:319:23"
               (%glm::v (:pointer %glm::glm+ivec4)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<2+short+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_short_glm_aligned_highp_"
@@ -10252,14 +10172,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/scalar_int_sized.hpp:61:25")
 
-(iffi:defistruct (%glm::glm+detail+storage<2+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<2+char+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_char_glm_aligned_highp_"
@@ -10279,14 +10191,6 @@
               %glm::glm+int16
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/packing.hpp:609:22"
               (%glm::v (:pointer %glm::glm+i8vec2)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<4+short+glm+aligned-highp>
                  :size-reporter
@@ -10312,14 +10216,6 @@
 (iffi:defitype %glm::glm+int32
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/scalar_int_sized.hpp:64:25")
-
-(iffi:defistruct (%glm::glm+detail+storage<4+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<4+char+glm+aligned-highp>
                  :size-reporter
@@ -10389,14 +10285,6 @@
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/packing.hpp:343:23"
               (%glm::v (:pointer %glm::glm+uvec4)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<2+unsigned+short+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_unsigned_short_glm_aligned_highp_"
@@ -10428,14 +10316,6 @@
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/packing.hpp:717:23"
               (%glm::v (:pointer %glm::glm+u32vec2)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<2+unsigned+char+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_unsigned_char_glm_aligned_highp_"
@@ -10457,14 +10337,6 @@
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/packing.hpp:621:23"
               (%glm::v (:pointer %glm::glm+u8vec2)))
 
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
-
 (iffi:deficlass (%glm::glm+vec<4+unsigned+short+glm+aligned-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_4_unsigned_short_glm_aligned_highp_"
@@ -10485,14 +10357,6 @@
               %glm::glm+uint64
               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/gtc/packing.hpp:693:23"
               (%glm::v (:pointer %glm::glm+u16vec4)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<4+unsigned+char+glm+aligned-highp>
                  :size-reporter
@@ -11005,14 +10869,6 @@
               (%glm::x
                (:pointer %glm::glm+mat<4+4+double+glm+packed-highp>)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+double+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_double_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_double_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
-
 (iffi:deficlass (%glm::glm+vec<2+double+glm+packed-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_double_glm_packed_highp_"
@@ -11114,17 +10970,10 @@
               (%glm::i
                %glm::glm+mat<2+2+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<2+2+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+2+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+2+double+glm+packed-highp>)))
 
@@ -11444,18 +11293,10 @@
               (%glm::i
                %glm::glm+mat<2+2+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<2+2+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+2+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+2+double+glm+packed-mediump>)))
@@ -11747,17 +11588,10 @@
               (%glm::i
                %glm::glm+mat<2+2+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<2+2+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+2+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+2+double+glm+packed-lowp>)))
 
@@ -12077,18 +11911,10 @@
               (%glm::i
                %glm::glm+mat<2+2+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<2+2+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+2+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+2+double+glm+aligned-highp>)))
@@ -12280,14 +12106,6 @@
               (%glm::x
                (:pointer %glm::glm+mat<4+4+float+glm+packed-highp>)))
 
-(iffi:defistruct (%glm::glm+detail+storage<2+float+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_float_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_float_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
-
 (iffi:deficlass (%glm::glm+vec<2+float+glm+packed-highp>
                  :size-reporter
                  "__claw_sizeof_glm_vec_2_float_glm_packed_highp_"
@@ -12388,17 +12206,10 @@
               (%glm::i
                %glm::glm+mat<2+2+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<2+2+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+2+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+2+float+glm+packed-highp>)))
 
@@ -12718,18 +12529,10 @@
               (%glm::i
                %glm::glm+mat<2+2+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<2+2+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+2+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+2+float+glm+packed-mediump>)))
@@ -13021,17 +12824,10 @@
               (%glm::i
                %glm::glm+mat<2+2+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<2+2+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+2+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+2+float+glm+packed-lowp>)))
 
@@ -13209,17 +13005,10 @@
               (%glm::i
                %glm::glm+mat<2+2+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<2+2+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+2+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+2+float+glm+aligned-highp>)))
 
@@ -13528,18 +13317,10 @@
               (%glm::i
                %glm::glm+mat<2+2+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<2+2+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+2+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+2+float+glm+aligned-mediump>)))
@@ -13820,17 +13601,10 @@
               (%glm::i
                %glm::glm+mat<2+2+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<2+2+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+2+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x2.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+2+float+glm+aligned-lowp>)))
 
@@ -13921,14 +13695,6 @@
                (:pointer %glm::glm+mat<2+3+double+glm+packed-highp>))
               (%glm::x
                (:pointer %glm::glm+mat<4+4+double+glm+packed-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+double+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_double_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_double_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+double+glm+packed-highp>
                  :size-reporter
@@ -14033,17 +13799,10 @@
               (%glm::i
                %glm::glm+mat<2+3+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<2+3+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+3+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+3+double+glm+packed-highp>)))
 
@@ -14266,18 +14025,10 @@
               (%glm::i
                %glm::glm+mat<2+3+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<2+3+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+3+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+3+double+glm+packed-mediump>)))
@@ -14472,17 +14223,10 @@
               (%glm::i
                %glm::glm+mat<2+3+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<2+3+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+3+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+3+double+glm+packed-lowp>)))
 
@@ -14590,14 +14334,6 @@
               (%glm::x
                (:pointer
                 %glm::glm+mat<4+4+double+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+double+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_double_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_double_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+double+glm+aligned-highp>
                  :size-reporter
@@ -14713,18 +14449,10 @@
               (%glm::i
                %glm::glm+mat<2+3+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<2+3+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+3+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+3+double+glm+aligned-highp>)))
@@ -14919,17 +14647,10 @@
               (%glm::i
                %glm::glm+mat<2+3+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<2+3+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+3+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+3+float+glm+packed-highp>)))
 
@@ -15152,18 +14873,10 @@
               (%glm::i
                %glm::glm+mat<2+3+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<2+3+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+3+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+3+float+glm+packed-mediump>)))
@@ -15348,17 +15061,10 @@
               (%glm::i
                %glm::glm+mat<2+3+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<2+3+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+3+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+3+float+glm+packed-lowp>)))
 
@@ -15538,17 +15244,10 @@
               (%glm::i
                %glm::glm+mat<2+3+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<2+3+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+3+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+3+float+glm+aligned-highp>)))
 
@@ -15771,18 +15470,10 @@
               (%glm::i
                %glm::glm+mat<2+3+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<2+3+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+3+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+3+float+glm+aligned-mediump>)))
@@ -15977,17 +15668,10 @@
               (%glm::i
                %glm::glm+mat<2+3+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<2+3+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+3+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+3+float+glm+aligned-lowp>)))
 
@@ -16078,14 +15762,6 @@
                (:pointer %glm::glm+mat<2+4+double+glm+packed-highp>))
               (%glm::x
                (:pointer %glm::glm+mat<4+4+double+glm+packed-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+double+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_double_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_double_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+double+glm+packed-highp>
                  :size-reporter
@@ -16192,17 +15868,10 @@
               (%glm::i
                %glm::glm+mat<2+4+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<2+4+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+4+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+4+double+glm+packed-highp>)))
 
@@ -16427,18 +16096,10 @@
               (%glm::i
                %glm::glm+mat<2+4+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<2+4+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+4+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+4+double+glm+packed-mediump>)))
@@ -16635,17 +16296,10 @@
               (%glm::i
                %glm::glm+mat<2+4+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<2+4+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+4+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+4+double+glm+packed-lowp>)))
 
@@ -16870,18 +16524,10 @@
               (%glm::i
                %glm::glm+mat<2+4+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<2+4+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+4+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+4+double+glm+aligned-highp>)))
@@ -16973,14 +16619,6 @@
                (:pointer %glm::glm+mat<2+4+float+glm+packed-highp>))
               (%glm::x
                (:pointer %glm::glm+mat<4+4+float+glm+packed-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+float+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_float_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_float_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+float+glm+packed-highp>
                  :size-reporter
@@ -17086,17 +16724,10 @@
               (%glm::i
                %glm::glm+mat<2+4+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<2+4+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+4+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+4+float+glm+packed-highp>)))
 
@@ -17321,18 +16952,10 @@
               (%glm::i
                %glm::glm+mat<2+4+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<2+4+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+4+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+4+float+glm+packed-mediump>)))
@@ -17529,17 +17152,10 @@
               (%glm::i
                %glm::glm+mat<2+4+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<2+4+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+4+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+4+float+glm+packed-lowp>)))
 
@@ -17721,17 +17337,10 @@
               (%glm::i
                %glm::glm+mat<2+4+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<2+4+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+4+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+4+float+glm+aligned-highp>)))
 
@@ -17945,18 +17554,10 @@
               (%glm::i
                %glm::glm+mat<2+4+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<2+4+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<2+4+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<2+4+float+glm+aligned-mediump>)))
@@ -18143,17 +17744,10 @@
               (%glm::i
                %glm::glm+mat<2+4+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<2+4+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<2+4+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI2E23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat2x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<2+4+float+glm+aligned-lowp>)))
 
@@ -18340,17 +17934,10 @@
               (%glm::i
                %glm::glm+mat<3+2+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<3+2+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+2+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+2+double+glm+packed-highp>)))
 
@@ -18565,18 +18152,10 @@
               (%glm::i
                %glm::glm+mat<3+2+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<3+2+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+2+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+2+double+glm+packed-mediump>)))
@@ -18764,17 +18343,10 @@
               (%glm::i
                %glm::glm+mat<3+2+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<3+2+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+2+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+2+double+glm+packed-lowp>)))
 
@@ -18989,18 +18561,10 @@
               (%glm::i
                %glm::glm+mat<3+2+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<3+2+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+2+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+2+double+glm+aligned-highp>)))
@@ -19188,17 +18752,10 @@
               (%glm::i
                %glm::glm+mat<3+2+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<3+2+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+2+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+2+float+glm+packed-highp>)))
 
@@ -19413,18 +18970,10 @@
               (%glm::i
                %glm::glm+mat<3+2+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<3+2+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+2+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+2+float+glm+packed-mediump>)))
@@ -19612,17 +19161,10 @@
               (%glm::i
                %glm::glm+mat<3+2+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<3+2+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+2+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+2+float+glm+packed-lowp>)))
 
@@ -19805,17 +19347,10 @@
               (%glm::i
                %glm::glm+mat<3+2+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<3+2+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+2+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+2+float+glm+aligned-highp>)))
 
@@ -20030,18 +19565,10 @@
               (%glm::i
                %glm::glm+mat<3+2+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<3+2+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+2+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+2+float+glm+aligned-mediump>)))
@@ -20229,17 +19756,10 @@
               (%glm::i
                %glm::glm+mat<3+2+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<3+2+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+2+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+2+float+glm+aligned-lowp>)))
 
@@ -20429,17 +19949,10 @@
               (%glm::i
                %glm::glm+mat<3+3+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<3+3+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+3+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+3+double+glm+packed-highp>)))
 
@@ -20657,18 +20170,10 @@
               (%glm::i
                %glm::glm+mat<3+3+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<3+3+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+3+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+3+double+glm+packed-mediump>)))
@@ -20859,17 +20364,10 @@
               (%glm::i
                %glm::glm+mat<3+3+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<3+3+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+3+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+3+double+glm+packed-lowp>)))
 
@@ -21087,18 +20585,10 @@
               (%glm::i
                %glm::glm+mat<3+3+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<3+3+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+3+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+3+double+glm+aligned-highp>)))
@@ -21289,17 +20779,10 @@
               (%glm::i
                %glm::glm+mat<3+3+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<3+3+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+3+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+3+float+glm+packed-highp>)))
 
@@ -21517,18 +21000,10 @@
               (%glm::i
                %glm::glm+mat<3+3+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<3+3+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+3+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+3+float+glm+packed-mediump>)))
@@ -21719,17 +21194,10 @@
               (%glm::i
                %glm::glm+mat<3+3+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<3+3+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+3+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+3+float+glm+packed-lowp>)))
 
@@ -21915,17 +21383,10 @@
               (%glm::i
                %glm::glm+mat<3+3+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<3+3+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+3+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+3+float+glm+aligned-highp>)))
 
@@ -22143,18 +21604,10 @@
               (%glm::i
                %glm::glm+mat<3+3+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<3+3+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+3+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+3+float+glm+aligned-mediump>)))
@@ -22345,17 +21798,10 @@
               (%glm::i
                %glm::glm+mat<3+3+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<3+3+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+3+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x3.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+3+float+glm+aligned-lowp>)))
 
@@ -22548,17 +21994,10 @@
               (%glm::i
                %glm::glm+mat<3+4+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<3+4+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+4+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+4+double+glm+packed-highp>)))
 
@@ -22779,18 +22218,10 @@
               (%glm::i
                %glm::glm+mat<3+4+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<3+4+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+4+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+4+double+glm+packed-mediump>)))
@@ -22984,17 +22415,10 @@
               (%glm::i
                %glm::glm+mat<3+4+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<3+4+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+4+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+4+double+glm+packed-lowp>)))
 
@@ -23215,18 +22639,10 @@
               (%glm::i
                %glm::glm+mat<3+4+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<3+4+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+4+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+4+double+glm+aligned-highp>)))
@@ -23420,17 +22836,10 @@
               (%glm::i
                %glm::glm+mat<3+4+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<3+4+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+4+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+4+float+glm+packed-highp>)))
 
@@ -23651,18 +23060,10 @@
               (%glm::i
                %glm::glm+mat<3+4+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<3+4+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+4+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+4+float+glm+packed-mediump>)))
@@ -23856,17 +23257,10 @@
               (%glm::i
                %glm::glm+mat<3+4+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<3+4+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+4+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+4+float+glm+packed-lowp>)))
 
@@ -24055,17 +23449,10 @@
               (%glm::i
                %glm::glm+mat<3+4+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<3+4+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+4+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+4+float+glm+aligned-highp>)))
 
@@ -24286,18 +23673,10 @@
               (%glm::i
                %glm::glm+mat<3+4+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<3+4+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<3+4+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<3+4+float+glm+aligned-mediump>)))
@@ -24491,17 +23870,10 @@
               (%glm::i
                %glm::glm+mat<3+4+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<3+4+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<3+4+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI3E23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat3x4.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<3+4+float+glm+aligned-lowp>)))
 
@@ -24693,17 +24065,10 @@
               (%glm::i
                %glm::glm+mat<4+2+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<4+2+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+2+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+2+double+glm+packed-highp>)))
 
@@ -24923,18 +24288,10 @@
               (%glm::i
                %glm::glm+mat<4+2+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<4+2+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+2+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+2+double+glm+packed-mediump>)))
@@ -25127,17 +24484,10 @@
               (%glm::i
                %glm::glm+mat<4+2+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<4+2+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+2+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+2+double+glm+packed-lowp>)))
 
@@ -25357,18 +24707,10 @@
               (%glm::i
                %glm::glm+mat<4+2+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<4+2+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+2+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+2+double+glm+aligned-highp>)))
@@ -25561,17 +24903,10 @@
               (%glm::i
                %glm::glm+mat<4+2+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<4+2+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+2+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+2+float+glm+packed-highp>)))
 
@@ -25791,18 +25126,10 @@
               (%glm::i
                %glm::glm+mat<4+2+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<4+2+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+2+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+2+float+glm+packed-mediump>)))
@@ -25995,17 +25322,10 @@
               (%glm::i
                %glm::glm+mat<4+2+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<4+2+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+2+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+2+float+glm+packed-lowp>)))
 
@@ -26193,17 +25513,10 @@
               (%glm::i
                %glm::glm+mat<4+2+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<4+2+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+2+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+2+float+glm+aligned-highp>)))
 
@@ -26423,18 +25736,10 @@
               (%glm::i
                %glm::glm+mat<4+2+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<4+2+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+2+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+2+float+glm+aligned-mediump>)))
@@ -26627,17 +25932,10 @@
               (%glm::i
                %glm::glm+mat<4+2+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<4+2+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+2+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x2.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+2+float+glm+aligned-lowp>)))
 
@@ -26833,17 +26131,10 @@
               (%glm::i
                %glm::glm+mat<4+3+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<4+3+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+3+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+3+double+glm+packed-highp>)))
 
@@ -27067,18 +26358,10 @@
               (%glm::i
                %glm::glm+mat<4+3+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<4+3+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+3+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+3+double+glm+packed-mediump>)))
@@ -27275,17 +26558,10 @@
               (%glm::i
                %glm::glm+mat<4+3+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<4+3+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+3+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+3+double+glm+packed-lowp>)))
 
@@ -27509,18 +26785,10 @@
               (%glm::i
                %glm::glm+mat<4+3+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<4+3+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+3+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+3+double+glm+aligned-highp>)))
@@ -27717,17 +26985,10 @@
               (%glm::i
                %glm::glm+mat<4+3+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<4+3+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+3+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+3+float+glm+packed-highp>)))
 
@@ -27951,18 +27212,10 @@
               (%glm::i
                %glm::glm+mat<4+3+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<4+3+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+3+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+3+float+glm+packed-mediump>)))
@@ -28159,17 +27412,10 @@
               (%glm::i
                %glm::glm+mat<4+3+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<4+3+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+3+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+3+float+glm+packed-lowp>)))
 
@@ -28361,17 +27607,10 @@
               (%glm::i
                %glm::glm+mat<4+3+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<4+3+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+3+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+3+float+glm+aligned-highp>)))
 
@@ -28595,18 +27834,10 @@
               (%glm::i
                %glm::glm+mat<4+3+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<4+3+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+3+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+3+float+glm+aligned-mediump>)))
@@ -28803,17 +28034,10 @@
               (%glm::i
                %glm::glm+mat<4+3+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<4+3+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+3+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x3.hpp:14:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+3+float+glm+aligned-lowp>)))
 
@@ -29013,17 +28237,10 @@
               (%glm::i
                %glm::glm+mat<4+4+double+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<4+4+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+4+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+4+double+glm+packed-highp>)))
 
@@ -29251,18 +28468,10 @@
               (%glm::i
                %glm::glm+mat<4+4+double+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<4+4+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+4+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+4+double+glm+packed-mediump>)))
@@ -29463,17 +28672,10 @@
               (%glm::i
                %glm::glm+mat<4+4+double+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<4+4+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+4+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+4+double+glm+packed-lowp>)))
 
@@ -29701,18 +28903,10 @@
               (%glm::i
                %glm::glm+mat<4+4+double+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<4+4+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+4+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+4+double+glm+aligned-highp>)))
@@ -29913,17 +29107,10 @@
               (%glm::i
                %glm::glm+mat<4+4+float+glm+packed-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+mat<4+4+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+4+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+4+float+glm+packed-highp>)))
 
@@ -30151,18 +29338,10 @@
               (%glm::i
                %glm::glm+mat<4+4+float+glm+packed-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+mat<4+4+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+4+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+4+float+glm+packed-mediump>)))
@@ -30363,17 +29542,10 @@
               (%glm::i
                %glm::glm+mat<4+4+float+glm+packed-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+mat<4+4+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+4+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+4+float+glm+packed-lowp>)))
 
@@ -30569,17 +29741,10 @@
               (%glm::i
                %glm::glm+mat<4+4+float+glm+aligned-highp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+mat<4+4+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+4+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+4+float+glm+aligned-highp>)))
 
@@ -30807,18 +29972,10 @@
               (%glm::i
                %glm::glm+mat<4+4+float+glm+aligned-mediump>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+mat<4+4+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+mat<4+4+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+mat<4+4+float+glm+aligned-mediump>)))
@@ -31019,17 +30176,10 @@
               (%glm::i
                %glm::glm+mat<4+4+float+glm+aligned-lowp>+length-type))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+mat<4+4+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+mat<4+4+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40matE3EE23VI4E23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~mat)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_mat4x4.hpp:13:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+mat<4+4+float+glm+aligned-lowp>)))
 
@@ -31164,17 +30314,10 @@
               (%glm::y :double)
               (%glm::z :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+qua<double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<double+glm+packed-highp>)))
 
@@ -31313,17 +30456,10 @@
               (%glm::y :double)
               (%glm::z :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+qua<double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<double+glm+packed-mediump>)))
 
@@ -31457,17 +30593,10 @@
               (%glm::y :double)
               (%glm::z :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+qua<double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<double+glm+packed-lowp>)))
 
@@ -31605,17 +30734,10 @@
               (%glm::y :double)
               (%glm::z :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+qua<double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<double+glm+aligned-highp>)))
 
@@ -31749,17 +30871,10 @@
               (%glm::y :float)
               (%glm::z :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+qua<float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<float+glm+packed-highp>)))
 
@@ -31897,17 +31012,10 @@
               (%glm::y :float)
               (%glm::z :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+qua<float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<float+glm+packed-mediump>)))
 
@@ -32041,17 +31149,10 @@
               (%glm::y :float)
               (%glm::z :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+qua<float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<float+glm+packed-lowp>)))
 
@@ -32176,27 +31277,12 @@
               (%glm::y :float)
               (%glm::z :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+qua<float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+qua<float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40quaE3EE23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~qua)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:19:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+qua<float+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+int+glm+packed-highp> :size-reporter
                  "__claw_sizeof_glm_vec_1_int_glm_packed_highp_"
@@ -32301,17 +31387,10 @@
                (:pointer %glm::glm+vec<1+int+glm+packed-highp>))
               (%glm::scalar :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+int+glm+packed-highp>)))
 
@@ -32419,17 +31498,10 @@
                (:pointer %glm::glm+vec<1+int+glm+packed-mediump>))
               (%glm::scalar :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+int+glm+packed-mediump>)))
 
@@ -32536,27 +31608,12 @@
                (:pointer %glm::glm+vec<1+int+glm+packed-lowp>))
               (%glm::scalar :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+int+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+int+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_int_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_int_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+int+glm+aligned-highp>
                  :size-reporter
@@ -32662,27 +31719,12 @@
                (:pointer %glm::glm+vec<1+int+glm+aligned-highp>))
               (%glm::scalar :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23IE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+long+glm+packed-highp>
                  :size-reporter
@@ -32788,17 +31830,10 @@
                (:pointer %glm::glm+vec<1+long+glm+packed-highp>))
               (%glm::scalar :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+long+glm+packed-highp>)))
 
@@ -32907,17 +31942,10 @@
                (:pointer %glm::glm+vec<1+long+glm+packed-mediump>))
               (%glm::scalar :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+long+glm+packed-mediump>)))
 
@@ -33024,27 +32052,12 @@
                (:pointer %glm::glm+vec<1+long+glm+packed-lowp>))
               (%glm::scalar :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+long+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+long+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_long_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_long_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+long+glm+aligned-highp>
                  :size-reporter
@@ -33150,27 +32163,12 @@
                (:pointer %glm::glm+vec<1+long+glm+aligned-highp>))
               (%glm::scalar :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23LE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+short+glm+packed-highp>
                  :size-reporter
@@ -33276,17 +32274,10 @@
                (:pointer %glm::glm+vec<1+short+glm+packed-highp>))
               (%glm::scalar :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+short+glm+packed-highp>)))
 
@@ -33395,17 +32386,10 @@
                (:pointer %glm::glm+vec<1+short+glm+packed-mediump>))
               (%glm::scalar :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+short+glm+packed-mediump>)))
 
@@ -33513,27 +32497,12 @@
                (:pointer %glm::glm+vec<1+short+glm+packed-lowp>))
               (%glm::scalar :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+short+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+short+glm+aligned-highp>
                  :size-reporter
@@ -33640,27 +32609,12 @@
                (:pointer %glm::glm+vec<1+short+glm+aligned-highp>))
               (%glm::scalar :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23SE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+char+glm+packed-highp>
                  :size-reporter
@@ -33786,18 +32740,10 @@
                 %glm::glm+vec<1+unsigned+char+glm+packed-highp>))
               (%glm::scalar :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+unsigned+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+char+glm+packed-highp>)))
@@ -33926,18 +32872,10 @@
                 %glm::glm+vec<1+unsigned+char+glm+packed-mediump>))
               (%glm::scalar :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+unsigned+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+char+glm+packed-mediump>)))
@@ -34066,29 +33004,13 @@
                 %glm::glm+vec<1+unsigned+char+glm+packed-lowp>))
               (%glm::scalar :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+unsigned+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+char+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+char+glm+aligned-highp>
                  :size-reporter
@@ -34214,29 +33136,13 @@
                 %glm::glm+vec<1+unsigned+char+glm+aligned-highp>))
               (%glm::scalar :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+unsigned+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23cE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+char+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+double+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_double_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_double_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+double+glm+packed-highp>
                  :size-reporter
@@ -34343,17 +33249,10 @@
                (:pointer %glm::glm+vec<1+double+glm+packed-highp>))
               (%glm::scalar :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+double+glm+packed-highp>)))
 
@@ -34462,17 +33361,10 @@
                (:pointer %glm::glm+vec<1+double+glm+packed-mediump>))
               (%glm::scalar :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+double+glm+packed-mediump>)))
 
@@ -34580,27 +33472,12 @@
                (:pointer %glm::glm+vec<1+double+glm+packed-lowp>))
               (%glm::scalar :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+double+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+double+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_double_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_double_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+double+glm+aligned-highp>
                  :size-reporter
@@ -34707,27 +33584,12 @@
                (:pointer %glm::glm+vec<1+double+glm+aligned-highp>))
               (%glm::scalar :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+double+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+float+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_float_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_float_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+float+glm+packed-highp>
                  :size-reporter
@@ -34833,17 +33695,10 @@
                (:pointer %glm::glm+vec<1+float+glm+packed-highp>))
               (%glm::scalar :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+float+glm+packed-highp>)))
 
@@ -34952,17 +33807,10 @@
                (:pointer %glm::glm+vec<1+float+glm+packed-mediump>))
               (%glm::scalar :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+float+glm+packed-mediump>)))
 
@@ -35070,17 +33918,10 @@
                (:pointer %glm::glm+vec<1+float+glm+packed-lowp>))
               (%glm::scalar :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+float+glm+packed-lowp>)))
 
@@ -35178,27 +34019,12 @@
                (:pointer %glm::glm+vec<1+float+glm+aligned-highp>))
               (%glm::scalar :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+float+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+int+glm+packed-highp>
                  :size-reporter
@@ -35324,18 +34150,10 @@
                 %glm::glm+vec<1+unsigned+int+glm+packed-highp>))
               (%glm::scalar :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+unsigned+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+int+glm+packed-highp>)))
@@ -35464,18 +34282,10 @@
                 %glm::glm+vec<1+unsigned+int+glm+packed-mediump>))
               (%glm::scalar :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+unsigned+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+int+glm+packed-mediump>)))
@@ -35604,18 +34414,10 @@
                 %glm::glm+vec<1+unsigned+int+glm+packed-lowp>))
               (%glm::scalar :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+unsigned+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+int+glm+packed-lowp>)))
@@ -35733,29 +34535,13 @@
                 %glm::glm+vec<1+unsigned+int+glm+aligned-highp>))
               (%glm::scalar :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+unsigned+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23iE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+long+glm+packed-highp>
                  :size-reporter
@@ -35881,18 +34667,10 @@
                 %glm::glm+vec<1+unsigned+long+glm+packed-highp>))
               (%glm::scalar :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+unsigned+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+long+glm+packed-highp>)))
@@ -36021,18 +34799,10 @@
                 %glm::glm+vec<1+unsigned+long+glm+packed-mediump>))
               (%glm::scalar :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+unsigned+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+long+glm+packed-mediump>)))
@@ -36161,29 +34931,13 @@
                 %glm::glm+vec<1+unsigned+long+glm+packed-lowp>))
               (%glm::scalar :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+unsigned+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+long+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+long+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_long_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_long_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+long+glm+aligned-highp>
                  :size-reporter
@@ -36309,29 +35063,13 @@
                 %glm::glm+vec<1+unsigned+long+glm+aligned-highp>))
               (%glm::scalar :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+unsigned+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23lE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+char+glm+packed-highp>
                  :size-reporter
@@ -36437,17 +35175,10 @@
                (:pointer %glm::glm+vec<1+char+glm+packed-highp>))
               (%glm::scalar :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+char+glm+packed-highp>)))
 
@@ -36556,17 +35287,10 @@
                (:pointer %glm::glm+vec<1+char+glm+packed-mediump>))
               (%glm::scalar :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+char+glm+packed-mediump>)))
 
@@ -36673,27 +35397,12 @@
                (:pointer %glm::glm+vec<1+char+glm+packed-lowp>))
               (%glm::scalar :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+char+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+char+glm+aligned-highp>
                  :size-reporter
@@ -36799,27 +35508,12 @@
                (:pointer %glm::glm+vec<1+char+glm+aligned-highp>))
               (%glm::scalar :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<1+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23rE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<1+char+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+short+glm+packed-highp>
                  :size-reporter
@@ -36945,18 +35639,10 @@
                 %glm::glm+vec<1+unsigned+short+glm+packed-highp>))
               (%glm::scalar :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<1+unsigned+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+short+glm+packed-highp>)))
@@ -37085,18 +35771,10 @@
                 %glm::glm+vec<1+unsigned+short+glm+packed-mediump>))
               (%glm::scalar :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<1+unsigned+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+short+glm+packed-mediump>)))
@@ -37225,29 +35903,13 @@
                 %glm::glm+vec<1+unsigned+short+glm+packed-lowp>))
               (%glm::scalar :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<1+unsigned+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+short+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<1+unsigned+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_1_unsigned_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_1_unsigned_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<1+unsigned+short+glm+aligned-highp>
                  :size-reporter
@@ -37373,29 +36035,13 @@
                 %glm::glm+vec<1+unsigned+short+glm+aligned-highp>))
               (%glm::scalar :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<1+unsigned+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<1+unsigned+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI1E23sE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<1+unsigned+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+int+glm+packed-highp> :size-reporter
                  "__claw_sizeof_glm_vec_2_int_glm_packed_highp_"
@@ -37509,17 +36155,10 @@
               (%glm::x :int)
               (%glm::y :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+int+glm+packed-highp>)))
 
@@ -37636,17 +36275,10 @@
               (%glm::x :int)
               (%glm::y :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+int+glm+packed-mediump>)))
 
@@ -37762,17 +36394,10 @@
               (%glm::x :int)
               (%glm::y :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+int+glm+packed-lowp>)))
 
@@ -37879,27 +36504,12 @@
               (%glm::x :int)
               (%glm::y :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23IE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+long+glm+packed-highp>
                  :size-reporter
@@ -38014,17 +36624,10 @@
               (%glm::x :long)
               (%glm::y :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+long+glm+packed-highp>)))
 
@@ -38142,17 +36745,10 @@
               (%glm::x :long)
               (%glm::y :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+long+glm+packed-mediump>)))
 
@@ -38268,17 +36864,10 @@
               (%glm::x :long)
               (%glm::y :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+long+glm+packed-lowp>)))
 
@@ -38395,27 +36984,12 @@
               (%glm::x :long)
               (%glm::y :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23LE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+short+glm+packed-highp>
                  :size-reporter
@@ -38530,17 +37104,10 @@
               (%glm::x :short)
               (%glm::y :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+short+glm+packed-highp>)))
 
@@ -38658,17 +37225,10 @@
               (%glm::x :short)
               (%glm::y :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+short+glm+packed-mediump>)))
 
@@ -38785,17 +37345,10 @@
               (%glm::x :short)
               (%glm::y :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+short+glm+packed-lowp>)))
 
@@ -38902,27 +37455,12 @@
               (%glm::x :short)
               (%glm::y :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23SE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+unsigned+char+glm+packed-highp>
                  :size-reporter
@@ -39058,18 +37596,10 @@
               (%glm::x :unsigned-char)
               (%glm::y :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+unsigned+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+char+glm+packed-highp>)))
@@ -39208,18 +37738,10 @@
               (%glm::x :unsigned-char)
               (%glm::y :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+unsigned+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+char+glm+packed-mediump>)))
@@ -39358,18 +37880,10 @@
               (%glm::x :unsigned-char)
               (%glm::y :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+unsigned+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+char+glm+packed-lowp>)))
@@ -39497,18 +38011,10 @@
               (%glm::x :unsigned-char)
               (%glm::y :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+unsigned+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23cE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+char+glm+aligned-highp>)))
@@ -39616,17 +38122,10 @@
               (%glm::x :double)
               (%glm::y :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+double+glm+packed-highp>)))
 
@@ -39733,17 +38232,10 @@
               (%glm::x :double)
               (%glm::y :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+double+glm+packed-mediump>)))
 
@@ -39850,17 +38342,10 @@
               (%glm::x :double)
               (%glm::y :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+double+glm+packed-lowp>)))
 
@@ -39967,17 +38452,10 @@
               (%glm::x :double)
               (%glm::y :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+double+glm+aligned-highp>)))
 
@@ -40084,17 +38562,10 @@
               (%glm::x :float)
               (%glm::y :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+float+glm+packed-highp>)))
 
@@ -40201,17 +38672,10 @@
               (%glm::x :float)
               (%glm::y :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+float+glm+packed-mediump>)))
 
@@ -40318,17 +38782,10 @@
               (%glm::x :float)
               (%glm::y :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+float+glm+packed-lowp>)))
 
@@ -40435,17 +38892,10 @@
               (%glm::x :float)
               (%glm::y :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+float+glm+aligned-highp>)))
 
@@ -40552,17 +39002,10 @@
               (%glm::x :float)
               (%glm::y :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+vec<2+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+float+glm+aligned-mediump>)))
 
@@ -40669,27 +39112,12 @@
               (%glm::x :float)
               (%glm::y :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+vec<2+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+float+glm+aligned-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+unsigned+int+glm+packed-highp>
                  :size-reporter
@@ -40825,18 +39253,10 @@
               (%glm::x :unsigned-int)
               (%glm::y :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+unsigned+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+int+glm+packed-highp>)))
@@ -40975,18 +39395,10 @@
               (%glm::x :unsigned-int)
               (%glm::y :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+unsigned+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+int+glm+packed-mediump>)))
@@ -41125,18 +39537,10 @@
               (%glm::x :unsigned-int)
               (%glm::y :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+unsigned+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+int+glm+packed-lowp>)))
@@ -41264,29 +39668,13 @@
               (%glm::x :unsigned-int)
               (%glm::y :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+unsigned+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23iE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+unsigned+long+glm+packed-highp>
                  :size-reporter
@@ -41422,18 +39810,10 @@
               (%glm::x :unsigned-long)
               (%glm::y :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+unsigned+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+long+glm+packed-highp>)))
@@ -41572,18 +39952,10 @@
               (%glm::x :unsigned-long)
               (%glm::y :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+unsigned+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+long+glm+packed-mediump>)))
@@ -41722,18 +40094,10 @@
               (%glm::x :unsigned-long)
               (%glm::y :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+unsigned+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+long+glm+packed-lowp>)))
@@ -41872,29 +40236,13 @@
               (%glm::x :unsigned-long)
               (%glm::y :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+unsigned+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23lE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+char+glm+packed-highp>
                  :size-reporter
@@ -42009,17 +40357,10 @@
               (%glm::x :char)
               (%glm::y :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+char+glm+packed-highp>)))
 
@@ -42137,17 +40478,10 @@
               (%glm::x :char)
               (%glm::y :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+char+glm+packed-mediump>)))
 
@@ -42263,17 +40597,10 @@
               (%glm::x :char)
               (%glm::y :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+char+glm+packed-lowp>)))
 
@@ -42380,27 +40707,12 @@
               (%glm::x :char)
               (%glm::y :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<2+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23rE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<2+char+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<2+unsigned+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_2_unsigned_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_2_unsigned_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<2+unsigned+short+glm+packed-highp>
                  :size-reporter
@@ -42536,18 +40848,10 @@
               (%glm::x :unsigned-short)
               (%glm::y :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<2+unsigned+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+short+glm+packed-highp>)))
@@ -42686,18 +40990,10 @@
               (%glm::x :unsigned-short)
               (%glm::y :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<2+unsigned+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+short+glm+packed-mediump>)))
@@ -42836,18 +41132,10 @@
               (%glm::x :unsigned-short)
               (%glm::y :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<2+unsigned+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+short+glm+packed-lowp>)))
@@ -42975,29 +41263,13 @@
               (%glm::x :unsigned-short)
               (%glm::y :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<2+unsigned+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<2+unsigned+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI2E23sE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<2+unsigned+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+int+glm+packed-highp> :size-reporter
                  "__claw_sizeof_glm_vec_3_int_glm_packed_highp_"
@@ -43112,17 +41384,10 @@
               (%glm::b :int)
               (%glm::c :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+int+glm+packed-highp>)))
 
@@ -43240,17 +41505,10 @@
               (%glm::b :int)
               (%glm::c :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+int+glm+packed-mediump>)))
 
@@ -43367,17 +41625,10 @@
               (%glm::b :int)
               (%glm::c :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+int+glm+packed-lowp>)))
 
@@ -43485,27 +41736,12 @@
               (%glm::b :int)
               (%glm::c :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23IE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+long+glm+packed-highp>
                  :size-reporter
@@ -43621,17 +41857,10 @@
               (%glm::b :long)
               (%glm::c :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+long+glm+packed-highp>)))
 
@@ -43750,17 +41979,10 @@
               (%glm::b :long)
               (%glm::c :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+long+glm+packed-mediump>)))
 
@@ -43877,27 +42099,12 @@
               (%glm::b :long)
               (%glm::c :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+long+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+long+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_long_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_long_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+long+glm+aligned-highp>
                  :size-reporter
@@ -44013,27 +42220,12 @@
               (%glm::b :long)
               (%glm::c :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23LE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+short+glm+packed-highp>
                  :size-reporter
@@ -44149,17 +42341,10 @@
               (%glm::b :short)
               (%glm::c :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+short+glm+packed-highp>)))
 
@@ -44278,17 +42463,10 @@
               (%glm::b :short)
               (%glm::c :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+short+glm+packed-mediump>)))
 
@@ -44406,27 +42584,12 @@
               (%glm::b :short)
               (%glm::c :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+short+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+short+glm+aligned-highp>
                  :size-reporter
@@ -44543,27 +42706,12 @@
               (%glm::b :short)
               (%glm::c :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23SE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+char+glm+packed-highp>
                  :size-reporter
@@ -44700,18 +42848,10 @@
               (%glm::b :unsigned-char)
               (%glm::c :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+unsigned+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+char+glm+packed-highp>)))
@@ -44851,18 +42991,10 @@
               (%glm::b :unsigned-char)
               (%glm::c :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+unsigned+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+char+glm+packed-mediump>)))
@@ -45002,29 +43134,13 @@
               (%glm::b :unsigned-char)
               (%glm::c :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+unsigned+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+char+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+char+glm+aligned-highp>
                  :size-reporter
@@ -45161,18 +43277,10 @@
               (%glm::b :unsigned-char)
               (%glm::c :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+unsigned+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23cE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+char+glm+aligned-highp>)))
@@ -45281,17 +43389,10 @@
               (%glm::b :double)
               (%glm::c :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+double+glm+packed-highp>)))
 
@@ -45399,17 +43500,10 @@
               (%glm::b :double)
               (%glm::c :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+double+glm+packed-mediump>)))
 
@@ -45517,17 +43611,10 @@
               (%glm::b :double)
               (%glm::c :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+double+glm+packed-lowp>)))
 
@@ -45635,17 +43722,10 @@
               (%glm::b :double)
               (%glm::c :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+double+glm+aligned-highp>)))
 
@@ -45753,17 +43833,10 @@
               (%glm::b :float)
               (%glm::c :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+float+glm+packed-highp>)))
 
@@ -45871,17 +43944,10 @@
               (%glm::b :float)
               (%glm::c :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+float+glm+packed-mediump>)))
 
@@ -45989,17 +44055,10 @@
               (%glm::b :float)
               (%glm::c :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+float+glm+packed-lowp>)))
 
@@ -46107,17 +44166,10 @@
               (%glm::b :float)
               (%glm::c :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+float+glm+aligned-highp>)))
 
@@ -46225,17 +44277,10 @@
               (%glm::b :float)
               (%glm::c :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+vec<3+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+float+glm+aligned-mediump>)))
 
@@ -46343,27 +44388,12 @@
               (%glm::b :float)
               (%glm::c :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+vec<3+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+float+glm+aligned-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+int+glm+packed-highp>
                  :size-reporter
@@ -46500,18 +44530,10 @@
               (%glm::b :unsigned-int)
               (%glm::c :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+unsigned+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+int+glm+packed-highp>)))
@@ -46651,18 +44673,10 @@
               (%glm::b :unsigned-int)
               (%glm::c :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+unsigned+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+int+glm+packed-mediump>)))
@@ -46802,18 +44816,10 @@
               (%glm::b :unsigned-int)
               (%glm::c :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+unsigned+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+int+glm+packed-lowp>)))
@@ -46942,29 +44948,13 @@
               (%glm::b :unsigned-int)
               (%glm::c :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+unsigned+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23iE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+long+glm+packed-highp>
                  :size-reporter
@@ -47101,18 +45091,10 @@
               (%glm::b :unsigned-long)
               (%glm::c :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+unsigned+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+long+glm+packed-highp>)))
@@ -47252,18 +45234,10 @@
               (%glm::b :unsigned-long)
               (%glm::c :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+unsigned+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+long+glm+packed-mediump>)))
@@ -47403,29 +45377,13 @@
               (%glm::b :unsigned-long)
               (%glm::c :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+unsigned+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+long+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+long+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_long_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_long_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+long+glm+aligned-highp>
                  :size-reporter
@@ -47562,29 +45520,13 @@
               (%glm::b :unsigned-long)
               (%glm::c :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+unsigned+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23lE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+char+glm+packed-highp>
                  :size-reporter
@@ -47700,17 +45642,10 @@
               (%glm::b :char)
               (%glm::c :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+char+glm+packed-highp>)))
 
@@ -47829,17 +45764,10 @@
               (%glm::b :char)
               (%glm::c :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+char+glm+packed-mediump>)))
 
@@ -47956,27 +45884,12 @@
               (%glm::b :char)
               (%glm::c :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+char+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+char+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_char_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_char_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+char+glm+aligned-highp>
                  :size-reporter
@@ -48092,27 +46005,12 @@
               (%glm::b :char)
               (%glm::c :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<3+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23rE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<3+char+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+short+glm+packed-highp>
                  :size-reporter
@@ -48249,18 +46147,10 @@
               (%glm::b :unsigned-short)
               (%glm::c :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<3+unsigned+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+short+glm+packed-highp>)))
@@ -48400,18 +46290,10 @@
               (%glm::b :unsigned-short)
               (%glm::c :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<3+unsigned+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+short+glm+packed-mediump>)))
@@ -48551,29 +46433,13 @@
               (%glm::b :unsigned-short)
               (%glm::c :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<3+unsigned+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+short+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<3+unsigned+short+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_3_unsigned_short_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_3_unsigned_short_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:104:42")
 
 (iffi:deficlass (%glm::glm+vec<3+unsigned+short+glm+aligned-highp>
                  :size-reporter
@@ -48710,29 +46576,13 @@
               (%glm::b :unsigned-short)
               (%glm::c :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<3+unsigned+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<3+unsigned+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI3E23sE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<3+unsigned+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+int+glm+packed-highp> :size-reporter
                  "__claw_sizeof_glm_vec_4_int_glm_packed_highp_"
@@ -48848,17 +46698,10 @@
               (%glm::z :int)
               (%glm::w :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+int+glm+packed-highp>)))
 
@@ -48977,17 +46820,10 @@
               (%glm::z :int)
               (%glm::w :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+int+glm+packed-mediump>)))
 
@@ -49105,17 +46941,10 @@
               (%glm::z :int)
               (%glm::w :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+int+glm+packed-lowp>)))
 
@@ -49224,17 +47053,10 @@
               (%glm::z :int)
               (%glm::w :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+int+glm+aligned-highp>)))
 
@@ -49354,17 +47176,10 @@
               (%glm::z :int)
               (%glm::w :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+vec<4+int+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+int+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+int+glm+aligned-mediump>)))
 
@@ -49482,27 +47297,12 @@
               (%glm::z :int)
               (%glm::w :int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+vec<4+int+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+int+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23IE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+int+glm+aligned-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+long+glm+packed-highp>
                  :size-reporter
@@ -49619,17 +47419,10 @@
               (%glm::z :long)
               (%glm::w :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+long+glm+packed-highp>)))
 
@@ -49749,17 +47542,10 @@
               (%glm::z :long)
               (%glm::w :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+long+glm+packed-mediump>)))
 
@@ -49877,27 +47663,12 @@
               (%glm::z :long)
               (%glm::w :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+long+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+long+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_long_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_long_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<4+long+glm+aligned-highp>
                  :size-reporter
@@ -50014,27 +47785,12 @@
               (%glm::z :long)
               (%glm::w :long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23LE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+short+glm+packed-highp>
                  :size-reporter
@@ -50151,17 +47907,10 @@
               (%glm::z :short)
               (%glm::w :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+short+glm+packed-highp>)))
 
@@ -50281,17 +48030,10 @@
               (%glm::z :short)
               (%glm::w :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+short+glm+packed-mediump>)))
 
@@ -50410,17 +48152,10 @@
               (%glm::z :short)
               (%glm::w :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+short+glm+packed-lowp>)))
 
@@ -50529,27 +48264,12 @@
               (%glm::z :short)
               (%glm::w :short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23SE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+short+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+unsigned+char+glm+packed-highp>
                  :size-reporter
@@ -50687,18 +48407,10 @@
               (%glm::z :unsigned-char)
               (%glm::w :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+unsigned+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+char+glm+packed-highp>)))
@@ -50839,18 +48551,10 @@
               (%glm::z :unsigned-char)
               (%glm::w :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+unsigned+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+char+glm+packed-mediump>)))
@@ -50991,18 +48695,10 @@
               (%glm::z :unsigned-char)
               (%glm::w :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+unsigned+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+char+glm+packed-lowp>)))
@@ -51132,18 +48828,10 @@
               (%glm::z :unsigned-char)
               (%glm::w :unsigned-char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+unsigned+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23cE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+char+glm+aligned-highp>)))
@@ -51253,17 +48941,10 @@
               (%glm::z :double)
               (%glm::w :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+double+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+double+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+double+glm+packed-highp>)))
 
@@ -51372,17 +49053,10 @@
               (%glm::z :double)
               (%glm::w :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+double+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+double+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+double+glm+packed-mediump>)))
 
@@ -51491,17 +49165,10 @@
               (%glm::z :double)
               (%glm::w :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+double+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+double+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+double+glm+packed-lowp>)))
 
@@ -51610,17 +49277,10 @@
               (%glm::z :double)
               (%glm::w :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+double+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+double+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+double+glm+aligned-highp>)))
 
@@ -51755,18 +49415,10 @@
               (%glm::z :double)
               (%glm::w :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+vec<4+double+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+double+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+double+glm+aligned-mediump>)))
@@ -51887,17 +49539,10 @@
               (%glm::z :double)
               (%glm::w :double))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+vec<4+double+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+double+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23dE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+double+glm+aligned-lowp>)))
 
@@ -52006,17 +49651,10 @@
               (%glm::z :float)
               (%glm::w :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+float+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+float+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+float+glm+packed-highp>)))
 
@@ -52125,17 +49763,10 @@
               (%glm::z :float)
               (%glm::w :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+float+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+float+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+float+glm+packed-mediump>)))
 
@@ -52244,17 +49875,10 @@
               (%glm::z :float)
               (%glm::w :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+float+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+float+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+float+glm+packed-lowp>)))
 
@@ -52363,17 +49987,10 @@
               (%glm::z :float)
               (%glm::w :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+float+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+float+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+float+glm+aligned-highp>)))
 
@@ -52482,17 +50099,10 @@
               (%glm::z :float)
               (%glm::w :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_ctor"
-               %glm::glm+vec<4+float+glm+aligned-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+float+glm+aligned-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier4_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+float+glm+aligned-mediump>)))
 
@@ -52601,27 +50211,12 @@
               (%glm::z :float)
               (%glm::w :float))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_ctor"
-               %glm::glm+vec<4+float+glm+aligned-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+float+glm+aligned-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23fE23VE24E40NE40glmE40EE40qualifier5_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+float+glm+aligned-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+int+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_int_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_int_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+unsigned+int+glm+packed-highp>
                  :size-reporter
@@ -52759,18 +50354,10 @@
               (%glm::z :unsigned-int)
               (%glm::w :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+unsigned+int+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+int+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+int+glm+packed-highp>)))
@@ -52911,18 +50498,10 @@
               (%glm::z :unsigned-int)
               (%glm::w :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+unsigned+int+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+int+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+int+glm+packed-mediump>)))
@@ -53063,18 +50642,10 @@
               (%glm::z :unsigned-int)
               (%glm::w :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+unsigned+int+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+int+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+int+glm+packed-lowp>)))
@@ -53204,29 +50775,13 @@
               (%glm::z :unsigned-int)
               (%glm::w :unsigned-int))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+unsigned+int+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+int+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23iE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+int+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+long+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_long_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_long_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+unsigned+long+glm+packed-highp>
                  :size-reporter
@@ -53364,18 +50919,10 @@
               (%glm::z :unsigned-long)
               (%glm::w :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+unsigned+long+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+long+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+long+glm+packed-highp>)))
@@ -53516,18 +51063,10 @@
               (%glm::z :unsigned-long)
               (%glm::w :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+unsigned+long+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+long+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+long+glm+packed-mediump>)))
@@ -53668,29 +51207,13 @@
               (%glm::z :unsigned-long)
               (%glm::w :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+unsigned+long+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+long+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+long+glm+packed-lowp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+long+true>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_long_true__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_long_true__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:96:42")
 
 (iffi:deficlass (%glm::glm+vec<4+unsigned+long+glm+aligned-highp>
                  :size-reporter
@@ -53828,29 +51351,13 @@
               (%glm::z :unsigned-long)
               (%glm::w :unsigned-long))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+unsigned+long+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+long+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23lE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+long+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+char+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_char_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_char_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+char+glm+packed-highp>
                  :size-reporter
@@ -53967,17 +51474,10 @@
               (%glm::z :char)
               (%glm::w :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+char+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+char+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+char+glm+packed-highp>)))
 
@@ -54097,17 +51597,10 @@
               (%glm::z :char)
               (%glm::w :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+char+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+char+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+char+glm+packed-mediump>)))
 
@@ -54225,17 +51718,10 @@
               (%glm::z :char)
               (%glm::w :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+char+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+char+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+char+glm+packed-lowp>)))
 
@@ -54344,27 +51830,12 @@
               (%glm::z :char)
               (%glm::w :char))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+char+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer %glm::glm+vec<4+char+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23rE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer %glm::glm+vec<4+char+glm+aligned-highp>)))
-
-(iffi:defistruct (%glm::glm+detail+storage<4+unsigned+short+false>+type
-                  :size-reporter
-                  "__claw_sizeof_glm_detail_storage_4_unsigned_short_false__type"
-                  :alignment-reporter
-                  "__claw_alignof_glm_detail_storage_4_unsigned_short_false__type")
-                 nil
-                 "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:87:18")
 
 (iffi:deficlass (%glm::glm+vec<4+unsigned+short+glm+packed-highp>
                  :size-reporter
@@ -54502,18 +51973,10 @@
               (%glm::z :unsigned-short)
               (%glm::w :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier0_claw_ctor"
-               %glm::glm+vec<4+unsigned+short+glm+packed-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+short+glm+packed-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier0_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+short+glm+packed-highp>)))
@@ -54654,18 +52117,10 @@
               (%glm::z :unsigned-short)
               (%glm::w :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier1_claw_ctor"
-               %glm::glm+vec<4+unsigned+short+glm+packed-mediump>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+short+glm+packed-mediump>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier1_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+short+glm+packed-mediump>)))
@@ -54806,18 +52261,10 @@
               (%glm::z :unsigned-short)
               (%glm::w :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier2_claw_ctor"
-               %glm::glm+vec<4+unsigned+short+glm+packed-lowp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+short+glm+packed-lowp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier2_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+short+glm+packed-lowp>)))
@@ -54947,18 +52394,10 @@
               (%glm::z :unsigned-short)
               (%glm::w :unsigned-short))
 
-(iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier3_claw_ctor"
-               %glm::glm+vec<4+unsigned+short+glm+aligned-highp>)
-              :void
-              "::"
-              (%glm::%%claw-this-
-               (:pointer
-                %glm::glm+vec<4+unsigned+short+glm+aligned-highp>)))
-
 (iffi:defifun ("__claw_cE3AE40NE40glmE40SE40vecE3EE23VI4E23sE23VE24E40NE40glmE40EE40qualifier3_claw_dtor"
                %glm::glm+~vec)
               :void
-              "::"
+              "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9"
               (%glm::%%claw-this-
                (:pointer
                 %glm::glm+vec<4+unsigned+short+glm+aligned-highp>)))
@@ -58463,18 +55902,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_quat.hpp:24:13")
 
-(iffi:deficlass (%glm::glm+vec<1+bool+glm+packed-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_1_bool_glm_packed_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_1_bool_glm_packed_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<1+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+int+glm+packed-highp>+type
                %glm::glm+vec<1+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58482,18 +55909,6 @@
 (iffi:defitype %glm::glm+vec<1+int+glm+packed-highp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<1+bool+glm+packed-mediump>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_1_bool_glm_packed_mediump_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_1_bool_glm_packed_mediump_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<1+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+int+glm+packed-mediump>+type
                %glm::glm+vec<1+int+glm+packed-mediump>
@@ -58503,17 +55918,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<1+bool+glm+packed-lowp> :size-reporter
-                 "__claw_sizeof_glm_vec_1_bool_glm_packed_lowp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_1_bool_glm_packed_lowp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<1+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+int+glm+packed-lowp>+type
                %glm::glm+vec<1+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58521,18 +55925,6 @@
 (iffi:defitype %glm::glm+vec<1+int+glm+packed-lowp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<1+bool+glm+aligned-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_1_bool_glm_aligned_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_1_bool_glm_aligned_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<1+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+int+glm+aligned-highp>+type
                %glm::glm+vec<1+int+glm+aligned-highp>
@@ -58542,10 +55934,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+long+glm+packed-highp>+type
                %glm::glm+vec<1+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58553,10 +55941,6 @@
 (iffi:defitype %glm::glm+vec<1+long+glm+packed-highp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+long+glm+packed-mediump>+type
                %glm::glm+vec<1+long+glm+packed-mediump>
@@ -58566,10 +55950,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+long+glm+packed-lowp>+type
                %glm::glm+vec<1+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58577,10 +55957,6 @@
 (iffi:defitype %glm::glm+vec<1+long+glm+packed-lowp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+long+glm+aligned-highp>+type
                %glm::glm+vec<1+long+glm+aligned-highp>
@@ -58590,10 +55966,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+short+glm+packed-highp>+type
                %glm::glm+vec<1+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58601,10 +55973,6 @@
 (iffi:defitype %glm::glm+vec<1+short+glm+packed-highp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+short+glm+packed-mediump>+type
                %glm::glm+vec<1+short+glm+packed-mediump>
@@ -58614,10 +55982,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+short+glm+packed-lowp>+type
                %glm::glm+vec<1+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58625,10 +55989,6 @@
 (iffi:defitype %glm::glm+vec<1+short+glm+packed-lowp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+short+glm+aligned-highp>+type
                %glm::glm+vec<1+short+glm+aligned-highp>
@@ -58638,10 +55998,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-highp>+type
                %glm::glm+vec<1+unsigned+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58649,10 +56005,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-highp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-mediump>+type
                %glm::glm+vec<1+unsigned+char+glm+packed-mediump>
@@ -58662,10 +56014,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-lowp>+type
                %glm::glm+vec<1+unsigned+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58673,10 +56021,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+char+glm+packed-lowp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+char+glm+aligned-highp>+type
                %glm::glm+vec<1+unsigned+char+glm+aligned-highp>
@@ -58686,10 +56030,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+double+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+double+glm+packed-highp>+type
                %glm::glm+vec<1+double+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58697,10 +56037,6 @@
 (iffi:defitype %glm::glm+vec<1+double+glm+packed-highp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+double+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+double+glm+packed-mediump>+type
                %glm::glm+vec<1+double+glm+packed-mediump>
@@ -58710,10 +56046,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+double+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+double+glm+packed-lowp>+type
                %glm::glm+vec<1+double+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58721,10 +56053,6 @@
 (iffi:defitype %glm::glm+vec<1+double+glm+packed-lowp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+double+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+double+glm+aligned-highp>+type
                %glm::glm+vec<1+double+glm+aligned-highp>
@@ -58734,10 +56062,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+float+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+float+glm+packed-highp>+type
                %glm::glm+vec<1+float+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58745,10 +56069,6 @@
 (iffi:defitype %glm::glm+vec<1+float+glm+packed-highp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+float+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+float+glm+packed-mediump>+type
                %glm::glm+vec<1+float+glm+packed-mediump>
@@ -58758,10 +56078,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+float+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+float+glm+packed-lowp>+type
                %glm::glm+vec<1+float+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58769,10 +56085,6 @@
 (iffi:defitype %glm::glm+vec<1+float+glm+packed-lowp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+float+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+float+glm+aligned-highp>+type
                %glm::glm+vec<1+float+glm+aligned-highp>
@@ -58782,10 +56094,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-highp>+type
                %glm::glm+vec<1+unsigned+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58793,10 +56101,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-highp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-mediump>+type
                %glm::glm+vec<1+unsigned+int+glm+packed-mediump>
@@ -58806,10 +56110,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-lowp>+type
                %glm::glm+vec<1+unsigned+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58817,10 +56117,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+int+glm+packed-lowp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+int+glm+aligned-highp>+type
                %glm::glm+vec<1+unsigned+int+glm+aligned-highp>
@@ -58830,10 +56126,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-highp>+type
                %glm::glm+vec<1+unsigned+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58841,10 +56133,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-highp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-mediump>+type
                %glm::glm+vec<1+unsigned+long+glm+packed-mediump>
@@ -58854,10 +56142,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-lowp>+type
                %glm::glm+vec<1+unsigned+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58865,10 +56149,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+long+glm+packed-lowp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+long+glm+aligned-highp>+type
                %glm::glm+vec<1+unsigned+long+glm+aligned-highp>
@@ -58878,10 +56158,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+char+glm+packed-highp>+type
                %glm::glm+vec<1+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58889,10 +56165,6 @@
 (iffi:defitype %glm::glm+vec<1+char+glm+packed-highp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+char+glm+packed-mediump>+type
                %glm::glm+vec<1+char+glm+packed-mediump>
@@ -58902,10 +56174,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+char+glm+packed-lowp>+type
                %glm::glm+vec<1+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58913,10 +56181,6 @@
 (iffi:defitype %glm::glm+vec<1+char+glm+packed-lowp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+char+glm+aligned-highp>+type
                %glm::glm+vec<1+char+glm+aligned-highp>
@@ -58926,10 +56190,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-highp>+type
                %glm::glm+vec<1+unsigned+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58937,10 +56197,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-highp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-mediump>+type
                %glm::glm+vec<1+unsigned+short+glm+packed-mediump>
@@ -58950,10 +56206,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-lowp>+type
                %glm::glm+vec<1+unsigned+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:22:24")
@@ -58961,10 +56213,6 @@
 (iffi:defitype %glm::glm+vec<1+unsigned+short+glm+packed-lowp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<1+unsigned+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<1+unsigned+short+glm+aligned-highp>+type
                %glm::glm+vec<1+unsigned+short+glm+aligned-highp>
@@ -58974,18 +56222,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec1.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<2+bool+glm+packed-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_2_bool_glm_packed_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_2_bool_glm_packed_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<2+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+int+glm+packed-highp>+type
                %glm::glm+vec<2+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -58993,18 +56229,6 @@
 (iffi:defitype %glm::glm+vec<2+int+glm+packed-highp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<2+bool+glm+packed-mediump>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_2_bool_glm_packed_mediump_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_2_bool_glm_packed_mediump_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<2+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+int+glm+packed-mediump>+type
                %glm::glm+vec<2+int+glm+packed-mediump>
@@ -59014,17 +56238,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<2+bool+glm+packed-lowp> :size-reporter
-                 "__claw_sizeof_glm_vec_2_bool_glm_packed_lowp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_2_bool_glm_packed_lowp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<2+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+int+glm+packed-lowp>+type
                %glm::glm+vec<2+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59032,18 +56245,6 @@
 (iffi:defitype %glm::glm+vec<2+int+glm+packed-lowp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<2+bool+glm+aligned-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_2_bool_glm_aligned_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_2_bool_glm_aligned_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<2+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+int+glm+aligned-highp>+type
                %glm::glm+vec<2+int+glm+aligned-highp>
@@ -59053,10 +56254,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+long+glm+packed-highp>+type
                %glm::glm+vec<2+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59064,10 +56261,6 @@
 (iffi:defitype %glm::glm+vec<2+long+glm+packed-highp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+long+glm+packed-mediump>+type
                %glm::glm+vec<2+long+glm+packed-mediump>
@@ -59077,10 +56270,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+long+glm+packed-lowp>+type
                %glm::glm+vec<2+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59088,10 +56277,6 @@
 (iffi:defitype %glm::glm+vec<2+long+glm+packed-lowp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+long+glm+aligned-highp>+type
                %glm::glm+vec<2+long+glm+aligned-highp>
@@ -59101,10 +56286,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+short+glm+packed-highp>+type
                %glm::glm+vec<2+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59112,10 +56293,6 @@
 (iffi:defitype %glm::glm+vec<2+short+glm+packed-highp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+short+glm+packed-mediump>+type
                %glm::glm+vec<2+short+glm+packed-mediump>
@@ -59125,10 +56302,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+short+glm+packed-lowp>+type
                %glm::glm+vec<2+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59136,10 +56309,6 @@
 (iffi:defitype %glm::glm+vec<2+short+glm+packed-lowp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+short+glm+aligned-highp>+type
                %glm::glm+vec<2+short+glm+aligned-highp>
@@ -59149,10 +56318,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-highp>+type
                %glm::glm+vec<2+unsigned+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59160,10 +56325,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-highp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-mediump>+type
                %glm::glm+vec<2+unsigned+char+glm+packed-mediump>
@@ -59173,10 +56334,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-lowp>+type
                %glm::glm+vec<2+unsigned+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59184,10 +56341,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+char+glm+packed-lowp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+char+glm+aligned-highp>+type
                %glm::glm+vec<2+unsigned+char+glm+aligned-highp>
@@ -59197,10 +56350,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+double+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+double+glm+packed-highp>+type
                %glm::glm+vec<2+double+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59208,10 +56357,6 @@
 (iffi:defitype %glm::glm+vec<2+double+glm+packed-highp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+double+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+double+glm+packed-mediump>+type
                %glm::glm+vec<2+double+glm+packed-mediump>
@@ -59221,10 +56366,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+double+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+double+glm+packed-lowp>+type
                %glm::glm+vec<2+double+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59232,10 +56373,6 @@
 (iffi:defitype %glm::glm+vec<2+double+glm+packed-lowp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+double+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+double+glm+aligned-highp>+type
                %glm::glm+vec<2+double+glm+aligned-highp>
@@ -59245,10 +56382,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+float+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+float+glm+packed-highp>+type
                %glm::glm+vec<2+float+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59256,10 +56389,6 @@
 (iffi:defitype %glm::glm+vec<2+float+glm+packed-highp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+float+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+float+glm+packed-mediump>+type
                %glm::glm+vec<2+float+glm+packed-mediump>
@@ -59269,10 +56398,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+float+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+float+glm+packed-lowp>+type
                %glm::glm+vec<2+float+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59280,10 +56405,6 @@
 (iffi:defitype %glm::glm+vec<2+float+glm+packed-lowp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+float+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+float+glm+aligned-highp>+type
                %glm::glm+vec<2+float+glm+aligned-highp>
@@ -59293,15 +56414,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<2+bool+glm+aligned-mediump>
-                 :size-reporter nil :alignment-reporter nil)
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:35:66")
-
-(iffi:defitype %glm::glm+vec<2+float+glm+aligned-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+float+glm+aligned-mediump>+type
                %glm::glm+vec<2+float+glm+aligned-mediump>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59309,15 +56421,6 @@
 (iffi:defitype %glm::glm+vec<2+float+glm+aligned-mediump>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<2+bool+glm+aligned-lowp>
-                 :size-reporter nil :alignment-reporter nil)
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:35:66")
-
-(iffi:defitype %glm::glm+vec<2+float+glm+aligned-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+float+glm+aligned-lowp>+type
                %glm::glm+vec<2+float+glm+aligned-lowp>
@@ -59327,10 +56430,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-highp>+type
                %glm::glm+vec<2+unsigned+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59338,10 +56437,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-highp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-mediump>+type
                %glm::glm+vec<2+unsigned+int+glm+packed-mediump>
@@ -59351,10 +56446,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-lowp>+type
                %glm::glm+vec<2+unsigned+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59362,10 +56453,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+int+glm+packed-lowp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+int+glm+aligned-highp>+type
                %glm::glm+vec<2+unsigned+int+glm+aligned-highp>
@@ -59375,10 +56462,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-highp>+type
                %glm::glm+vec<2+unsigned+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59386,10 +56469,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-highp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-mediump>+type
                %glm::glm+vec<2+unsigned+long+glm+packed-mediump>
@@ -59399,10 +56478,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-lowp>+type
                %glm::glm+vec<2+unsigned+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59410,10 +56485,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+long+glm+packed-lowp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+long+glm+aligned-highp>+type
                %glm::glm+vec<2+unsigned+long+glm+aligned-highp>
@@ -59423,10 +56494,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+char+glm+packed-highp>+type
                %glm::glm+vec<2+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59434,10 +56501,6 @@
 (iffi:defitype %glm::glm+vec<2+char+glm+packed-highp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+char+glm+packed-mediump>+type
                %glm::glm+vec<2+char+glm+packed-mediump>
@@ -59447,10 +56510,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+char+glm+packed-lowp>+type
                %glm::glm+vec<2+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59458,10 +56517,6 @@
 (iffi:defitype %glm::glm+vec<2+char+glm+packed-lowp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+char+glm+aligned-highp>+type
                %glm::glm+vec<2+char+glm+aligned-highp>
@@ -59471,10 +56526,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-highp>+type
                %glm::glm+vec<2+unsigned+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59482,10 +56533,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-highp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-mediump>+type
                %glm::glm+vec<2+unsigned+short+glm+packed-mediump>
@@ -59495,10 +56542,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-lowp>+type
                %glm::glm+vec<2+unsigned+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:22:24")
@@ -59506,10 +56549,6 @@
 (iffi:defitype %glm::glm+vec<2+unsigned+short+glm+packed-lowp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<2+unsigned+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<2+unsigned+short+glm+aligned-highp>+type
                %glm::glm+vec<2+unsigned+short+glm+aligned-highp>
@@ -59519,18 +56558,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec2.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<3+bool+glm+packed-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_3_bool_glm_packed_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_3_bool_glm_packed_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<3+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+int+glm+packed-highp>+type
                %glm::glm+vec<3+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59538,18 +56565,6 @@
 (iffi:defitype %glm::glm+vec<3+int+glm+packed-highp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<3+bool+glm+packed-mediump>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_3_bool_glm_packed_mediump_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_3_bool_glm_packed_mediump_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<3+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+int+glm+packed-mediump>+type
                %glm::glm+vec<3+int+glm+packed-mediump>
@@ -59559,17 +56574,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<3+bool+glm+packed-lowp> :size-reporter
-                 "__claw_sizeof_glm_vec_3_bool_glm_packed_lowp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_3_bool_glm_packed_lowp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<3+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+int+glm+packed-lowp>+type
                %glm::glm+vec<3+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59577,18 +56581,6 @@
 (iffi:defitype %glm::glm+vec<3+int+glm+packed-lowp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<3+bool+glm+aligned-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_3_bool_glm_aligned_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_3_bool_glm_aligned_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<3+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+int+glm+aligned-highp>+type
                %glm::glm+vec<3+int+glm+aligned-highp>
@@ -59598,10 +56590,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+long+glm+packed-highp>+type
                %glm::glm+vec<3+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59609,10 +56597,6 @@
 (iffi:defitype %glm::glm+vec<3+long+glm+packed-highp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+long+glm+packed-mediump>+type
                %glm::glm+vec<3+long+glm+packed-mediump>
@@ -59622,10 +56606,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+long+glm+packed-lowp>+type
                %glm::glm+vec<3+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59633,10 +56613,6 @@
 (iffi:defitype %glm::glm+vec<3+long+glm+packed-lowp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+long+glm+aligned-highp>+type
                %glm::glm+vec<3+long+glm+aligned-highp>
@@ -59646,10 +56622,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+short+glm+packed-highp>+type
                %glm::glm+vec<3+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59657,10 +56629,6 @@
 (iffi:defitype %glm::glm+vec<3+short+glm+packed-highp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+short+glm+packed-mediump>+type
                %glm::glm+vec<3+short+glm+packed-mediump>
@@ -59670,10 +56638,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+short+glm+packed-lowp>+type
                %glm::glm+vec<3+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59681,10 +56645,6 @@
 (iffi:defitype %glm::glm+vec<3+short+glm+packed-lowp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+short+glm+aligned-highp>+type
                %glm::glm+vec<3+short+glm+aligned-highp>
@@ -59694,10 +56654,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-highp>+type
                %glm::glm+vec<3+unsigned+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59705,10 +56661,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-highp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-mediump>+type
                %glm::glm+vec<3+unsigned+char+glm+packed-mediump>
@@ -59718,10 +56670,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-lowp>+type
                %glm::glm+vec<3+unsigned+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59729,10 +56677,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+char+glm+packed-lowp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+char+glm+aligned-highp>+type
                %glm::glm+vec<3+unsigned+char+glm+aligned-highp>
@@ -59742,10 +56686,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+double+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+double+glm+packed-highp>+type
                %glm::glm+vec<3+double+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59753,10 +56693,6 @@
 (iffi:defitype %glm::glm+vec<3+double+glm+packed-highp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+double+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+double+glm+packed-mediump>+type
                %glm::glm+vec<3+double+glm+packed-mediump>
@@ -59766,10 +56702,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+double+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+double+glm+packed-lowp>+type
                %glm::glm+vec<3+double+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59777,10 +56709,6 @@
 (iffi:defitype %glm::glm+vec<3+double+glm+packed-lowp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+double+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+double+glm+aligned-highp>+type
                %glm::glm+vec<3+double+glm+aligned-highp>
@@ -59790,10 +56718,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+float+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+float+glm+packed-highp>+type
                %glm::glm+vec<3+float+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59801,10 +56725,6 @@
 (iffi:defitype %glm::glm+vec<3+float+glm+packed-highp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+float+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+float+glm+packed-mediump>+type
                %glm::glm+vec<3+float+glm+packed-mediump>
@@ -59814,10 +56734,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+float+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+float+glm+packed-lowp>+type
                %glm::glm+vec<3+float+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59825,10 +56741,6 @@
 (iffi:defitype %glm::glm+vec<3+float+glm+packed-lowp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+float+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+float+glm+aligned-highp>+type
                %glm::glm+vec<3+float+glm+aligned-highp>
@@ -59838,15 +56750,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<3+bool+glm+aligned-mediump>
-                 :size-reporter nil :alignment-reporter nil)
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:35:66")
-
-(iffi:defitype %glm::glm+vec<3+float+glm+aligned-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+float+glm+aligned-mediump>+type
                %glm::glm+vec<3+float+glm+aligned-mediump>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59854,15 +56757,6 @@
 (iffi:defitype %glm::glm+vec<3+float+glm+aligned-mediump>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<3+bool+glm+aligned-lowp>
-                 :size-reporter nil :alignment-reporter nil)
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/qualifier.hpp:35:66")
-
-(iffi:defitype %glm::glm+vec<3+float+glm+aligned-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+float+glm+aligned-lowp>+type
                %glm::glm+vec<3+float+glm+aligned-lowp>
@@ -59872,10 +56766,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-highp>+type
                %glm::glm+vec<3+unsigned+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59883,10 +56773,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-highp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-mediump>+type
                %glm::glm+vec<3+unsigned+int+glm+packed-mediump>
@@ -59896,10 +56782,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-lowp>+type
                %glm::glm+vec<3+unsigned+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59907,10 +56789,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+int+glm+packed-lowp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+int+glm+aligned-highp>+type
                %glm::glm+vec<3+unsigned+int+glm+aligned-highp>
@@ -59920,10 +56798,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-highp>+type
                %glm::glm+vec<3+unsigned+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59931,10 +56805,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-highp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-mediump>+type
                %glm::glm+vec<3+unsigned+long+glm+packed-mediump>
@@ -59944,10 +56814,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-lowp>+type
                %glm::glm+vec<3+unsigned+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59955,10 +56821,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+long+glm+packed-lowp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+long+glm+aligned-highp>+type
                %glm::glm+vec<3+unsigned+long+glm+aligned-highp>
@@ -59968,10 +56830,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+char+glm+packed-highp>+type
                %glm::glm+vec<3+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -59979,10 +56837,6 @@
 (iffi:defitype %glm::glm+vec<3+char+glm+packed-highp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+char+glm+packed-mediump>+type
                %glm::glm+vec<3+char+glm+packed-mediump>
@@ -59992,10 +56846,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+char+glm+packed-lowp>+type
                %glm::glm+vec<3+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -60003,10 +56853,6 @@
 (iffi:defitype %glm::glm+vec<3+char+glm+packed-lowp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+char+glm+aligned-highp>+type
                %glm::glm+vec<3+char+glm+aligned-highp>
@@ -60016,10 +56862,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-highp>+type
                %glm::glm+vec<3+unsigned+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -60027,10 +56869,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-highp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-mediump>+type
                %glm::glm+vec<3+unsigned+short+glm+packed-mediump>
@@ -60040,10 +56878,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-lowp>+type
                %glm::glm+vec<3+unsigned+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:22:24")
@@ -60051,10 +56885,6 @@
 (iffi:defitype %glm::glm+vec<3+unsigned+short+glm+packed-lowp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<3+unsigned+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<3+unsigned+short+glm+aligned-highp>+type
                %glm::glm+vec<3+unsigned+short+glm+aligned-highp>
@@ -60064,18 +56894,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec3.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<4+bool+glm+packed-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_4_bool_glm_packed_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_4_bool_glm_packed_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<4+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+int+glm+packed-highp>+type
                %glm::glm+vec<4+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60083,18 +56901,6 @@
 (iffi:defitype %glm::glm+vec<4+int+glm+packed-highp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<4+bool+glm+packed-mediump>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_4_bool_glm_packed_mediump_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_4_bool_glm_packed_mediump_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<4+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+int+glm+packed-mediump>+type
                %glm::glm+vec<4+int+glm+packed-mediump>
@@ -60104,17 +56910,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<4+bool+glm+packed-lowp> :size-reporter
-                 "__claw_sizeof_glm_vec_4_bool_glm_packed_lowp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_4_bool_glm_packed_lowp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<4+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+int+glm+packed-lowp>+type
                %glm::glm+vec<4+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60122,18 +56917,6 @@
 (iffi:defitype %glm::glm+vec<4+int+glm+packed-lowp>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<4+bool+glm+aligned-highp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_4_bool_glm_aligned_highp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_4_bool_glm_aligned_highp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<4+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+int+glm+aligned-highp>+type
                %glm::glm+vec<4+int+glm+aligned-highp>
@@ -60143,18 +56926,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:deficlass (%glm::glm+vec<4+bool+glm+aligned-mediump>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_4_bool_glm_aligned_mediump_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_4_bool_glm_aligned_mediump_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<4+int+glm+aligned-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+int+glm+aligned-mediump>+type
                %glm::glm+vec<4+int+glm+aligned-mediump>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60162,18 +56933,6 @@
 (iffi:defitype %glm::glm+vec<4+int+glm+aligned-mediump>+value-type
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:deficlass (%glm::glm+vec<4+bool+glm+aligned-lowp>
-                 :size-reporter
-                 "__claw_sizeof_glm_vec_4_bool_glm_aligned_lowp_"
-                 :alignment-reporter
-                 "__claw_alignof_glm_vec_4_bool_glm_aligned_lowp_")
-                nil
-                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:17:9")
-
-(iffi:defitype %glm::glm+vec<4+int+glm+aligned-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+int+glm+aligned-lowp>+type
                %glm::glm+vec<4+int+glm+aligned-lowp>
@@ -60183,10 +56942,6 @@
                :int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+long+glm+packed-highp>+type
                %glm::glm+vec<4+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60194,10 +56949,6 @@
 (iffi:defitype %glm::glm+vec<4+long+glm+packed-highp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+long+glm+packed-mediump>+type
                %glm::glm+vec<4+long+glm+packed-mediump>
@@ -60207,10 +56958,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+long+glm+packed-lowp>+type
                %glm::glm+vec<4+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60218,10 +56965,6 @@
 (iffi:defitype %glm::glm+vec<4+long+glm+packed-lowp>+value-type
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+long+glm+aligned-highp>+type
                %glm::glm+vec<4+long+glm+aligned-highp>
@@ -60231,10 +56974,6 @@
                :long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+short+glm+packed-highp>+type
                %glm::glm+vec<4+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60242,10 +56981,6 @@
 (iffi:defitype %glm::glm+vec<4+short+glm+packed-highp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+short+glm+packed-mediump>+type
                %glm::glm+vec<4+short+glm+packed-mediump>
@@ -60255,10 +56990,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+short+glm+packed-lowp>+type
                %glm::glm+vec<4+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60266,10 +56997,6 @@
 (iffi:defitype %glm::glm+vec<4+short+glm+packed-lowp>+value-type
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+short+glm+aligned-highp>+type
                %glm::glm+vec<4+short+glm+aligned-highp>
@@ -60279,10 +57006,6 @@
                :short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-highp>+type
                %glm::glm+vec<4+unsigned+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60290,10 +57013,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-highp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-mediump>+type
                %glm::glm+vec<4+unsigned+char+glm+packed-mediump>
@@ -60303,10 +57022,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-lowp>+type
                %glm::glm+vec<4+unsigned+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60314,10 +57029,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+char+glm+packed-lowp>+value-type
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+char+glm+aligned-highp>+type
                %glm::glm+vec<4+unsigned+char+glm+aligned-highp>
@@ -60327,10 +57038,6 @@
                :unsigned-char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+double+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+double+glm+packed-highp>+type
                %glm::glm+vec<4+double+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60338,10 +57045,6 @@
 (iffi:defitype %glm::glm+vec<4+double+glm+packed-highp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+double+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+double+glm+packed-mediump>+type
                %glm::glm+vec<4+double+glm+packed-mediump>
@@ -60351,10 +57054,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+double+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+double+glm+packed-lowp>+type
                %glm::glm+vec<4+double+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60362,10 +57061,6 @@
 (iffi:defitype %glm::glm+vec<4+double+glm+packed-lowp>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+double+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+double+glm+aligned-highp>+type
                %glm::glm+vec<4+double+glm+aligned-highp>
@@ -60375,10 +57070,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+double+glm+aligned-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+double+glm+aligned-mediump>+type
                %glm::glm+vec<4+double+glm+aligned-mediump>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60386,10 +57077,6 @@
 (iffi:defitype %glm::glm+vec<4+double+glm+aligned-mediump>+value-type
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+double+glm+aligned-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+double+glm+aligned-lowp>+type
                %glm::glm+vec<4+double+glm+aligned-lowp>
@@ -60399,10 +57086,6 @@
                :double
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+float+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+float+glm+packed-highp>+type
                %glm::glm+vec<4+float+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60410,10 +57093,6 @@
 (iffi:defitype %glm::glm+vec<4+float+glm+packed-highp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+float+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+float+glm+packed-mediump>+type
                %glm::glm+vec<4+float+glm+packed-mediump>
@@ -60423,10 +57102,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+float+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+float+glm+packed-lowp>+type
                %glm::glm+vec<4+float+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60434,10 +57109,6 @@
 (iffi:defitype %glm::glm+vec<4+float+glm+packed-lowp>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+float+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+float+glm+aligned-highp>+type
                %glm::glm+vec<4+float+glm+aligned-highp>
@@ -60447,10 +57118,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+float+glm+aligned-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+float+glm+aligned-mediump>+type
                %glm::glm+vec<4+float+glm+aligned-mediump>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60458,10 +57125,6 @@
 (iffi:defitype %glm::glm+vec<4+float+glm+aligned-mediump>+value-type
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+float+glm+aligned-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+float+glm+aligned-lowp>+type
                %glm::glm+vec<4+float+glm+aligned-lowp>
@@ -60471,10 +57134,6 @@
                :float
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-highp>+type
                %glm::glm+vec<4+unsigned+int+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60482,10 +57141,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-highp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-mediump>+type
                %glm::glm+vec<4+unsigned+int+glm+packed-mediump>
@@ -60495,10 +57150,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-lowp>+type
                %glm::glm+vec<4+unsigned+int+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60506,10 +57157,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+int+glm+packed-lowp>+value-type
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+int+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+int+glm+aligned-highp>+type
                %glm::glm+vec<4+unsigned+int+glm+aligned-highp>
@@ -60519,10 +57166,6 @@
                :unsigned-int
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-highp>+type
                %glm::glm+vec<4+unsigned+long+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60530,10 +57173,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-highp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-mediump>+type
                %glm::glm+vec<4+unsigned+long+glm+packed-mediump>
@@ -60543,10 +57182,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-lowp>+type
                %glm::glm+vec<4+unsigned+long+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60554,10 +57189,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+long+glm+packed-lowp>+value-type
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+long+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+long+glm+aligned-highp>+type
                %glm::glm+vec<4+unsigned+long+glm+aligned-highp>
@@ -60567,10 +57198,6 @@
                :unsigned-long
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+char+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+char+glm+packed-highp>+type
                %glm::glm+vec<4+char+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60578,10 +57205,6 @@
 (iffi:defitype %glm::glm+vec<4+char+glm+packed-highp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+char+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+char+glm+packed-mediump>+type
                %glm::glm+vec<4+char+glm+packed-mediump>
@@ -60591,10 +57214,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+char+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+char+glm+packed-lowp>+type
                %glm::glm+vec<4+char+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60602,10 +57221,6 @@
 (iffi:defitype %glm::glm+vec<4+char+glm+packed-lowp>+value-type
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+char+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+char+glm+aligned-highp>+type
                %glm::glm+vec<4+char+glm+aligned-highp>
@@ -60615,10 +57230,6 @@
                :char
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-highp>+type
                %glm::glm+vec<4+unsigned+short+glm+packed-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60626,10 +57237,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-highp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-mediump>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
 
 (iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-mediump>+type
                %glm::glm+vec<4+unsigned+short+glm+packed-mediump>
@@ -60639,10 +57246,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-lowp>+bool-type
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+short+glm+packed-lowp>+type
                %glm::glm+vec<4+unsigned+short+glm+packed-lowp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60651,10 +57254,6 @@
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
 
-(iffi:defitype %glm::glm+vec<4+unsigned+short+glm+aligned-highp>+bool-type
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:23:27")
-
 (iffi:defitype %glm::glm+vec<4+unsigned+short+glm+aligned-highp>+type
                %glm::glm+vec<4+unsigned+short+glm+aligned-highp>
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:22:24")
@@ -60662,70 +57261,6 @@
 (iffi:defitype %glm::glm+vec<4+unsigned+short+glm+aligned-highp>+value-type
                :unsigned-short
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/detail/type_vec4.hpp:21:13")
-
-(iffi:defitype %glm::glm+bvec1
-               %glm::glm+vec<1+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool1.hpp:27:34")
-
-(iffi:defitype %glm::glm+highp-bvec1
-               %glm::glm+vec<1+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool1_precision.hpp:25:32")
-
-(iffi:defitype %glm::glm+lowp-bvec1
-               %glm::glm+vec<1+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool1_precision.hpp:31:31")
-
-(iffi:defitype %glm::glm+mediump-bvec1
-               %glm::glm+vec<1+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool1_precision.hpp:28:33")
-
-(iffi:defitype %glm::glm+bvec2
-               %glm::glm+vec<2+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool2.hpp:15:34")
-
-(iffi:defitype %glm::glm+highp-bvec2
-               %glm::glm+vec<2+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool2_precision.hpp:16:31")
-
-(iffi:defitype %glm::glm+lowp-bvec2
-               %glm::glm+vec<2+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool2_precision.hpp:28:30")
-
-(iffi:defitype %glm::glm+mediump-bvec2
-               %glm::glm+vec<2+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool2_precision.hpp:22:32")
-
-(iffi:defitype %glm::glm+bvec3
-               %glm::glm+vec<3+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool3.hpp:15:34")
-
-(iffi:defitype %glm::glm+highp-bvec3
-               %glm::glm+vec<3+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool3_precision.hpp:16:31")
-
-(iffi:defitype %glm::glm+lowp-bvec3
-               %glm::glm+vec<3+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool3_precision.hpp:28:30")
-
-(iffi:defitype %glm::glm+mediump-bvec3
-               %glm::glm+vec<3+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool3_precision.hpp:22:32")
-
-(iffi:defitype %glm::glm+bvec4
-               %glm::glm+vec<4+bool+glm+aligned-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool4.hpp:15:34")
-
-(iffi:defitype %glm::glm+highp-bvec4
-               %glm::glm+vec<4+bool+glm+packed-highp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool4_precision.hpp:16:31")
-
-(iffi:defitype %glm::glm+lowp-bvec4
-               %glm::glm+vec<4+bool+glm+packed-lowp>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool4_precision.hpp:28:30")
-
-(iffi:defitype %glm::glm+mediump-bvec4
-               %glm::glm+vec<4+bool+glm+packed-mediump>
-               "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_bool4_precision.hpp:22:32")
 
 (iffi:defitype %glm::glm+dvec1
                %glm::glm+vec<1+double+glm+aligned-highp>
@@ -60956,20 +57491,16 @@
                "/home/borodust/devel/repo/claw-glm/src/lib/glm/glm/ext/vector_uint4_sized.hpp:46:35")
 
 (eval-when (:load-toplevel :compile-toplevel :execute)
-  (export '%glm::glm+vec<1+int+glm+packed-highp>+bool-type "%GLM")
+  (export '%glm::glm+mat<4+3+float+glm+aligned-mediump>+row-type
+          "%GLM")
   (export '%glm::glm+vec<4+int+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+vec<4+float+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-uint8-t "%GLM")
   (export '%glm::glm+vec<2+double+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+mat<4+3+float+glm+aligned-mediump>+row-type
-          "%GLM")
-  (export '%glm::glm+vec<3+short+glm+aligned-highp>+value-type
-          "%GLM")
+  (export '%glm::glm+vec<2+char+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<2+char+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+aligned-highp>+length
-          "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-mediump>+bool-type
           "%GLM")
   (export '%glm::glm+u32vec1 "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-highp>+type "%GLM")
@@ -60978,15 +57509,11 @@
   (export '%glm::glm+mat<2+4+double+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+packed-mediump>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<2+char+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<1+char+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+unpack-half1x16 "%GLM")
   (export '%glm::glm+highp-f32mat4x4 "%GLM")
-  (export '%glm::glm+highp-bvec4 "%GLM")
   (export '%glm::glm+mediump-fmat4x3 "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+aligned-highp>+length-type
@@ -61000,41 +57527,35 @@
   (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+tanh "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+int+false>+type
-          "%GLM")
-  (export '%glm::glm+vec<1+bool+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+mat<2+2+float+glm+aligned-lowp> "%GLM")
   (export '%glm::glm+make-mat2x4 "%GLM")
   (export '%glm::glm+sin "%GLM")
-  (export '%glm::glm+mat<2+2+float+glm+aligned-lowp> "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+dmat3x3 "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+highp-u16vec1 "%GLM")
   (export '%glm::glm+pack-snorm1x16 "%GLM")
-  (export '%glm::glm+lowp-bvec1 "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+mat<4+3+float+glm+aligned-mediump>+transpose-type
-          "%GLM")
+  (export '%glm::glm+highp-i64 "%GLM")
   (export '%glm::glm+usub-borrow "%GLM")
   (export '%glm::glm+vec<3+double+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+highp-u16vec2 "%GLM")
-  (export '%glm::glm+vec<1+unsigned+short+glm+packed-mediump>+bool-type
+  (export '%glm::glm+vec<4+unsigned+int+glm+packed-lowp>+value-type
           "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+vec<3+short+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+long+false>+type
-          "%GLM")
+  (export '%glm::glm+dmat4x3 "%GLM")
   (export '%glm::glm+next-power-of-two "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<4+unsigned+int+glm+packed-lowp>+value-type
+  (export '%glm::glm+mat<4+3+float+glm+aligned-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<2+float+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+lowp-i16vec3 "%GLM")
@@ -61050,9 +57571,8 @@
   (export '%glm::glm+mat<4+2+double+glm+packed-highp>+row-type
           "%GLM")
   (export '%glm::glm+highp-uvec2 "%GLM")
-  (export '%glm::glm+dmat4x3 "%GLM")
+  (export '%glm::glm+angle-axis "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+highp-i64 "%GLM")
   (export '%glm::glm+lowp-i32vec1 "%GLM")
   (export '%glm::glm+highp-f32mat2x2 "%GLM")
   (export '%glm::glm+vec<4+double+glm+packed-mediump>+length "%GLM")
@@ -61074,7 +57594,6 @@
   (export '%glm::glm+mediump-u32vec2 "%GLM")
   (export '%glm::glm+vec<4+float+glm+aligned-lowp>+length "%GLM")
   (export '%glm::glm+mediump-i32vec2 "%GLM")
-  (export '%glm::glm+angle-axis "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-mediump>+col-type
           "%GLM")
@@ -61095,14 +57614,14 @@
           "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+row-type
           "%GLM")
-  (export '%glm::glm+round "%GLM")
+  (export '%glm::glm+vec<2+double+glm+packed-highp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+pack-uint4x16 "%GLM")
   (export '%glm::glm+perspective-fov-lh "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+unpack-int2x32 "%GLM")
-  (export '%glm::glm+vec<1+bool+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-mediump>+length-type
           "%GLM")
   (export '%glm::glm+clamp "%GLM")
@@ -61121,11 +57640,10 @@
   (export '%glm::glm+highp-i8vec3 "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<4+unsigned+int+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+mediump-fmat3x3 "%GLM")
   (export '%glm::glm+vec<3+char+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<4+long+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+double+glm+packed-highp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+detail+outer-product-trait<4+4+float+glm+aligned-highp>+type
@@ -61135,22 +57653,18 @@
   (export '%glm::glm+vec<3+int+glm+aligned-highp>+length-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<1+double+false>+type "%GLM")
+  (export '%glm::glm+vec<4+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+qua<double+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-lowp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp>+length
-          "%GLM")
-  (export '%glm::glm+vec<4+double+glm+packed-highp>+value-type
-          "%GLM")
+  (export '%glm::glm+round "%GLM")
   (export '%glm::glm+make-mat3x2 "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+highp-float32-t "%GLM")
   (export '%glm::glm+unpack-unorm4x4 "%GLM")
-  (export '%glm::glm+vec<4+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+precision "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+char+true>+type
+  (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+mediump-f32vec3 "%GLM")
   (export '%glm::glm+pack-u3x10-1x2 "%GLM")
@@ -61162,28 +57676,22 @@
   (export '%glm::glm+pack-unorm3x5-1x1 "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+aligned-highp>+value-type
           "%GLM")
-  (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+transpose-type
-          "%GLM")
+  (export '%glm::glm+lowp-vec4 "%GLM")
   (export '%glm::glm+lowp-f32vec4 "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-lowp>+length "%GLM")
   (export '%glm::glm+mediump-int32-t "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+mediump-uvec2 "%GLM")
   (export '%glm::glm+mirror-repeat "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+int+false>+type
-          "%GLM")
-  (export '%glm::glm+vec<2+short+glm+packed-highp>+bool-type "%GLM")
-  (export '%glm::glm+lowp-vec4 "%GLM")
   (export '%glm::glm+cos "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+highp-u8 "%GLM")
   (export '%glm::glm+highp-mat4x4 "%GLM")
-  (export '%glm::glm+vec<2+double+glm+packed-highp>+value-type
+  (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp>+length
           "%GLM")
   (export '%glm::glm+fmat3x3 "%GLM")
-  (export '%glm::glm+vec<1+double+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp> "%GLM")
   (export '%glm::glm+mediump-dmat3x4 "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-highp>+length-type
@@ -61192,14 +57700,12 @@
           "%GLM")
   (export '%glm::glm+lowp-f32vec2 "%GLM")
   (export '%glm::glm+highp-i64vec1 "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+lowp-u16vec1 "%GLM")
   (export '%glm::glm+lowp-int16 "%GLM")
   (export '%glm::glm+step "%GLM")
   (export '%glm::glm+vec<1+float+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+qua<double+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+float+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-mediump>+value-type
@@ -61216,9 +57722,6 @@
   (export '%glm::glm+csch "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<4+int+glm+packed-mediump>+type "%GLM")
-  (export '%glm::glm+vec<2+bool+glm+aligned-mediump> "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-mediump>+col-type
@@ -61227,8 +57730,6 @@
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+aligned-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<4+int+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<2+int+glm+aligned-highp>+bool-type "%GLM")
   (export '%glm::glm+ortho "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+row-type
           "%GLM")
@@ -61246,10 +57747,9 @@
   (export '%glm::glm+mediump-uint16-t "%GLM")
   (export '%glm::glm+highp-i32vec1 "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<1+long+false>+type "%GLM")
+  (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+mediump-u8vec1 "%GLM")
   (export '%glm::glm+mediump-vec4 "%GLM")
-  (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+aligned-highp>+length
           "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-mediump>+value-type
@@ -61258,8 +57758,6 @@
           "%GLM")
   (export '%glm::glm+qua<double+glm+aligned-highp> "%GLM")
   (export '%glm::glm+pack-int4x8 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+highp-i16vec4 "%GLM")
   (export '%glm::glm+qua<float+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+highp-u16vec3 "%GLM")
@@ -61312,8 +57810,6 @@
           "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-mediump>+type "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+aligned-highp>+length-type
           "%GLM")
@@ -61321,24 +57817,19 @@
   (export '%glm::glm+mat<2+4+double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+vec<1+long+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+simplex "%GLM")
-  (export '%glm::glm+vec<4+bool+glm+aligned-lowp> "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+lowp-dmat3x2 "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<1+float+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+double+glm+aligned-highp>+bool-type
+  (export '%glm::glm+vec<4+unsigned+char+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+vec<1+int+glm+aligned-highp>+length-type "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-highp>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<1+char+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-lowp>+length
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+aligned-highp>+length
@@ -61354,14 +57845,12 @@
   (export '%glm::glm+highp-mat4 "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<2+short+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-lowp>+type "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-lowp>+type "%GLM")
-  (export '%glm::glm+vec<4+bool+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+convert-linear-to-srgb "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-lowp> "%GLM")
@@ -61375,12 +57864,13 @@
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+vec<4+float+glm+aligned-highp> "%GLM")
+  (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump>+type
+          "%GLM")
   (export '%glm::glm+euler-angles "%GLM")
+  (export '%glm::glm+vec<4+float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<4+float+glm+aligned-mediump>+bool-type
-          "%GLM")
+  (export '%glm::glm+uvec1 "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+double+glm+aligned-lowp>+length "%GLM")
@@ -61394,20 +57884,13 @@
   (export '%glm::glm+dmat4 "%GLM")
   (export '%glm::glm+lowp-f64 "%GLM")
   (export '%glm::glm+qua<double+glm+packed-mediump>+length "%GLM")
-  (export '%glm::glm+vec<2+bool+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump>+type
-          "%GLM")
   (export '%glm::glm+lowp-ivec3 "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-highp>+row-type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-lowp>+length "%GLM")
-  (export '%glm::glm+vec<1+unsigned+char+glm+packed-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<2+int+glm+packed-lowp>+bool-type "%GLM")
-  (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+length-type
-          "%GLM")
-  (export '%glm::glm+uvec1 "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+aligned-highp>+row-type
+          "%GLM")
+  (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-mediump>+transpose-type
           "%GLM")
@@ -61415,22 +57898,19 @@
   (export '%glm::glm+lowp-f64mat2 "%GLM")
   (export '%glm::glm+vec<2+char+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+bool+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-lowp>+col-type "%GLM")
-  (export '%glm::glm+vec<1+int+glm+packed-lowp>+bool-type "%GLM")
+  (export '%glm::glm+highp-dvec1 "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-lowp>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<2+int+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+packed-highp>+value-type
-          "%GLM")
   (export '%glm::glm+max "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-lowp>+length "%GLM")
+  (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+type
+          "%GLM")
   (export '%glm::glm+vec<2+unsigned+long+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-mediump>+value-type
@@ -61440,8 +57920,6 @@
   (export '%glm::glm+mat<2+3+double+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+mediump-f64mat2x3 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+type
-          "%GLM")
   (export '%glm::glm+uint32 "%GLM")
   (export '%glm::glm+mediump-quat "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-highp>+type
@@ -61449,19 +57927,18 @@
   (export '%glm::glm+sqrt "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp>+length-type
-          "%GLM")
+  (export '%glm::glm+vec<2+char+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+i8vec1 "%GLM")
+  (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp>+length-type
+          "%GLM")
   (export '%glm::glm+qua<float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+aligned-highp>+row-type
           "%GLM")
   (export '%glm::glm+vec<1+float+glm+packed-mediump>+length "%GLM")
-  (export '%glm::glm+highp-dvec1 "%GLM")
   (export '%glm::glm+lowp-f64mat3 "%GLM")
   (export '%glm::glm+make-vec3 "%GLM")
   (export '%glm::glm+lowp-fmat2 "%GLM")
@@ -61488,26 +57965,20 @@
           "%GLM")
   (export '%glm::glm+vec<1+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+lowp-u64vec3 "%GLM")
-  (export '%glm::glm+vec<1+long+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<4+char+glm+packed-lowp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+float+glm+aligned-lowp>+length-type
+          "%GLM")
   (export '%glm::glm+mediump-f32mat3x3 "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-mediump>+length
           "%GLM")
   (export '%glm::glm+mediump-f64mat3 "%GLM")
-  (export '%glm::glm+vec<4+float+glm+aligned-lowp>+length-type
-          "%GLM")
   (export '%glm::glm+mediump-f64mat4x3 "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-mediump>+row-type
           "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+vec<3+bool+glm+aligned-lowp> "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+long+true>+type
-          "%GLM")
-  (export '%glm::glm+vec<2+char+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+mat<3+2+double+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-mediump>+length-type
           "%GLM")
+  (export '%glm::glm+mat<3+2+double+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-highp> "%GLM")
@@ -61523,39 +57994,29 @@
   (export '%glm::glm+mat<2+2+float+glm+aligned-lowp>+row-type "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+float+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-mediump>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+value-type
           "%GLM")
   (export '%glm::glm+vec<2+long+glm+aligned-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+pack-int4x16 "%GLM")
+  (export '%glm::glm+vec<2+unsigned+short+glm+packed-highp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+detail+storage<4+char+true>+type "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+dmat2 "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+perspective-rh-no "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-highp>+transpose-type
-          "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+mediump-dmat2 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+mediump-fmat3x4 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-mediump>+row-type
           "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-lowp>+type "%GLM")
+  (export '%glm::glm+pack-int4x16 "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mediump-uint16 "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-mediump> "%GLM")
@@ -61564,15 +58025,15 @@
   (export '%glm::glm+vec<2+long+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+frustum-no "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-lowp>+col-type "%GLM")
-  (export '%glm::glm+vec<4+double+glm+packed-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+unsigned+long+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-highp>+col-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp> "%GLM")
   (export '%glm::glm+vec4 "%GLM")
-  (export '%glm::glm+lowp-dmat4x2 "%GLM")
-  (export '%glm::glm+vec<4+bool+glm+packed-lowp> "%GLM")
+  (export '%glm::glm+vec<3+long+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+yaw "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-mediump>+value-type
@@ -61583,9 +58044,9 @@
           "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-mediump>+length
           "%GLM")
+  (export '%glm::glm+lowp-dmat4x2 "%GLM")
   (export '%glm::glm+vec<2+double+glm+packed-highp>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<1+short+true>+type "%GLM")
   (export '%glm::glm+mat4x4 "%GLM")
   (export '%glm::glm+lowp-i32vec2 "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-lowp> "%GLM")
@@ -61604,12 +58065,11 @@
   (export '%glm::glm+mediump-uint8-t "%GLM")
   (export '%glm::glm+lowp-uint8-t "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-mediump>+value-type
-          "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-lowp>+col-type "%GLM")
   (export '%glm::glm+exp2 "%GLM")
   (export '%glm::glm+qua<double+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-lowp>+bool-type "%GLM")
+  (export '%glm::glm+vec<3+char+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+aligned-highp>+type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-highp>+type
@@ -61623,9 +58083,7 @@
   (export '%glm::glm+vec<4+double+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mediump-u32vec1 "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-mediump>+value-type
-          "%GLM")
-  (export '%glm::glm+mediump-u8vec4 "%GLM")
+  (export '%glm::glm+vec<3+double+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+mediump-f32mat4x2 "%GLM")
   (export '%glm::glm+vec<4+short+glm+aligned-highp>+length-type
@@ -61633,10 +58091,8 @@
   (export '%glm::glm+lowp-f32mat3 "%GLM")
   (export '%glm::glm+cross "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<1+char+glm+packed-lowp>+bool-type "%GLM")
+  (export '%glm::glm+pack-f2x11-1x10 "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+lowp-f32mat4 "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-mediump>+value-type
@@ -61645,18 +58101,17 @@
           "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-highp>+value-type
           "%GLM")
-  (export '%glm::glm+detail+storage<1+long+true>+type "%GLM")
-  (export '%glm::glm+pack-f2x11-1x10 "%GLM")
+  (export '%glm::glm+vec<4+long+glm+aligned-highp>+length-type
+          "%GLM")
+  (export '%glm::glm+vec<2+long+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-lowp>+length
           "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-lowp>+length-type "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-highp>+length-type "%GLM")
+  (export '%glm::glm+vec<3+float+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+highp-fmat3x4 "%GLM")
-  (export '%glm::glm+vec<3+double+glm+packed-mediump>+length "%GLM")
+  (export '%glm::glm+mediump-u8vec4 "%GLM")
   (export '%glm::glm+lowp-mat2x4 "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+packed-mediump> "%GLM")
   (export '%glm::glm+inverse "%GLM")
@@ -61669,8 +58124,7 @@
   (export '%glm::glm+mediump-mat2 "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-mediump>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<4+long+glm+aligned-highp>+length-type
-          "%GLM")
+  (export '%glm::glm+vec<2+char+glm+packed-highp>+length-type "%GLM")
   (export '%glm::glm+vec<2+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<3+char+glm+aligned-highp>+value-type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-highp>+type "%GLM")
@@ -61693,7 +58147,6 @@
   (export '%glm::glm+mat<3+3+double+glm+packed-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-mediump>+type "%GLM")
-  (export '%glm::glm+vec<2+long+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+f32mat3x2 "%GLM")
@@ -61702,21 +58155,18 @@
   (export '%glm::glm+mat<3+2+float+glm+aligned-lowp>+type "%GLM")
   (export '%glm::glm+mediump-fmat3 "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-lowp>+length "%GLM")
-  (export '%glm::glm+detail+storage<4+short+false>+type "%GLM")
   (export '%glm::glm+highp-fvec2 "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-highp>+type
           "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-lowp>+length
           "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+mediump-int8 "%GLM")
   (export '%glm::glm+highp-dmat4x3 "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-mediump> "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+value-type
           "%GLM")
   (export '%glm::glm+frustum-zo "%GLM")
-  (export '%glm::glm+vec<3+float+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+aligned-highp>+type "%GLM")
@@ -61740,9 +58190,7 @@
   (export '%glm::glm+u32vec2 "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-highp> "%GLM")
-  (export '%glm::glm+fmat4 "%GLM")
-  (export '%glm::glm+vec<1+unsigned+char+glm+packed-mediump>+bool-type
-          "%GLM")
+  (export '%glm::glm+vec<2+float+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+vec<4+char+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mediump-f64mat3x4 "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+aligned-highp>+col-type
@@ -61752,12 +58200,11 @@
   (export '%glm::glm+mat<4+4+float+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-lowp> "%GLM")
-  (export '%glm::glm+detail+storage<2+int+true>+type "%GLM")
+  (export '%glm::glm+mediump-vec1 "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+aligned-highp>+length
           "%GLM")
-  (export '%glm::glm+vec<4+int+glm+packed-lowp>+bool-type "%GLM")
-  (export '%glm::glm+mat3 "%GLM")
-  (export '%glm::glm+vec<1+unsigned+long+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+vec<3+int+glm+packed-lowp>+type "%GLM")
+  (export '%glm::glm+fmat4 "%GLM")
   (export '%glm::glm+vec<3+char+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-int8-t "%GLM")
@@ -61765,7 +58212,7 @@
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump> "%GLM")
   (export '%glm::glm+ivec1 "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-lowp>+length-type "%GLM")
+  (export '%glm::glm+vec<1+unsigned+long+glm+packed-mediump> "%GLM")
   (export '%glm::glm+repeat "%GLM")
   (export '%glm::glm+spherical-rand "%GLM")
   (export '%glm::glm+vec<4+char+glm+packed-lowp>+length-type "%GLM")
@@ -61778,8 +58225,6 @@
   (export '%glm::glm+mat<2+3+float+glm+aligned-lowp>+row-type "%GLM")
   (export '%glm::glm+fmat3x2 "%GLM")
   (export '%glm::glm+highp-dmat3x4 "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+char+false>+type
-          "%GLM")
   (export '%glm::glm+highp-fmat2x3 "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+aligned-highp>+transpose-type
           "%GLM")
@@ -61791,47 +58236,42 @@
   (export '%glm::glm+highp-u8vec4 "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-mediump>+col-type
           "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-lowp>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<1+float+glm+packed-lowp>+bool-type "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-lowp>+type "%GLM")
+  (export '%glm::glm+vec<4+char+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+vec<2+double+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+length
-          "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<2+bool+glm+aligned-lowp> "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-highp>+value-type
           "%GLM")
+  (export '%glm::glm+vec<3+int+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+mat3 "%GLM")
+  (export '%glm::glm+mat<2+3+float+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<4+char+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-highp>+col-type "%GLM")
-  (export '%glm::glm+mat<3+2+double+glm+packed-highp>+col-type
+  (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+length
           "%GLM")
   (export '%glm::glm+lowp-uint32 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp>+value-type
+  (export '%glm::glm+mat<3+2+double+glm+packed-highp>+col-type
           "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+highp-f32mat2x3 "%GLM")
   (export '%glm::glm+mediump-mat2x4 "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+packed-highp>+length-type
           "%GLM")
-  (export '%glm::glm+mediump-vec1 "%GLM")
-  (export '%glm::glm+mat<2+3+float+glm+packed-lowp>+col-type "%GLM")
+  (export '%glm::glm+vec<3+char+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+uadd-carry "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+int+true>+type "%GLM")
   (export '%glm::glm+lowp-dmat3x3 "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+detail+storage<1+char+false>+type "%GLM")
+  (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+lowp-fmat3x2 "%GLM")
   (export '%glm::glm+u16vec4 "%GLM")
@@ -61844,10 +58284,6 @@
   (export '%glm::glm+vec<4+double+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+long+glm+aligned-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<1+unsigned+int+glm+aligned-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-mediump>+length-type
@@ -61857,9 +58293,8 @@
   (export '%glm::glm+mat<3+4+float+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+i16vec3 "%GLM")
-  (export '%glm::glm+mediump-u16 "%GLM")
+  (export '%glm::glm+vec<3+double+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+lowp-float64 "%GLM")
-  (export '%glm::glm+vec<4+int+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+vec<1+char+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+qua<float+glm+packed-mediump>+value-type "%GLM")
@@ -61873,7 +58308,7 @@
   (export '%glm::glm+vec<4+unsigned+long+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+floor "%GLM")
-  (export '%glm::glm+vec<3+double+glm+aligned-highp>+type "%GLM")
+  (export '%glm::glm+mediump-u16 "%GLM")
   (export '%glm::glm+vec<1+double+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+inverse-transpose "%GLM")
@@ -61897,31 +58332,26 @@
   (export '%glm::glm+mat<4+4+float+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+vec<2+long+glm+aligned-highp>+type "%GLM")
+  (export '%glm::glm+vec<2+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<4+double+glm+aligned-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+highp-uint8 "%GLM")
-  (export '%glm::glm+vec<2+short+glm+packed-mediump>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<3+float+glm+aligned-lowp>+bool-type "%GLM")
   (export '%glm::glm+highp-fmat4x2 "%GLM")
   (export '%glm::glm+unpack-unorm2x4 "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+highp-ivec1 "%GLM")
-  (export '%glm::glm+mat<2+3+float+glm+packed-highp>+col-type "%GLM")
-  (export '%glm::glm+highp-bvec2 "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp>+type
           "%GLM")
+  (export '%glm::glm+mat<2+3+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-highp>+length
           "%GLM")
+  (export '%glm::glm+highp-ivec1 "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+packed-highp> "%GLM")
   (export '%glm::glm+highp-ivec3 "%GLM")
+  (export '%glm::glm+vec<2+long+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+aligned-highp>+length
           "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-highp>+row-type "%GLM")
@@ -61931,14 +58361,13 @@
   (export '%glm::glm+mat<3+4+float+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<3+int+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<1+int+false>+type "%GLM")
+  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp>+length-type
+          "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+packed-lowp>+type
           "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-mediump>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<2+double+glm+packed-mediump>+bool-type
           "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-highp>+length-type
           "%GLM")
@@ -61950,20 +58379,16 @@
           "%GLM")
   (export '%glm::glm+atanh "%GLM")
   (export '%glm::glm+unpack-int4x8 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp> "%GLM")
+  (export '%glm::glm+vec<2+unsigned+int+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<1+char+glm+packed-lowp>+value-type "%GLM")
-  (export '%glm::glm+vec<2+float+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+aligned-highp>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<2+double+glm+packed-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+char+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+unpack-int2x8 "%GLM")
   (export '%glm::glm+ball-rand "%GLM")
-  (export '%glm::glm+vec<3+double+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+mediump-int32 "%GLM")
   (export '%glm::glm+i32vec3 "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-mediump>+col-type
@@ -61971,7 +58396,6 @@
   (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-mediump>+length "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-mediump>+length
           "%GLM")
   (export '%glm::glm+u32vec4 "%GLM")
@@ -61985,18 +58409,15 @@
   (export '%glm::glm+mat<3+2+float+glm+packed-lowp>+value-type
           "%GLM")
   (export '%glm::glm+lowp-i64vec3 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+lowp-u64vec4 "%GLM")
   (export '%glm::glm+lowp-fvec1 "%GLM")
-  (export '%glm::glm+detail+storage<1+float+false>+type "%GLM")
+  (export '%glm::glm+unpack-half4x16 "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<1+char+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<3+int+glm+packed-highp>+length-type "%GLM")
@@ -62005,35 +58426,30 @@
   (export '%glm::glm+highp-i32 "%GLM")
   (export '%glm::glm+mediump-u8 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+u8vec2 "%GLM")
+  (export '%glm::glm+vec<2+char+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+i8vec2 "%GLM")
   (export '%glm::glm+highp-i64vec2 "%GLM")
   (export '%glm::glm+f64 "%GLM")
-  (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+length
-          "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+long+true>+type
-          "%GLM")
+  (export '%glm::glm+vec<2+double+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-highp>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<3+short+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<2+double+glm+packed-lowp>+value-type "%GLM")
+  (export '%glm::glm+u8vec2 "%GLM")
   (export '%glm::glm+pack-f3x9-e1x5 "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+lowp-f64mat4x4 "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mediump-vec3 "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+lowp-f32mat4x4 "%GLM")
   (export '%glm::glm+lowp-mat2x3 "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+transpose "%GLM")
+  (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+length
+          "%GLM")
   (export '%glm::glm+vec<1+char+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+vec<2+int+glm+packed-mediump>+bool-type "%GLM")
+  (export '%glm::glm+lowp-f32mat2x4 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-mediump>+length "%GLM")
-  (export '%glm::glm+detail+storage<2+float+false>+type "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+make-quat "%GLM")
-  (export '%glm::glm+lowp-f32mat2x4 "%GLM")
   (export '%glm::glm+vec<4+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+pack-unorm2x3-1x2 "%GLM")
@@ -62044,7 +58460,6 @@
   (export '%glm::glm+mat<4+2+double+glm+packed-mediump>+length
           "%GLM")
   (export '%glm::glm+pack-unorm4x4 "%GLM")
-  (export '%glm::glm+vec<3+double+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-lowp>+length "%GLM")
@@ -62053,7 +58468,6 @@
   (export '%glm::glm+mat<3+3+float+glm+aligned-lowp>+type "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+aligned-highp>+transpose-type
           "%GLM")
-  (export '%glm::glm+unpack-half4x16 "%GLM")
   (export '%glm::glm+pack-half4x16 "%GLM")
   (export '%glm::glm+lowp-ivec4 "%GLM")
   (export '%glm::glm+modf "%GLM")
@@ -62066,8 +58480,6 @@
   (export '%glm::glm+mat<4+4+double+glm+aligned-highp>+row-type
           "%GLM")
   (export '%glm::glm+highp-f64mat4x2 "%GLM")
-  (export '%glm::glm+detail+storage<3+short+true>+type "%GLM")
-  (export '%glm::glm+lowp-bvec3 "%GLM")
   (export '%glm::glm+operator/ "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-lowp>+value-type
           "%GLM")
@@ -62085,14 +58497,12 @@
   (export '%glm::glm+unpack-uint2x8 "%GLM")
   (export '%glm::glm+highp-u8vec3 "%GLM")
   (export '%glm::glm+frustum-rh-no "%GLM")
-  (export '%glm::glm+operator~ "%GLM")
+  (export '%glm::glm+lowp-mat4x2 "%GLM")
   (export '%glm::glm+mediump-fvec1 "%GLM")
   (export '%glm::glm+lowp-f32mat2x3 "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<1+float+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<1+long+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+vec<1+float+glm+aligned-highp>+length-type
-          "%GLM")
-  (export '%glm::glm+vec<3+double+glm+packed-mediump>+bool-type
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+packed-lowp>+length-type
           "%GLM")
@@ -62109,34 +58519,29 @@
   (export '%glm::glm+qua<double+glm+aligned-highp>+value-type "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-lowp> "%GLM")
   (export '%glm::glm+lowp-f64vec4 "%GLM")
-  (export '%glm::glm+vec<3+char+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+unsigned+char+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump>+type
           "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<2+char+false>+type "%GLM")
-  (export '%glm::glm+vec<4+char+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+packed-mediump>+value-type
-          "%GLM")
+  (export '%glm::glm+operator~ "%GLM")
+  (export '%glm::glm+lowp-vec1 "%GLM")
   (export '%glm::glm+highp-dmat4 "%GLM")
   (export '%glm::glm+vec<2+char+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+vec<2+char+glm+packed-mediump>+length "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+fmat2x3 "%GLM")
   (export '%glm::glm+acsch "%GLM")
   (export '%glm::glm+lowp-fmat3 "%GLM")
-  (export '%glm::glm+lowp-vec1 "%GLM")
   (export '%glm::glm+vec<1+long+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-mediump>+col-type
           "%GLM")
-  (export '%glm::glm+vec<1+long+glm+packed-lowp>+value-type "%GLM")
+  (export '%glm::glm+vec<4+double+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+qua<float+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+lowp-mat4x2 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-highp>+length-type
           "%GLM")
@@ -62144,15 +58549,12 @@
   (export '%glm::glm+csc "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<4+double+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+bit-count "%GLM")
-  (export '%glm::glm+detail+storage<1+double+true>+type "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<3+char+glm+packed-highp> "%GLM")
-  (export '%glm::glm+vec<4+char+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<3+char+glm+packed-lowp> "%GLM")
@@ -62207,25 +58609,23 @@
   (export '%glm::glm+mat<3+4+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+lowp-f64mat2x2 "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+vec<3+short+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+highp-int8 "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-lowp>+length "%GLM")
-  (export '%glm::glm+detail+storage<3+double+true>+type "%GLM")
+  (export '%glm::glm+qua<float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-mediump>+length
           "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<1+double+glm+packed-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<2+unsigned+long+glm+packed-lowp>+type
+          "%GLM")
   (export '%glm::glm+mediump-f32mat3 "%GLM")
   (export '%glm::glm+infinite-perspective "%GLM")
   (export '%glm::glm+unpack-snorm4x16 "%GLM")
-  (export '%glm::glm+qua<float+glm+aligned-highp> "%GLM")
+  (export '%glm::glm+vec<3+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+highp-fmat3 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-lowp>+type
-          "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+col-type "%GLM")
@@ -62234,13 +58634,10 @@
   (export '%glm::glm+qua<float+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+axis "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<4+unsigned+int+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mediump-i64 "%GLM")
   (export '%glm::glm+uint8 "%GLM")
@@ -62249,20 +58646,18 @@
   (export '%glm::glm+int-bits-to-float "%GLM")
   (export '%glm::glm+u32 "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+lowp-i8vec3 "%GLM")
+  (export '%glm::glm+vec<3+long+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<1+char+glm+aligned-highp> "%GLM")
   (export '%glm::glm+highp-int16-t "%GLM")
-  (export '%glm::glm+vec<4+short+glm+aligned-highp>+type "%GLM")
+  (export '%glm::glm+lowp-i8vec3 "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+int16 "%GLM")
   (export '%glm::glm+vec<1+double+glm+packed-lowp> "%GLM")
   (export '%glm::glm+uint-bits-to-float "%GLM")
-  (export '%glm::glm+vec<3+long+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<4+float+false>+type "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-highp>+transpose-type
@@ -62273,14 +58668,16 @@
   (export '%glm::glm+mat<2+4+float+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+operator% "%GLM")
-  (export '%glm::glm+highp-u16vec4 "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-mediump>+bool-type "%GLM")
+  (export '%glm::glm+vec<2+float+glm+packed-mediump>+value-type
+          "%GLM")
+  (export '%glm::glm+vec<3+char+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+frexp "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+packed-mediump>+type
           "%GLM")
   (export '%glm::glm+vec<3+char+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+vec<2+int+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+round-multiple "%GLM")
+  (export '%glm::glm+vec<4+short+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+lowp-f64mat3x4 "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-highp>+type
@@ -62292,19 +58689,14 @@
   (export '%glm::glm+highp-f32mat4x3 "%GLM")
   (export '%glm::glm+fmat2x2 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+detail+storage<2+double+false>+type "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-mediump>+value-type
-          "%GLM")
+  (export '%glm::glm+highp-u16vec4 "%GLM")
   (export '%glm::glm+float-bits-to-uint "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-mediump>+row-type
           "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+int+false>+type
-          "%GLM")
   (export '%glm::glm+i8vec3 "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+row-type
           "%GLM")
   (export '%glm::glm+determinant "%GLM")
@@ -62346,7 +58738,6 @@
   (export '%glm::glm+mat<4+2+float+glm+aligned-lowp>+row-type "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-lowp>+length "%GLM")
-  (export '%glm::glm+vec<4+float+glm+aligned-lowp>+bool-type "%GLM")
   (export '%glm::glm+vec<1+double+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+vec<4+double+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-lowp> "%GLM")
@@ -62360,14 +58751,11 @@
   (export '%glm::glm+mat<3+3+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<3+float+glm+packed-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<4+short+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-mediump>+value-type
           "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-mediump>+type "%GLM")
-  (export '%glm::glm+detail+storage<3+float+true>+type "%GLM")
   (export '%glm::glm+vec<2+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+highp-fmat2x4 "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-highp>+length "%GLM")
@@ -62380,7 +58768,7 @@
   (export '%glm::glm+vec<2+float+glm+aligned-mediump>+length-type
           "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+vec<1+unsigned+long+glm+packed-lowp>+bool-type
+  (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-highp>+value-type
           "%GLM")
@@ -62392,7 +58780,6 @@
   (export '%glm::glm+vec<1+short+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+length "%GLM")
-  (export '%glm::glm+detail+storage<4+long+false>+type "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-lowp>+length "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+aligned-highp>+length
@@ -62403,17 +58790,17 @@
           "%GLM")
   (export '%glm::glm+mediump-int16 "%GLM")
   (export '%glm::glm+u8vec1 "%GLM")
-  (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+transpose-type
-          "%GLM")
   (export '%glm::glm+vec<4+char+glm+aligned-highp> "%GLM")
   (export '%glm::glm+roll "%GLM")
   (export '%glm::glm+mediump-f32mat2x2 "%GLM")
   (export '%glm::glm+angle "%GLM")
-  (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+length-type
+  (export '%glm::glm+vec<2+unsigned+int+glm+packed-mediump>+type
           "%GLM")
   (export '%glm::glm+highp-i64vec4 "%GLM")
+  (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+length-type
+          "%GLM")
   (export '%glm::glm+prev-multiple "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-mediump>+bool-type
+  (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+highp-u64vec3 "%GLM")
   (export '%glm::glm+qua<float+glm+packed-mediump> "%GLM")
@@ -62425,8 +58812,6 @@
   (export '%glm::glm+mat<2+4+double+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+highp-ivec4 "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-mediump>+length
-          "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-mediump>+type
           "%GLM")
   (export '%glm::glm+coth "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-lowp>+row-type "%GLM")
@@ -62442,7 +58827,6 @@
   (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec2 "%GLM")
-  (export '%glm::glm+vec<2+long+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+operator+mat<3+3+float+glm+packed-mediump>
           "%GLM")
   (export '%glm::glm+mediump-fvec4 "%GLM")
@@ -62461,12 +58845,9 @@
   (export '%glm::glm+mat<3+2+double+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp>+value-type
-          "%GLM")
   (export '%glm::glm+lowp-float32-t "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+u16vec3 "%GLM")
-  (export '%glm::glm+vec<1+char+glm+aligned-highp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<2+int+glm+packed-lowp>+length-type "%GLM")
@@ -62474,40 +58855,27 @@
           "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<4+char+glm+packed-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+qua<double+glm+packed-highp>+length-type "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+operator+mat<3+3+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-lowp> "%GLM")
   (export '%glm::glm+vec<3+char+glm+aligned-highp> "%GLM")
   (export '%glm::glm+qualifier "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+int+false>+type
-          "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<4+long+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+tweaked-infinite-perspective "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-mediump>+value-type
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-mediump>+length "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp>+length
           "%GLM")
-  (export '%glm::glm+mat<4+3+double+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+bool-type
-          "%GLM")
+  (export '%glm::glm+vec<2+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-mediump>+col-type
           "%GLM")
-  (export '%glm::glm+vec<4+bool+glm+packed-highp> "%GLM")
-  (export '%glm::glm+vec<1+unsigned+short+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<4+long+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+vec<3+double+glm+aligned-highp>+bool-type
-          "%GLM")
+  (export '%glm::glm+mat<4+3+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+dmat3 "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump>+length
           "%GLM")
@@ -62526,12 +58894,10 @@
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<3+long+glm+aligned-highp>+value-type "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-mediump>+value-type
           "%GLM")
@@ -62542,10 +58908,10 @@
           "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+outer-product "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+lowp-int32 "%GLM")
+  (export '%glm::glm+vec<3+double+glm+packed-highp>+value-type
+          "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-mediump>+value-type "%GLM")
   (export '%glm::glm+vec<4+char+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec<3+int+glm+packed-lowp>+length-type "%GLM")
@@ -62554,16 +58920,13 @@
   (export '%glm::glm+vec<1+char+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+lowp-dvec1 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<3+double+glm+packed-highp>+value-type
-          "%GLM")
-  (export '%glm::glm+lowp-dmat2 "%GLM")
+  (export '%glm::glm+lowp-int32 "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<2+long+glm+packed-highp> "%GLM")
   (export '%glm::glm+f32quat "%GLM")
   (export '%glm::glm+make-mat3x3 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp>+value-type
-          "%GLM")
+  (export '%glm::glm+lowp-dmat2 "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+lowp-f64mat3x3 "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-lowp>+length-type
@@ -62572,23 +58935,21 @@
   (export '%glm::glm+mat<3+4+double+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<2+double+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+highp-bvec1 "%GLM")
   (export '%glm::glm+find-lsb "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+perspective-fov-lh-no "%GLM")
-  (export '%glm::glm+mediump-bvec2 "%GLM")
+  (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp>+value-type
+          "%GLM")
   (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp>+type
           "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+col-type
           "%GLM")
-  (export '%glm::glm+bvec3 "%GLM")
   (export '%glm::glm+mediump-fmat4x4 "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+qua<float+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+int+glm+aligned-highp>+value-type "%GLM")
-  (export '%glm::glm+lowp-bvec4 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-lowp>+length "%GLM")
@@ -62602,8 +58963,6 @@
   (export '%glm::glm+highp-mat2x4 "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-mediump> "%GLM")
   (export '%glm::glm+sech "%GLM")
-  (export '%glm::glm+vec<3+short+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<2+int+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-highp>+length-type "%GLM")
@@ -62622,9 +58981,11 @@
   (export '%glm::glm+mat<3+3+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-mediump>+length
           "%GLM")
-  (export '%glm::glm+vec<1+double+glm+packed-lowp>+length "%GLM")
+  (export '%glm::glm+vec<3+unsigned+int+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-highp>+length-type "%GLM")
-  (export '%glm::glm+mediump-uint32-t "%GLM")
+  (export '%glm::glm+vec<3+unsigned+int+glm+aligned-highp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mat4x3 "%GLM")
@@ -62636,6 +58997,7 @@
   (export '%glm::glm+mat<4+4+float+glm+aligned-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+lowp-i16vec2 "%GLM")
+  (export '%glm::glm+vec<1+double+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+acoth "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<2+float+glm+packed-mediump> "%GLM")
@@ -62643,17 +59005,12 @@
   (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+lowp-u32vec1 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+aligned-highp>+bool-type
-          "%GLM")
+  (export '%glm::glm+mediump-uint32-t "%GLM")
   (export '%glm::glm+imul-extended "%GLM")
   (export '%glm::glm+vec<4+double+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+lowp-dquat "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+aligned-highp>+value-type
-          "%GLM")
   (export '%glm::glm+make-mat2 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+mediump-float64-t "%GLM")
   (export '%glm::glm+vec<1+float+glm+aligned-highp>+value-type
           "%GLM")
@@ -62667,28 +59024,24 @@
           "%GLM")
   (export '%glm::glm+highp-dmat2x2 "%GLM")
   (export '%glm::glm+ortho-rh-zo "%GLM")
-  (export '%glm::glm+vec<4+bool+glm+aligned-mediump> "%GLM")
+  (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-lowp>+type "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-lowp>+length "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+long+true>+type
-          "%GLM")
-  (export '%glm::glm+vec<1+double+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-mediump>+value-type
           "%GLM")
+  (export '%glm::glm+vec<1+double+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mediump-fmat2x4 "%GLM")
   (export '%glm::glm+mediump-u32 "%GLM")
-  (export '%glm::glm+vec<4+long+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+unpack-i3x10-1x2 "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+ivec3 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp>+value-type
-          "%GLM")
   (export '%glm::glm+mediump-dmat4x4 "%GLM")
   (export '%glm::glm+qua<float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+pack-unorm1x8 "%GLM")
@@ -62702,10 +59055,7 @@
   (export '%glm::glm+mat<4+4+float+glm+aligned-lowp>+col-type "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<4+float+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+highp-u32vec3 "%GLM")
-  (export '%glm::glm+vec<1+unsigned+char+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+perspective-fov "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+transpose-type
@@ -62732,23 +59082,19 @@
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-mediump>+length
           "%GLM")
-  (export '%glm::glm+detail+storage<3+int+true>+type "%GLM")
-  (export '%glm::glm+vec<2+long+glm+packed-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-lowp>+length
           "%GLM")
-  (export '%glm::glm+vec<4+int+glm+aligned-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+mediump-fmat2x2 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp> "%GLM")
+  (export '%glm::glm+highp-mat3x4 "%GLM")
   (export '%glm::glm+highp-vec1 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat3-cast "%GLM")
   (export '%glm::glm+mediump-i16 "%GLM")
   (export '%glm::glm+qua<float+glm+aligned-highp>+value-type "%GLM")
-  (export '%glm::glm+highp-mat3x4 "%GLM")
+  (export '%glm::glm+lowp-f32mat2 "%GLM")
   (export '%glm::glm+float-bits-to-int "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+aligned-highp>+transpose-type
           "%GLM")
@@ -62766,8 +59112,6 @@
   (export '%glm::glm+lowp-dmat4 "%GLM")
   (export '%glm::glm+lowp-f32mat3x3 "%GLM")
   (export '%glm::glm+lowp-int64-t "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+packed-mediump>+value-type
-          "%GLM")
   (export '%glm::glm+lowp-u32 "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-mediump>+length-type
           "%GLM")
@@ -62780,8 +59124,6 @@
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-mediump>+length-type
@@ -62793,8 +59135,7 @@
   (export '%glm::glm+mediump-fmat3x2 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-mediump>+col-type
           "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+short+true>+type
-          "%GLM")
+  (export '%glm::glm+mat<3+2+float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+uvec2 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-mediump>+col-type
@@ -62811,12 +59152,9 @@
   (export '%glm::glm+vec<3+int+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-lowp>+transpose-type
           "%GLM")
-  (export '%glm::glm+detail+storage<4+long+true>+type "%GLM")
   (export '%glm::glm+lowp-f32mat4x3 "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-mediump> "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-lowp> "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-highp>+transpose-type
@@ -62824,13 +59162,9 @@
   (export '%glm::glm+vec<3+float+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-uvec1 "%GLM")
-  (export '%glm::glm+vec<2+float+glm+aligned-lowp>+bool-type "%GLM")
-  (export '%glm::glm+mediump-bvec3 "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+bvec4 "%GLM")
-  (export '%glm::glm+mat<3+2+float+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<4+short+glm+packed-mediump>+bool-type
+  (export '%glm::glm+mat<2+2+double+glm+packed-highp>+col-type
           "%GLM")
   (export '%glm::glm+lowp-f64mat4x3 "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-mediump>+value-type
@@ -62842,10 +59176,7 @@
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+aligned-highp>+length
           "%GLM")
-  (export '%glm::glm+vec<1+double+glm+packed-mediump>+bool-type
-          "%GLM")
-  (export '%glm::glm+mat<2+2+double+glm+packed-highp>+col-type
-          "%GLM")
+  (export '%glm::glm+lowp-i32vec3 "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-highp> "%GLM")
   (export '%glm::glm+perspective-fov-rh-no "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+packed-lowp>+row-type "%GLM")
@@ -62853,13 +59184,10 @@
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-highp>+type
           "%GLM")
   (export '%glm::glm+highp-fmat2 "%GLM")
-  (export '%glm::glm+lowp-i32vec3 "%GLM")
+  (export '%glm::glm+lowp-u32vec4 "%GLM")
   (export '%glm::glm+vec<2+char+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+vec<1+unsigned+long+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+bitfield-extract "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+type "%GLM")
-  (export '%glm::glm+lowp-u32vec4 "%GLM")
   (export '%glm::glm+operator^ "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-highp>+length-type "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-mediump>+value-type
@@ -62874,10 +59202,10 @@
   (export '%glm::glm+mat<4+4+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+lowp-i8vec4 "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+lowp-f32mat2 "%GLM")
   (export '%glm::glm+mat2x2 "%GLM")
   (export '%glm::glm+lowp-fmat3x4 "%GLM")
-  (export '%glm::glm+vec<1+bool+glm+packed-lowp> "%GLM")
+  (export '%glm::glm+mat<2+3+double+glm+aligned-highp>+row-type
+          "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-mediump> "%GLM")
@@ -62889,20 +59217,20 @@
   (export '%glm::glm+vec<2+unsigned+int+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-highp>+value-type "%GLM")
-  (export '%glm::glm+pack-uint4x8 "%GLM")
+  (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+length
+          "%GLM")
   (export '%glm::glm+frustum-rh-zo "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-highp>+length-type "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-highp>+transpose-type
           "%GLM")
+  (export '%glm::glm+pack-uint4x8 "%GLM")
   (export '%glm::glm+mediump-dmat3x3 "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-highp>+length-type
-          "%GLM")
-  (export '%glm::glm+mat<2+3+double+glm+aligned-highp>+row-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-highp>+row-type
           "%GLM")
@@ -62924,8 +59252,6 @@
   (export '%glm::glm+vec<4+unsigned+char+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+lowp-uvec1 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+length
-          "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp> "%GLM")
@@ -62944,17 +59270,13 @@
   (export '%glm::glm+sec "%GLM")
   (export '%glm::glm+vec<1+char+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+vec3 "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+operator- "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<1+char+glm+packed-mediump>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp>+bool-type
-          "%GLM")
+  (export '%glm::glm+mat<4+4+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp> "%GLM")
@@ -62962,7 +59284,6 @@
           "%GLM")
   (export '%glm::glm+highp-vec4 "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+mediump-bvec1 "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-mediump>+transpose-type
@@ -62976,7 +59297,6 @@
           "%GLM")
   (export '%glm::glm+mediump-i32 "%GLM")
   (export '%glm::glm+qua<float+glm+packed-lowp>+length-type "%GLM")
-  (export '%glm::glm+mat<4+4+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+vec<2+char+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+fvec2 "%GLM")
@@ -62992,8 +59312,9 @@
   (export '%glm::glm+vec<2+unsigned+char+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+detail+uint64 "%GLM")
-  (export '%glm::glm+make-mat2x2 "%GLM")
-  (export '%glm::glm+detail+storage<4+double+false>+type "%GLM")
+  (export '%glm::glm+vec<1+char+glm+aligned-highp>+value-type "%GLM")
+  (export '%glm::glm+vec<1+char+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+make-vec4 "%GLM")
   (export '%glm::glm+qua<double+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+vec<2+short+glm+aligned-highp>+type "%GLM")
@@ -63013,9 +59334,6 @@
   (export '%glm::glm+mat<3+3+float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp>+length
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-mediump>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<4+int+glm+aligned-mediump>+bool-type "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+f32mat2 "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-mediump>+length-type
@@ -63039,17 +59357,14 @@
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-lowp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<1+char+glm+aligned-highp>+value-type "%GLM")
+  (export '%glm::glm+make-mat2x2 "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-lowp>+col-type "%GLM")
   (export '%glm::glm+mediump-fmat2 "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-highp>+bool-type
-          "%GLM")
+  (export '%glm::glm+vec<4+char+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+lowp-uint16 "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-lowp>+bool-type "%GLM")
-  (export '%glm::glm+vec<3+unsigned+short+glm+aligned-highp>+bool-type
-          "%GLM")
+  (export '%glm::glm+vec<4+long+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-mediump>+col-type
@@ -63058,7 +59373,8 @@
   (export '%glm::glm+mediump-f32mat2x4 "%GLM")
   (export '%glm::glm+vec<4+int+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+vec<4+int+glm+packed-mediump>+value-type "%GLM")
-  (export '%glm::glm+vec<1+int+glm+packed-mediump>+bool-type "%GLM")
+  (export '%glm::glm+vec<1+unsigned+char+glm+packed-mediump>+length-type
+          "%GLM")
   (export '%glm::glm+mediump-uint8 "%GLM")
   (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp>+length-type
           "%GLM")
@@ -63071,33 +59387,18 @@
   (export '%glm::glm+qua<float+glm+aligned-highp>+length-type "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-highp>+length
           "%GLM")
-  (export '%glm::glm+vec<4+long+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+fvec4 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<4+char+false>+type "%GLM")
   (export '%glm::glm+vec<2+double+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+long+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+highp-mat2x3 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+int+glm+aligned-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+mediump-dvec1 "%GLM")
-  (export '%glm::glm+vec<4+short+glm+packed-highp>+bool-type "%GLM")
-  (export '%glm::glm+detail+storage<2+short+false>+type "%GLM")
-  (export '%glm::glm+vec<4+char+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+vec<1+unsigned+char+glm+packed-mediump>+length-type
-          "%GLM")
-  (export '%glm::glm+vec<2+bool+glm+packed-highp> "%GLM")
-  (export '%glm::glm+mat<4+4+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec<4+char+glm+aligned-highp>+value-type "%GLM")
+  (export '%glm::glm+mediump-dvec1 "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-highp>+length "%GLM")
+  (export '%glm::glm+mat<4+4+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+lowp-i16vec1 "%GLM")
-  (export '%glm::glm+vec<4+short+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<3+float+glm+aligned-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-highp>+length
           "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-mediump>+value-type
@@ -63107,13 +59408,11 @@
   (export '%glm::glm+mediump-mat4x2 "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+length
           "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-lowp>+bool-type "%GLM")
-  (export '%glm::glm+bvec1 "%GLM")
+  (export '%glm::glm+vec<3+short+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+ceil "%GLM")
   (export '%glm::glm+fvec1 "%GLM")
-  (export '%glm::glm+vec<3+short+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+quat-cast "%GLM")
   (export '%glm::glm+vec<1+char+glm+packed-highp> "%GLM")
   (export '%glm::glm+lowp-u8vec2 "%GLM")
@@ -63124,7 +59423,7 @@
           "%GLM")
   (export '%glm::glm+vec<4+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<1+unsigned+short+glm+aligned-highp>+bool-type
+  (export '%glm::glm+vec<2+unsigned+int+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-lowp>+length-type
           "%GLM")
@@ -63135,26 +59434,20 @@
           "%GLM")
   (export '%glm::glm+ortho-no "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<1+long+glm+packed-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+long+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+lowp-uint32-t "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-lowp>+transpose-type
           "%GLM")
   (export '%glm::glm+vec<4+double+glm+aligned-lowp> "%GLM")
-  (export '%glm::glm+bvec2 "%GLM")
   (export '%glm::glm+highp-u8vec2 "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-lowp> "%GLM")
-  (export '%glm::glm+vec<3+bool+glm+aligned-mediump> "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-highp>+length-type
-          "%GLM")
-  (export '%glm::glm+vec<1+short+glm+packed-mediump>+bool-type
-          "%GLM")
+  (export '%glm::glm+unpack-uint2x16 "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-highp>+col-type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-lowp>+length
           "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+int+true>+type "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-mediump>+length-type
@@ -63162,38 +59455,33 @@
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump> "%GLM")
   (export '%glm::glm+lowp-int64 "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-lowp>+col-type "%GLM")
-  (export '%glm::glm+vec<1+unsigned+long+glm+packed-highp>+bool-type
+  (export '%glm::glm+vec<2+unsigned+int+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<3+double+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-highp>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<2+int+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mediump-f32mat4x3 "%GLM")
   (export '%glm::glm+pack-i3x10-1x2 "%GLM")
-  (export '%glm::glm+unpack-uint2x16 "%GLM")
+  (export '%glm::glm+vec<4+unsigned+int+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+highp-mat3x2 "%GLM")
   (export '%glm::glm+uvec4 "%GLM")
   (export '%glm::glm+mediump-i32vec4 "%GLM")
   (export '%glm::glm+mediump-i16vec2 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-highp>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<2+double+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-highp>+type
           "%GLM")
   (export '%glm::glm+qua<double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+umul-extended "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-highp> "%GLM")
-  (export '%glm::glm+vec<1+long+glm+packed-mediump>+bool-type "%GLM")
+  (export '%glm::glm+mediump-f64mat3x2 "%GLM")
+  (export '%glm::glm+vec<2+long+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+highp-float64 "%GLM")
   (export '%glm::glm+mediump-u32vec3 "%GLM")
   (export '%glm::glm+mediump-int8-t "%GLM")
-  (export '%glm::glm+vec<4+long+glm+packed-lowp>+value-type "%GLM")
-  (export '%glm::glm+vec<2+long+glm+packed-highp>+length "%GLM")
+  (export '%glm::glm+mat<3+3+float+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+highp-u64 "%GLM")
-  (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+col-type
+  (export '%glm::glm+vec<2+unsigned+short+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-mediump>+col-type
           "%GLM")
@@ -63203,17 +59491,13 @@
           "%GLM")
   (export '%glm::glm+vec<2+long+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+short+true>+type
-          "%GLM")
   (export '%glm::glm+~vec "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-highp>+type "%GLM")
-  (export '%glm::glm+mediump-f64mat3x2 "%GLM")
-  (export '%glm::glm+mat<4+3+double+glm+aligned-highp>+row-type
+  (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+col-type
           "%GLM")
+  (export '%glm::glm+vec<3+long+glm+packed-highp> "%GLM")
   (export '%glm::glm+highp-mat3 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+int+glm+packed-mediump>+value-type
-          "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+char+true>+type
+  (export '%glm::glm+mat<3+3+float+glm+packed-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+transpose-type
           "%GLM")
@@ -63221,15 +59505,11 @@
   (export '%glm::glm+fmat4x3 "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+mediump-f32vec2 "%GLM")
-  (export '%glm::glm+vec<4+double+glm+aligned-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+mat<3+3+float+glm+packed-lowp>+row-type "%GLM")
-  (export '%glm::glm+mat<3+2+float+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+aligned-highp>+value-type
-          "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+aligned-highp>+type
           "%GLM")
+  (export '%glm::glm+mat<4+3+double+glm+aligned-highp>+row-type
+          "%GLM")
+  (export '%glm::glm+mediump-f32vec2 "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-lowp>+length-type
@@ -63242,17 +59522,16 @@
   (export '%glm::glm+lowp-f32mat4x2 "%GLM")
   (export '%glm::glm+u16vec2 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+mat<3+3+float+glm+packed-highp>+transpose-type
-          "%GLM")
+  (export '%glm::glm+vec<3+short+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+highp-i16 "%GLM")
-  (export '%glm::glm+vec<1+short+glm+packed-lowp>+length-type "%GLM")
-  (export '%glm::glm+vec<4+float+glm+packed-mediump>+bool-type
+  (export '%glm::glm+vec<2+unsigned+short+glm+packed-highp>+type
           "%GLM")
+  (export '%glm::glm+vec<1+short+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-highp>+row-type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mediump-uvec3 "%GLM")
+  (export '%glm::glm+highp-i16 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-lowp> "%GLM")
@@ -63265,23 +59544,20 @@
   (export '%glm::glm+lowp-dmat2x3 "%GLM")
   (export '%glm::glm+lowp-f64vec1 "%GLM")
   (export '%glm::glm+float32 "%GLM")
-  (export '%glm::glm+detail+storage<1+int+true>+type "%GLM")
+  (export '%glm::glm+highp-u64vec1 "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mediump-mat4 "%GLM")
   (export '%glm::glm+u16vec1 "%GLM")
-  (export '%glm::glm+highp-u64vec1 "%GLM")
   (export '%glm::glm+scale "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+char+false>+type
-          "%GLM")
+  (export '%glm::glm+mat<3+2+float+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<3+short+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<4+int+glm+packed-mediump>+bool-type "%GLM")
+  (export '%glm::glm+vec<2+int+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-mediump>+length-type
           "%GLM")
@@ -63299,12 +59575,10 @@
           "%GLM")
   (export '%glm::glm+perlin "%GLM")
   (export '%glm::glm+i32 "%GLM")
-  (export '%glm::glm+detail+storage<3+long+true>+type "%GLM")
   (export '%glm::glm+u8 "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+qua<float+glm+packed-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<1+short+glm+aligned-highp>+bool-type "%GLM")
   (export '%glm::glm+mediump-mat2x2 "%GLM")
   (export '%glm::glm+vec<4+char+glm+packed-mediump>+value-type
           "%GLM")
@@ -63325,14 +59599,15 @@
   (export '%glm::glm+ortho-lh "%GLM")
   (export '%glm::glm+vec<4+float+glm+aligned-lowp>+value-type "%GLM")
   (export '%glm::glm+vec<4+double+glm+aligned-mediump> "%GLM")
-  (export '%glm::glm+mat<3+4+double+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+vec<2+float+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+highp-mat2x2 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<1+unsigned+char+glm+aligned-highp>+bool-type
+  (export '%glm::glm+mat<3+4+double+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+type
           "%GLM")
+  (export '%glm::glm+vec<2+unsigned+short+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+highp-dmat2x4 "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+ortho-rh "%GLM")
@@ -63341,8 +59616,8 @@
   (export '%glm::glm+mat<2+3+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+vec<3+float+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+int+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+vec<1+char+glm+packed-lowp>+length "%GLM")
+  (export '%glm::glm+vec<2+short+glm+aligned-highp>+value-type
+          "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-mediump>+length "%GLM")
@@ -63353,25 +59628,22 @@
           "%GLM")
   (export '%glm::glm+~mat "%GLM")
   (export '%glm::glm+highp-f64mat3x3 "%GLM")
-  (export '%glm::glm+highp-dmat2x4 "%GLM")
   (export '%glm::glm+uint "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<4+int+glm+packed-highp>+length-type "%GLM")
+  (export '%glm::glm+vec<2+unsigned+long+glm+packed-lowp>+value-type
+          "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-highp>+row-type
           "%GLM")
   (export '%glm::glm+perspective-lh "%GLM")
   (export '%glm::glm+vec<3+double+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+perspective-no "%GLM")
-  (export '%glm::glm+vec<4+double+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+int+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+qua<double+glm+packed-mediump>+type "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-lowp>+value-type
+  (export '%glm::glm+vec<4+float+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<3+char+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+length "%GLM")
@@ -63380,30 +59652,20 @@
           "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+packed-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+char+true>+type
-          "%GLM")
   (export '%glm::glm+vec<4+float+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+frustum-lh "%GLM")
   (export '%glm::glm+lowp-int8 "%GLM")
-  (export '%glm::glm+vec<4+float+glm+aligned-highp>+value-type
-          "%GLM")
   (export '%glm::glm+translate "%GLM")
   (export '%glm::glm+vec<4+double+glm+packed-lowp>+value-type "%GLM")
+  (export '%glm::glm+vec<1+char+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+pack-unorm4x16 "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+long+glm+packed-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<2+short+glm+aligned-highp>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+type
-          "%GLM")
+  (export '%glm::glm+highp-mat2x2 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+vec<4+unsigned+char+glm+aligned-highp>+type
-          "%GLM")
-  (export '%glm::glm+vec<1+unsigned+int+glm+packed-highp>+bool-type
           "%GLM")
   (export '%glm::glm+dot "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-highp>+type "%GLM")
@@ -63417,28 +59679,26 @@
   (export '%glm::glm+f32mat4x4 "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+packed-lowp>+length
           "%GLM")
+  (export '%glm::glm+vec<4+int+glm+packed-highp>+length-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+packed-mediump> "%GLM")
   (export '%glm::glm+lowp-dvec3 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+packed-lowp>+length
-          "%GLM")
+  (export '%glm::glm+vec<3+float+glm+aligned-lowp>+type "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+row-type
           "%GLM")
-  (export '%glm::glm+vec<3+float+glm+aligned-lowp>+type "%GLM")
+  (export '%glm::glm+i16vec1 "%GLM")
   (export '%glm::glm+asech "%GLM")
   (export '%glm::glm+vec<1+double+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mirror-clamp "%GLM")
   (export '%glm::glm+mediump-f64mat4x2 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-highp>+type
-          "%GLM")
   (export '%glm::glm+highp-u8vec1 "%GLM")
   (export '%glm::glm+tan "%GLM")
   (export '%glm::glm+mediump-f32 "%GLM")
-  (export '%glm::glm+u64 "%GLM")
+  (export '%glm::glm+vec<2+unsigned+char+glm+packed-lowp>+length
+          "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-mediump>+type
           "%GLM")
   (export '%glm::glm+fmin "%GLM")
-  (export '%glm::glm+i16vec1 "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+lowp-f32 "%GLM")
@@ -63465,8 +59725,7 @@
   (export '%glm::glm+mat<2+4+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+highp-f32vec4 "%GLM")
   (export '%glm::glm+lowp-u16 "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+short+false>+type
-          "%GLM")
+  (export '%glm::glm+u64 "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+packed-highp>+row-type
           "%GLM")
   (export '%glm::glm+rotate "%GLM")
@@ -63488,8 +59747,6 @@
   (export '%glm::glm+vec<4+double+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+frustum-lh-no "%GLM")
-  (export '%glm::glm+vec<2+unsigned+char+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+vec<2+float+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp>+length
@@ -63510,8 +59767,6 @@
   (export '%glm::glm+lowp-f32mat2x2 "%GLM")
   (export '%glm::glm+highp-vec2 "%GLM")
   (export '%glm::glm+make-vec1 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+packed-mediump>+length
           "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-mediump>+length "%GLM")
@@ -63532,16 +59787,11 @@
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+aligned-highp>+type
           "%GLM")
-  (export '%glm::glm+vec<1+float+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-highp> "%GLM")
-  (export '%glm::glm+vec<4+double+glm+aligned-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+int64 "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<2+float+glm+aligned-mediump>+bool-type
           "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-mediump>+transpose-type
           "%GLM")
@@ -63549,12 +59799,10 @@
   (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-u16 "%GLM")
-  (export '%glm::glm+detail+storage<2+int+false>+type "%GLM")
-  (export '%glm::glm+mat<2+4+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+type
           "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-lowp>+value-type "%GLM")
-  (export '%glm::glm+vec<3+char+glm+packed-highp>+length "%GLM")
+  (export '%glm::glm+mat<2+4+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-lowp>+col-type "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-mediump>+value-type
@@ -63563,13 +59811,13 @@
   (export '%glm::glm+vec<1+float+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-mediump>+length
           "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+ortho-lh-zo "%GLM")
   (export '%glm::glm+mediump-i16vec4 "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-mediump>+type
           "%GLM")
+  (export '%glm::glm+vec<3+char+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+perspective-rh-zo "%GLM")
   (export '%glm::glm+perspective-lh-zo "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+aligned-highp>+value-type
@@ -63581,16 +59829,11 @@
   (export '%glm::glm+vec<2+int+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+highp-dmat3x3 "%GLM")
   (export '%glm::glm+mediump-dmat2x3 "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+short+false>+type
-          "%GLM")
   (export '%glm::glm+vec<4+double+glm+packed-mediump>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+aligned-highp>+bool-type
           "%GLM")
   (export '%glm::glm+operator!= "%GLM")
   (export '%glm::glm+mediump-u16vec3 "%GLM")
   (export '%glm::glm+mediump-i16vec3 "%GLM")
-  (export '%glm::glm+vec<3+short+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-u32 "%GLM")
@@ -63604,7 +59847,6 @@
   (export '%glm::glm+highp-fmat3x2 "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-lowp>+col-type "%GLM")
   (export '%glm::glm+highp-f64mat2x4 "%GLM")
-  (export '%glm::glm+vec<2+long+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-highp>+row-type "%GLM")
   (export '%glm::glm+perspective "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+type "%GLM")
@@ -63612,12 +59854,11 @@
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<4+char+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+vec<2+unsigned+long+glm+packed-highp> "%GLM")
   (export '%glm::glm+fmax "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+packed-mediump>+type
           "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+aligned-highp>+length
+  (export '%glm::glm+vec<3+long+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mediump-vec2 "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-lowp> "%GLM")
@@ -63625,47 +59866,41 @@
   (export '%glm::glm+vec<2+int+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<2+unsigned+char+glm+packed-highp>+length
           "%GLM")
-  (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+col-type "%GLM")
+  (export '%glm::glm+vec<3+long+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+frustum-lh-zo "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-mediump>+col-type
           "%GLM")
   (export '%glm::glm+mediump-dquat "%GLM")
-  (export '%glm::glm+mediump-u16vec4 "%GLM")
-  (export '%glm::glm+vec<2+bool+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-mediump>+value-type
+  (export '%glm::glm+vec<4+unsigned+short+glm+aligned-highp>+length
           "%GLM")
   (export '%glm::glm+vec<1+short+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+acosh "%GLM")
   (export '%glm::glm+perspective-fov-rh "%GLM")
+  (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-lowp>+value-type "%GLM")
-  (export '%glm::glm+lowp-dmat2x2 "%GLM")
+  (export '%glm::glm+mediump-u16vec4 "%GLM")
   (export '%glm::glm+f32mat4x2 "%GLM")
   (export '%glm::glm+qua<double+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat2x3 "%GLM")
   (export '%glm::glm+vec<3+long+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+mat<2+4+double+glm+packed-lowp>+length "%GLM")
+  (export '%glm::glm+vec<3+short+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec<1+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<4+char+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+f32vec3 "%GLM")
-  (export '%glm::glm+detail+storage<2+long+false>+type "%GLM")
-  (export '%glm::glm+highp-i8vec4 "%GLM")
   (export '%glm::glm+lowp-fvec3 "%GLM")
-  (export '%glm::glm+mat<2+4+double+glm+packed-mediump>+length-type
-          "%GLM")
+  (export '%glm::glm+highp-i8vec4 "%GLM")
+  (export '%glm::glm+lowp-dmat2x2 "%GLM")
+  (export '%glm::glm+mat<2+4+double+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+pow "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-mediump> "%GLM")
   (export '%glm::glm+convert-srgb-to-linear "%GLM")
-  (export '%glm::glm+vec<3+short+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-highp> "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-mediump>+value-type
           "%GLM")
@@ -63682,6 +59917,8 @@
   (export '%glm::glm+vec<3+unsigned+int+glm+aligned-highp>+length
           "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-lowp>+length "%GLM")
+  (export '%glm::glm+mat<2+4+double+glm+packed-mediump>+length-type
+          "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-mediump>+transpose-type
           "%GLM")
@@ -63713,15 +59950,13 @@
   (export '%glm::glm+vec<3+short+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+vec<1+char+glm+packed-lowp>+length-type "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+char+true>+type
-          "%GLM")
+  (export '%glm::glm+vec<3+int+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+lowp-uvec3 "%GLM")
   (export '%glm::glm+vec<1+int+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec1 "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+bitfield-insert "%GLM")
-  (export '%glm::glm+vec<3+bool+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<1+double+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+uvec3 "%GLM")
@@ -63731,7 +59966,6 @@
   (export '%glm::glm+mat<2+3+double+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-highp> "%GLM")
-  (export '%glm::glm+vec<3+bool+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-f64vec3 "%GLM")
@@ -63741,7 +59975,6 @@
   (export '%glm::glm+mat<4+3+float+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+mediump-fmat4 "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+packed-highp>+row-type
           "%GLM")
@@ -63749,7 +59982,6 @@
   (export '%glm::glm+vec<2+unsigned+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-lowp>+transpose-type
           "%GLM")
@@ -63759,10 +59991,7 @@
   (export '%glm::glm+mat<3+2+double+glm+packed-highp>+transpose-type
           "%GLM")
   (export '%glm::glm+highp-float64-t "%GLM")
-  (export '%glm::glm+vec<1+bool+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-mediump>+length-type
-          "%GLM")
-  (export '%glm::glm+detail+storage<3+unsigned+long+false>+type
           "%GLM")
   (export '%glm::glm+mediump-ivec3 "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-mediump>+value-type
@@ -63779,7 +60008,6 @@
   (export '%glm::glm+vec<4+char+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+vec<3+char+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+vec<4+bool+glm+aligned-highp> "%GLM")
   (export '%glm::glm+lowp-fmat3x3 "%GLM")
   (export '%glm::glm+mediump-fmat2x3 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-highp>+length-type
@@ -63790,7 +60018,6 @@
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+highp-i8vec1 "%GLM")
-  (export '%glm::glm+vec<3+float+glm+aligned-highp>+bool-type "%GLM")
   (export '%glm::glm+vec<3+char+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+mediump-i32vec3 "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-mediump>+length
@@ -63824,8 +60051,6 @@
   (export '%glm::glm+mat<4+2+float+glm+packed-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+operator>> "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+short+true>+type
-          "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-highp>+col-type
           "%GLM")
   (export '%glm::glm+vec<3+int+glm+packed-highp> "%GLM")
@@ -63835,15 +60060,12 @@
   (export '%glm::glm+vec<4+float+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<1+short+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+dvec2 "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-mediump>+bool-type "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+packed-lowp>+length-type
           "%GLM")
-  (export '%glm::glm+lowp-bvec2 "%GLM")
   (export '%glm::glm+highp-fvec3 "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-mediump>+length "%GLM")
@@ -63852,14 +60074,11 @@
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-mediump>+type
           "%GLM")
-  (export '%glm::glm+vec<3+unsigned+short+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-highp>+col-type
           "%GLM")
   (export '%glm::glm+vec<3+int+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+packed-mediump>+value-type
           "%GLM")
-  (export '%glm::glm+vec<3+bool+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-mediump>+transpose-type
           "%GLM")
@@ -63870,8 +60089,7 @@
   (export '%glm::glm+vec<4+short+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-lowp> "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+short+true>+type
-          "%GLM")
+  (export '%glm::glm+vec<3+long+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+highp-uvec3 "%GLM")
   (export '%glm::glm+mediump-i8vec4 "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-mediump>+length-type
@@ -63886,7 +60104,6 @@
   (export '%glm::glm+lowp-f32mat3x2 "%GLM")
   (export '%glm::glm+infinite-perspective-rh "%GLM")
   (export '%glm::glm+mediump-mat4x4 "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+make-mat4x2 "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp>+value-type
           "%GLM")
@@ -63901,8 +60118,6 @@
   (export '%glm::glm+conjugate "%GLM")
   (export '%glm::glm+vec<4+double+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+lowp-i16vec4 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-mediump>+col-type
           "%GLM")
   (export '%glm::glm+lowp-u16vec3 "%GLM")
@@ -63913,11 +60128,10 @@
   (export '%glm::glm+mat<3+4+float+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+dvec4 "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<2+short+true>+type "%GLM")
+  (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+4+double+glm+aligned-highp>+transpose-type
@@ -63931,7 +60145,7 @@
           "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+aligned-highp> "%GLM")
   (export '%glm::glm+unpack-unorm3x5-1x1 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+vec<2+double+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-lowp>+value-type
           "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+aligned-highp> "%GLM")
@@ -63951,13 +60165,8 @@
   (export '%glm::glm+u8vec4 "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-highp>+row-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-mediump>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<2+double+glm+aligned-highp>+type "%GLM")
   (export '%glm::GLM+OPERATOR\| "%GLM")
   (export '%glm::glm+vec<1+int+glm+aligned-highp>+length "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+long+false>+type
-          "%GLM")
   (export '%glm::glm+highp-uint64 "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+f32vec2 "%GLM")
@@ -63968,31 +60177,29 @@
           "%GLM")
   (export '%glm::glm+highp-f64 "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+vec<2+int+glm+packed-mediump>+length-type
+  (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+highp-uint16-t "%GLM")
-  (export '%glm::glm+detail+storage<4+short+true>+type "%GLM")
-  (export '%glm::glm+vec<2+float+glm+packed-lowp>+length-type "%GLM")
+  (export '%glm::glm+mat<4+3+double+glm+packed-lowp>+value-type
+          "%GLM")
+  (export '%glm::glm+vec<2+int+glm+packed-mediump>+length-type
+          "%GLM")
   (export '%glm::glm+vec<3+unsigned+int+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+aligned-highp>+value-type
-          "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+ivec2 "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+ceil-multiple "%GLM")
   (export '%glm::glm+vec<4+float+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+mat<4+3+double+glm+packed-lowp>+value-type
+  (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+vec<4+int+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-mediump>+type "%GLM")
-  (export '%glm::glm+mat<3+3+double+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+vec<2+float+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+lowp-fvec2 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+length-type
-          "%GLM")
   (export '%glm::glm+perspective-fov-lh-zo "%GLM")
   (export '%glm::glm+unpack-int4x16 "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+aligned-highp>+length-type
@@ -64009,11 +60216,10 @@
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+packed-mediump>+length
           "%GLM")
+  (export '%glm::glm+mat<3+3+double+glm+packed-mediump> "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+aligned-highp>+type
           "%GLM")
   (export '%glm::glm+int32 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+lowp-mat2 "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-highp>+col-type
           "%GLM")
@@ -64024,10 +60230,9 @@
   (export '%glm::glm+find-nsb "%GLM")
   (export '%glm::glm+vec<1+unsigned+short+glm+packed-mediump>+length
           "%GLM")
-  (export '%glm::glm+highp-f32 "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-highp>+length
+  (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+char+false>+type
+  (export '%glm::glm+vec<3+unsigned+long+glm+packed-highp>+length
           "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+aligned-highp>+col-type
           "%GLM")
@@ -64035,10 +60240,8 @@
   (export '%glm::glm+vec<1+double+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+smoothstep "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+pack-snorm4x16 "%GLM")
+  (export '%glm::glm+highp-f32 "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-mediump>+transpose-type
           "%GLM")
   (export '%glm::glm+mat<2+3+double+glm+aligned-highp>+type "%GLM")
@@ -64046,12 +60249,16 @@
   (export '%glm::glm+vec<3+unsigned+char+glm+packed-lowp>+type
           "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-lowp>+row-type "%GLM")
-  (export '%glm::glm+mat<3+2+double+glm+packed-highp>+row-type
+  (export '%glm::glm+pack-snorm4x16 "%GLM")
+  (export '%glm::glm+vec<2+unsigned+long+glm+packed-mediump>+type
           "%GLM")
   (export '%glm::glm+vec<4+short+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+int+true>+type "%GLM")
+  (export '%glm::glm+mat<3+2+float+glm+packed-highp>+value-type
+          "%GLM")
   (export '%glm::glm+vec<2+float+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+vec<1+char+glm+aligned-highp>+length "%GLM")
+  (export '%glm::glm+mat<3+2+double+glm+packed-highp>+row-type
+          "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-lowp> "%GLM")
   (export '%glm::glm+float64 "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-lowp>+transpose-type
@@ -64061,31 +60268,20 @@
   (export '%glm::glm+vec<1+short+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<2+long+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+mat<3+2+float+glm+packed-highp>+value-type
-          "%GLM")
+  (export '%glm::glm+mat<3+2+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-highp>+length
           "%GLM")
   (export '%glm::glm+vec<2+unsigned+short+glm+aligned-highp>+length
           "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+aligned-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-lowp>+bool-type
-          "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+short+false>+type
-          "%GLM")
+  (export '%glm::glm+f32mat3x4 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-highp>+transpose-type
           "%GLM")
-  (export '%glm::glm+vec<2+unsigned+short+glm+packed-lowp>+value-type
-          "%GLM")
   (export '%glm::glm+mediump-u64 "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-mediump>+type
-          "%GLM")
   (export '%glm::glm+dmat2x2 "%GLM")
-  (export '%glm::glm+vec<1+float+glm+packed-mediump>+bool-type
-          "%GLM")
   (export '%glm::glm+f32mat2x4 "%GLM")
   (export '%glm::glm+i32vec2 "%GLM")
-  (export '%glm::glm+vec<2+bool+glm+packed-mediump> "%GLM")
   (export '%glm::glm+qua<float+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+lowp-u64vec2 "%GLM")
@@ -64097,21 +60293,16 @@
   (export '%glm::glm+value-ptr "%GLM")
   (export '%glm::glm+vec<3+int+glm+packed-lowp>+length "%GLM")
   (export '%glm::glm+mediump-int16-t "%GLM")
-  (export '%glm::glm+detail+storage<1+short+false>+type "%GLM")
+  (export '%glm::glm+ortho-lh-no "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-mediump> "%GLM")
-  (export '%glm::glm+f32mat3x4 "%GLM")
   (export '%glm::glm+ortho-rh-no "%GLM")
-  (export '%glm::glm+vec<1+short+glm+packed-lowp>+type "%GLM")
+  (export '%glm::glm+vec<2+char+glm+aligned-highp>+value-type "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-lowp>+type
           "%GLM")
-  (export '%glm::glm+ortho-lh-no "%GLM")
   (export '%glm::glm+lowp-ivec2 "%GLM")
-  (export '%glm::glm+vec<2+long+glm+aligned-highp>+bool-type "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+aligned-lowp>+value-type
           "%GLM")
   (export '%glm::glm+lowp-dmat4x4 "%GLM")
-  (export '%glm::glm+detail+storage<2+unsigned+short+false>+type
-          "%GLM")
   (export '%glm::glm+pack-int2x32 "%GLM")
   (export '%glm::glm+mediump-f32mat2x3 "%GLM")
   (export '%glm::glm+uint64 "%GLM")
@@ -64119,8 +60310,6 @@
   (export '%glm::glm+quat-look-at "%GLM")
   (export '%glm::glm+highp-i64vec3 "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+aligned-lowp>+row-type "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<1+unsigned+long+glm+aligned-highp>+type
           "%GLM")
   (export '%glm::glm+vec<1+double+glm+packed-mediump> "%GLM")
@@ -64129,23 +60318,20 @@
   (export '%glm::glm+vec<4+int+glm+packed-mediump>+length-type
           "%GLM")
   (export '%glm::glm+dmat4x2 "%GLM")
-  (export '%glm::glm+mat<3+2+double+glm+packed-highp> "%GLM")
+  (export '%glm::glm+vec<1+short+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+aligned-highp>+type
           "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+make-mat4x4 "%GLM")
   (export '%glm::glm+vec<2+short+glm+packed-lowp>+length "%GLM")
-  (export '%glm::glm+detail+storage<3+short+false>+type "%GLM")
   (export '%glm::glm+highp-dvec4 "%GLM")
   (export '%glm::glm+highp-u64vec4 "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat4 "%GLM")
-  (export '%glm::glm+vec<4+float+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mediump-dmat2x2 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+vec<2+char+glm+aligned-highp>+value-type "%GLM")
   (export '%glm::glm+operator[] "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-mediump>+length
           "%GLM")
@@ -64162,14 +60348,12 @@
   (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+value-type
           "%GLM")
   (export '%glm::glm+mediump-i8vec2 "%GLM")
-  (export '%glm::glm+mediump-i64vec4 "%GLM")
+  (export '%glm::glm+vec<3+int+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+mat<4+3+double+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mediump-f32mat4x4 "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<3+long+false>+type "%GLM")
   (export '%glm::glm+unpack-unorm4x16 "%GLM")
-  (export '%glm::glm+vec<4+long+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+aligned-lowp>+row-type "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+aligned-mediump>+col-type
           "%GLM")
@@ -64181,7 +60365,7 @@
   (export '%glm::glm+asec "%GLM")
   (export '%glm::glm+highp-f32mat2 "%GLM")
   (export '%glm::glm+reflect "%GLM")
-  (export '%glm::glm+mediump-u64vec3 "%GLM")
+  (export '%glm::glm+mediump-i64vec4 "%GLM")
   (export '%glm::glm+vec<4+double+glm+aligned-mediump>+length "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-mediump>+value-type
           "%GLM")
@@ -64199,6 +60383,7 @@
   (export '%glm::glm+mat<3+2+double+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+vec<3+int+glm+packed-highp>+length "%GLM")
+  (export '%glm::glm+mediump-u64vec3 "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+perspective-fov-no "%GLM")
   (export '%glm::glm+mediump-f32quat "%GLM")
@@ -64207,7 +60392,7 @@
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-highp>+length
           "%GLM")
   (export '%glm::glm+vec<4+long+glm+packed-highp>+length "%GLM")
-  (export '%glm::glm+detail+storage<3+char+true>+type "%GLM")
+  (export '%glm::glm+vec<4+long+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+vec<2+unsigned+int+glm+packed-mediump>+length
           "%GLM")
   (export '%glm::glm+ortho-zo "%GLM")
@@ -64216,7 +60401,7 @@
   (export '%glm::glm+unpack-u3x10-1x2 "%GLM")
   (export '%glm::glm+vec<3+double+glm+aligned-highp>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<3+double+false>+type "%GLM")
+  (export '%glm::glm+mat<2+4+double+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+vec<4+short+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+mod "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-highp>+value-type
@@ -64225,11 +60410,11 @@
           "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<4+long+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+fmat3 "%GLM")
   (export '%glm::glm+f32vec1 "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+mat<2+4+double+glm+packed-lowp>+col-type "%GLM")
+  (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp>+value-type
+          "%GLM")
   (export '%glm::glm+vec<1+int+glm+aligned-highp> "%GLM")
   (export '%glm::glm+highp-u32vec2 "%GLM")
   (export '%glm::glm+vec<2+int+glm+aligned-highp>+length "%GLM")
@@ -64244,7 +60429,6 @@
           "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+packed-mediump>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<2+char+true>+type "%GLM")
   (export '%glm::glm+vec<3+int+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+exp "%GLM")
@@ -64260,22 +60444,16 @@
   (export '%glm::glm+vec<2+char+glm+packed-lowp> "%GLM")
   (export '%glm::glm+lowp-mat3 "%GLM")
   (export '%glm::glm+lowp-vec2 "%GLM")
-  (export '%glm::glm+vec<2+short+glm+aligned-highp>+bool-type "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+aligned-highp>+value-type
-          "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+packed-highp>+value-type
           "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+faceforward "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-lowp>+type
           "%GLM")
   (export '%glm::glm+operator-- "%GLM")
   (export '%glm::glm+qua<double+glm+packed-highp>+value-type "%GLM")
   (export '%glm::glm+abs "%GLM")
-  (export '%glm::glm+vec<2+unsigned+int+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+packed-mediump>+row-type
           "%GLM")
@@ -64287,7 +60465,7 @@
   (export '%glm::glm+vec<4+double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-mediump> "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-lowp>+length "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+packed-highp>+value-type
+  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp>+type
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+perspective-fov-rh-zo "%GLM")
@@ -64296,12 +60474,10 @@
   (export '%glm::glm+vec<3+unsigned+short+glm+aligned-highp>+type
           "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+packed-lowp>+col-type "%GLM")
-  (export '%glm::glm+vec<1+unsigned+short+glm+packed-lowp>+length-type
+  (export '%glm::glm+vec<3+unsigned+char+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+ivec4 "%GLM")
   (export '%glm::glm+lowp-float64-t "%GLM")
-  (export '%glm::glm+vec<3+unsigned+long+glm+packed-lowp>+type
-          "%GLM")
   (export '%glm::glm+vec<1+long+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+mediump-f64vec4 "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-highp>+value-type
@@ -64314,12 +60490,12 @@
   (export '%glm::glm+mat<2+3+double+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-lowp>+length-type
           "%GLM")
-  (export '%glm::glm+detail+storage<1+char+true>+type "%GLM")
+  (export '%glm::glm+vec<2+unsigned+long+glm+packed-mediump>+value-type
+          "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-mediump>+type
           "%GLM")
-  (export '%glm::glm+vec<3+unsigned+char+glm+aligned-highp>+bool-type
+  (export '%glm::glm+vec<1+unsigned+short+glm+packed-lowp>+length-type
           "%GLM")
-  (export '%glm::glm+mediump-fmat4x2 "%GLM")
   (export '%glm::glm+lowp-f64mat2x3 "%GLM")
   (export '%glm::glm+vec<1+unsigned+char+glm+packed-lowp> "%GLM")
   (export '%glm::glm+qua<float+glm+packed-highp>+length-type "%GLM")
@@ -64328,9 +60504,8 @@
   (export '%glm::glm+mat<2+2+double+glm+packed-lowp>+value-type
           "%GLM")
   (export '%glm::glm+circular-rand "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+packed-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<3+unsigned+short+glm+packed-highp>+bool-type
+  (export '%glm::glm+mediump-fmat4x2 "%GLM")
+  (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp>+type
           "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-highp> "%GLM")
   (export '%glm::glm+highp-dmat3x2 "%GLM")
@@ -64343,12 +60518,7 @@
           "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+aligned-highp>+col-type
           "%GLM")
-  (export '%glm::glm+mediump-bvec4 "%GLM")
-  (export '%glm::glm+vec<1+double+glm+aligned-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+qua<double+glm+packed-lowp>+value-type "%GLM")
-  (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp>+type
-          "%GLM")
   (export '%glm::glm+sinh "%GLM")
   (export '%glm::glm+u16 "%GLM")
   (export '%glm::glm+mat<3+3+float+glm+packed-highp>+row-type "%GLM")
@@ -64359,7 +60529,7 @@
   (export '%glm::glm+sign "%GLM")
   (export '%glm::glm+lowp-dmat3 "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-lowp>+type "%GLM")
-  (export '%glm::glm+vec<1+int+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+mat<3+2+float+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-mediump>+col-type
           "%GLM")
   (export '%glm::glm+acsc "%GLM")
@@ -64377,14 +60547,11 @@
   (export '%glm::glm+vec<2+short+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mat<4+2+float+glm+aligned-highp> "%GLM")
   (export '%glm::glm+vec<1+unsigned+int+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<4+unsigned+int+glm+packed-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<1+unsigned+int+glm+packed-mediump>+bool-type
-          "%GLM")
+  (export '%glm::glm+mat<2+4+float+glm+aligned-mediump> "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-highp>+length-type "%GLM")
   (export '%glm::glm+highp-mat2 "%GLM")
   (export '%glm::glm+mat3x2 "%GLM")
-  (export '%glm::glm+vec<3+int+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+short+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-mediump>+row-type
           "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+packed-lowp>+value-type
@@ -64393,20 +60560,14 @@
   (export '%glm::glm+vec<2+char+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+quat "%GLM")
   (export '%glm::glm+vec<2+int+glm+aligned-highp>+length-type "%GLM")
-  (export '%glm::glm+mat<3+2+float+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<4+4+float+glm+aligned-mediump>+col-type
-          "%GLM")
-  (export '%glm::glm+mat<2+4+float+glm+aligned-mediump> "%GLM")
-  (export '%glm::glm+vec<2+unsigned+long+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+mat<2+2+float+glm+aligned-lowp>+value-type
           "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-highp>+length "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+aligned-highp> "%GLM")
-  (export '%glm::glm+vec<4+short+glm+packed-highp>+type "%GLM")
-  (export '%glm::glm+detail+storage<3+char+false>+type "%GLM")
-  (export '%glm::glm+detail+storage<1+float+true>+type "%GLM")
+  (export '%glm::glm+vec<2+double+glm+packed-lowp>+type "%GLM")
   (export '%glm::glm+vec<2+long+glm+aligned-highp>+length "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-lowp> "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-mediump>+length-type
@@ -64439,17 +60600,16 @@
   (export '%glm::glm+pack-int2x16 "%GLM")
   (export '%glm::glm+highp-uint64-t "%GLM")
   (export '%glm::glm+min "%GLM")
-  (export '%glm::glm+detail+storage<3+float+false>+type "%GLM")
+  (export '%glm::glm+f32mat3x3 "%GLM")
   (export '%glm::glm+highp-fmat4x4 "%GLM")
   (export '%glm::glm+mat<4+2+double+glm+packed-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mat3x3 "%GLM")
-  (export '%glm::glm+detail+storage<3+int+false>+type "%GLM")
+  (export '%glm::glm+vec<3+long+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-mediump>+col-type
           "%GLM")
-  (export '%glm::glm+highp-bvec3 "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+packed-highp>+row-type
           "%GLM")
   (export '%glm::glm+highp-f32vec3 "%GLM")
@@ -64470,18 +60630,16 @@
   (export '%glm::glm+mat<3+3+double+glm+aligned-highp>+length-type
           "%GLM")
   (export '%glm::glm+f32mat4x3 "%GLM")
-  (export '%glm::glm+vec<4+float+glm+aligned-highp>+bool-type "%GLM")
   (export '%glm::glm+int8 "%GLM")
   (export '%glm::glm+i64 "%GLM")
   (export '%glm::glm+qua<float+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+mediump-ivec1 "%GLM")
-  (export '%glm::glm+vec<1+short+glm+packed-highp>+bool-type "%GLM")
   (export '%glm::glm+lowp-i32 "%GLM")
   (export '%glm::glm+vec<1+int+glm+packed-mediump>+length "%GLM")
   (export '%glm::glm+inversesqrt "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-lowp>+type "%GLM")
-  (export '%glm::glm+f32mat3x3 "%GLM")
-  (export '%glm::glm+vec<3+long+glm+aligned-highp>+bool-type "%GLM")
+  (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp>+type
+          "%GLM")
   (export '%glm::glm+mat<3+2+double+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<3+4+double+glm+aligned-highp>+transpose-type
@@ -64494,20 +60652,13 @@
   (export '%glm::glm+vec<1+unsigned+int+glm+packed-lowp>+length
           "%GLM")
   (export '%glm::glm+vec<3+short+glm+packed-highp>+value-type "%GLM")
-  (export '%glm::glm+vec<1+unsigned+long+glm+aligned-highp>+bool-type
-          "%GLM")
-  (export '%glm::glm+vec<4+unsigned+short+glm+packed-lowp>+type
-          "%GLM")
+  (export '%glm::glm+mediump-f32mat3x4 "%GLM")
   (export '%glm::glm+vec<4+unsigned+int+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+perspective-zo "%GLM")
   (export '%glm::glm+vec<2+long+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-lowp>+length "%GLM")
-  (export '%glm::glm+mediump-f32mat3x4 "%GLM")
-  (export '%glm::glm+vec<3+long+glm+packed-lowp>+length-type "%GLM")
   (export '%glm::glm+mat<3+2+float+glm+aligned-lowp>+row-type "%GLM")
-  (export '%glm::glm+vec<1+unsigned+int+glm+packed-lowp>+bool-type
-          "%GLM")
   (export '%glm::glm+vec<3+unsigned+long+glm+packed-highp>+type
           "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+type "%GLM")
@@ -64517,7 +60668,8 @@
           "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-highp>+length-type
           "%GLM")
-  (export '%glm::glm+vec<2+double+glm+packed-lowp>+type "%GLM")
+  (export '%glm::glm+vec<4+unsigned+char+glm+packed-highp>+type
+          "%GLM")
   (export '%glm::glm+vec<4+unsigned+long+glm+packed-highp>+length-type
           "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+aligned-highp>+value-type
@@ -64529,8 +60681,6 @@
   (export '%glm::glm+highp-dmat2x3 "%GLM")
   (export '%glm::glm+highp-i8 "%GLM")
   (export '%glm::glm+pack-unorm2x4 "%GLM")
-  (export '%glm::glm+vec<4+unsigned+char+glm+packed-highp>+type
-          "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-mediump>+length
           "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-lowp>+length "%GLM")
@@ -64541,45 +60691,40 @@
           "%GLM")
   (export '%glm::glm+mat<2+4+float+glm+packed-lowp>+value-type
           "%GLM")
-  (export '%glm::glm+detail+storage<2+float+true>+type "%GLM")
-  (export '%glm::glm+vec<3+int+glm+packed-mediump>+type "%GLM")
+  (export '%glm::glm+highp-f64mat2x2 "%GLM")
+  (export '%glm::glm+vec<3+short+glm+aligned-highp>+value-type
+          "%GLM")
   (export '%glm::glm+i32vec4 "%GLM")
   (export '%glm::glm+pack-uint2x8 "%GLM")
   (export '%glm::glm+uint16 "%GLM")
   (export '%glm::glm+mat<2+3+float+glm+packed-highp> "%GLM")
-  (export '%glm::glm+detail+storage<4+unsigned+long+false>+type
-          "%GLM")
+  (export '%glm::glm+vec<3+int+glm+packed-mediump>+type "%GLM")
   (export '%glm::glm+highp-uint16 "%GLM")
   (export '%glm::glm+matrix-comp-mult "%GLM")
   (export '%glm::glm+vec<2+char+glm+packed-highp>+type "%GLM")
   (export '%glm::glm+mediump-f32mat3x2 "%GLM")
   (export '%glm::glm+mat<4+4+double+glm+packed-lowp>+row-type "%GLM")
   (export '%glm::glm+vec<4+unsigned+short+glm+packed-mediump> "%GLM")
-  (export '%glm::glm+vec<1+unsigned+short+glm+packed-highp>+bool-type
-          "%GLM")
   (export '%glm::glm+mat<2+2+double+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<1+long+glm+packed-highp> "%GLM")
   (export '%glm::glm+vec<3+unsigned+char+glm+packed-highp>+length
           "%GLM")
-  (export '%glm::glm+highp-f64mat2x2 "%GLM")
   (export '%glm::glm+vec<2+float+glm+aligned-lowp>+length-type
           "%GLM")
   (export '%glm::glm+qua<double+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec<3+long+glm+packed-lowp>+value-type "%GLM")
   (export '%glm::glm+epsilon-not-equal "%GLM")
-  (export '%glm::glm+detail+storage<1+unsigned+char+false>+type
+  (export '%glm::glm+vec<4+short+glm+packed-mediump>+value-type
           "%GLM")
   (export '%glm::glm+lowp-i8vec2 "%GLM")
   (export '%glm::glm+vec<3+unsigned+short+glm+aligned-highp> "%GLM")
   (export '%glm::glm+mat<4+3+float+glm+packed-highp>+col-type "%GLM")
   (export '%glm::glm+vec<3+float+glm+aligned-mediump>+length "%GLM")
   (export '%glm::glm+highp-f64mat4x3 "%GLM")
-  (export '%glm::glm+vec<4+double+glm+packed-lowp>+bool-type "%GLM")
   (export '%glm::glm+highp-i8vec2 "%GLM")
   (export '%glm::glm+highp-int32 "%GLM")
   (export '%glm::glm+vec<3+int+glm+aligned-highp>+value-type "%GLM")
-  (export '%glm::glm+detail+storage<4+int+false>+type "%GLM")
   (export '%glm::glm+mediump-f64vec1 "%GLM")
   (export '%glm::glm+u32vec3 "%GLM")
   (export '%glm::glm+vec<4+float+glm+aligned-lowp> "%GLM")
@@ -64596,11 +60741,9 @@
   (export '%glm::glm+mat<2+3+double+glm+packed-highp>+value-type
           "%GLM")
   (export '%glm::glm+vec<2+float+glm+packed-lowp> "%GLM")
-  (export '%glm::glm+vec<2+char+glm+packed-mediump> "%GLM")
+  (export '%glm::glm+vec<2+char+glm+aligned-highp>+type "%GLM")
   (export '%glm::glm+vec<4+int+glm+aligned-mediump>+type "%GLM")
   (export '%glm::glm+lowp-u8vec1 "%GLM")
-  (export '%glm::glm+vec<4+short+glm+packed-mediump>+value-type
-          "%GLM")
   (export '%glm::glm+mat<3+4+float+glm+packed-lowp>+col-type "%GLM")
   (export '%glm::glm+make-vec2 "%GLM")
   (export '%glm::glm+make-mat4x3 "%GLM")

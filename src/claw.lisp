@@ -50,7 +50,7 @@
                               (list "4" "4" type "glm::defaultp")))))))))
 
 
-(claw.wrapper:defwrapper (glm::claw-glm
+(claw.wrapper:defwrapper (:claw-glm
                           (:system :claw-glm/wrapper)
                           (:headers "claw_glm.hpp")
                           (:includes :glm-includes)
