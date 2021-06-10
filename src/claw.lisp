@@ -50,8 +50,8 @@
                               (list "4" "4" type "glm::defaultp")))))))))
 
 
-(claw.wrapper:defwrapper (:claw-glm
-                          (:system :claw-glm/wrapper)
+(claw.wrapper:defwrapper (:aw-glm
+                          (:system :aw-glm/wrapper)
                           (:headers "claw_glm.hpp")
                           (:includes :glm-includes)
                           (:instantiate #'instantiate-some)
@@ -62,8 +62,8 @@
                                      (:intrinsics :sse42 :avx))
                                     ((:and :aarch64 :android) "aarch64-linux-android"
                                      (:intrinsics :neon)))
-                          (:persistent :claw-glm-bindings
-                           :asd-path "../claw-glm-bindings.asd"
+                          (:persistent :aw-glm-bindings
+                           :asd-path "../aw-glm-bindings.asd"
                            :bindings-path "../bindings/"
                            :depends-on (:claw-utils))
                           (:language :c++))

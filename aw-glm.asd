@@ -1,13 +1,13 @@
-(asdf:defsystem :claw-glm
+(asdf:defsystem :aw-glm
   :description "Wrapper over OpenGL Mathematics (GLM) library"
   :version "1.0.0"
   :author "Pavel Korolev"
   :mailto "dev@borodust.org"
   :license "MIT"
-  :depends-on (:claw-glm-bindings))
+  :depends-on (:aw-glm-bindings))
 
 
-(asdf:defsystem :claw-glm/wrapper
+(asdf:defsystem :aw-glm/wrapper
   :description "Wrapper over OpenGL Mathematics (GLM) library"
   :version "1.0.0"
   :author "Pavel Korolev"
@@ -21,13 +21,13 @@
                (:module :glm-includes :pathname "lib/glm/")))
 
 
-(asdf:defsystem :claw-glm/example
+(asdf:defsystem :aw-glm/example
   :description ""
   :version "1.0.0"
   :author "Pavel Korolev"
   :mailto "dev@borodust.org"
   :license "MIT"
-  :depends-on (:claw-glm)
+  :depends-on (:aw-glm)
   :serial t
   :pathname "example/"
   :components ((:file "example")))
