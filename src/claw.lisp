@@ -47,7 +47,10 @@
                        ((equal '("C" "R" "T" "Q") params)
                         (list (list "2" "2" type "glm::defaultp")
                               (list "3" "3" type "glm::defaultp")
-                              (list "4" "4" type "glm::defaultp")))))))))
+                              (list "4" "4" type "glm::defaultp"))))))))
+
+  (defun ignore-some ()
+    (claw.resect:ignore-names "vec<.*bool.*>")))
 
 
 (claw.wrapper:defwrapper (:aw-glm
@@ -56,8 +59,7 @@
                           (:includes :glm-includes)
                           (:instantiate #'instantiate-some)
                           (:include-definitions "glm::.*")
-                          (:exclude-definitions "glm::detail::"
-                                                "vec<.*bool.*>")
+                          (:exclude-definitions "glm::detail::")
                           (:targets ((:and :x86-64 :linux) "x86_64-pc-linux-gnu"
                                      (:intrinsics :sse42 :avx))
                                     ((:and :aarch64 :android) "aarch64-linux-android"
@@ -71,6 +73,7 @@
   :trim-enum-prefix t
   :recognize-bitfields t
   :recognize-strings t
+  :ignore-entities (ignore-some)
   :with-adapter (:static
                  :path "lib/adapter.cxx")
   :override-types ((:string claw-utils:claw-string)
