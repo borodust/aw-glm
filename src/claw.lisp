@@ -63,7 +63,9 @@
                           (:targets ((:and :x86-64 :linux) "x86_64-pc-linux-gnu"
                                      (:intrinsics :sse42 :avx))
                                     ((:and :aarch64 :android) "aarch64-linux-android"
-                                     (:intrinsics :neon)))
+                                     (:intrinsics :neon))
+                                    ((:and :x86-64 :windows) "x86_64-pc-windows-gnu"
+                                     (:intrinsics :sse42 :avx)))
                           (:persistent :aw-glm-bindings
                            :asd-path "../aw-glm-bindings.asd"
                            :bindings-path "../bindings/"
