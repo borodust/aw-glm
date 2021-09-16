@@ -12,15 +12,28 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: true
+      - run: echo "LLVM_INSTALL_PREFIX=${{ github.workspace }}/llvm" >> $GITHUB_ENV
+      - name: Cache LLVM and Clang
+        id: cache-llvm
+        uses: actions/cache@v2
+        with:
+          path: |
+            ${{ env.LLVM_INSTALL_PREFIX }}
+          key: llvm-9.0
       - name: Install LLVM And Clang
         uses: KyleMayes/install-llvm-action@v1
         with:
           version: "9.0"
+          directory: ${{ env.LLVM_INSTALL_PREFIX }}
+          cached: ${{ steps.cache-llvm.outputs.cache-hit }}
       - name: Install Required Packages
-        run: sudo apt-get install -y ninja-build
+        run: sudo apt-get update && sudo apt-get install -y ninja-build patchelf
       - name: Build Binaries
         run: |
           cd ${{ github.workspace }}/src/lib/ && ./build.sh desktop
+      - run: cp -L "${{ env.LLVM_INSTALL_PREFIX }}/lib/libc++.so.1" "${{ env.LLVM_INSTALL_PREFIX }}/lib/libc++abi.so.1" "${{ github.workspace }}/src/lib/build/desktop/"
+      - name: Set libc++ RPATH
+        run: patchelf --set-rpath '${ORIGIN}' src/lib/build/desktop/libc++.so.1 src/lib/build/desktop/libc++abi.so.1
       - name: Publish Binaries
         uses: softprops/action-gh-release@v1
         env:
@@ -28,3 +41,5 @@ jobs:
         with:
           files: |
             src/lib/build/desktop/libglm.clawed.so
+            src/lib/build/desktop/libc++.so.1
+            src/lib/build/desktop/libc++abi.so.1

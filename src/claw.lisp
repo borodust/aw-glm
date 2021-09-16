@@ -56,7 +56,7 @@
 (claw.wrapper:defwrapper (:aw-glm
                           (:system :aw-glm/wrapper)
                           (:headers "claw_glm.hpp")
-                          (:includes :glm-includes)
+                          (:includes :glm-includes :wrapper-includes)
                           (:instantiate #'instantiate-some)
                           (:include-definitions "glm::.*")
                           (:exclude-definitions "glm::detail::")
@@ -66,10 +66,7 @@
                                      (:intrinsics :neon))
                                     ((:and :x86-64 :windows) "x86_64-pc-windows-gnu"
                                      (:intrinsics :sse42 :avx)))
-                          (:persistent :aw-glm-bindings
-                           :asd-path "../aw-glm-bindings.asd"
-                           :bindings-path "../bindings/"
-                           :depends-on (:claw-utils))
+                          (:persistent t :depends-on (:claw-utils))
                           (:language :c++))
   :in-package :%glm
   :trim-enum-prefix t
@@ -77,6 +74,6 @@
   :recognize-strings t
   :ignore-entities (ignore-some)
   :with-adapter (:static
-                 :path "lib/adapter.cxx")
+                 :path "src/lib/adapter.cxx")
   :override-types ((:string claw-utils:claw-string)
                    (:pointer claw-utils:claw-pointer)))

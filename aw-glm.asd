@@ -15,10 +15,9 @@
   :license "MIT"
   :depends-on (:alexandria :cffi :claw :claw-utils)
   :serial t
-  :pathname "src/"
-  :components ((:file "claw")
-               (:module :bindings)
-               (:module :glm-includes :pathname "lib/glm/")))
+  :components ((:file "src/claw")
+               (:module :wrapper-includes :pathname "src/lib/")
+               (:module :glm-includes :pathname "src/lib/glm/")))
 
 
 (asdf:defsystem :aw-glm/example
