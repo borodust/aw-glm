@@ -4,7 +4,7 @@ on:
     tags:
       - "v*.*.**"
 jobs:
-  Build:
+  build-linux:
     runs-on: ubuntu-18.04
     steps:
       - name: Check Out Everything
@@ -43,3 +43,22 @@ jobs:
             src/lib/build/desktop/libglm.clawed.so
             src/lib/build/desktop/libc++.so.1
             src/lib/build/desktop/libc++abi.so.1
+  build-windows:
+    runs-on: windows-2019
+    steps:
+      - name: Check Out Everything
+        id: checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Build Binaries
+        run: |
+          cd ${{ github.workspace }}/src/lib/
+          ./build.ps1
+      - name: Publish Binaries
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: |
+            src/lib/build/desktop/glm.clawed.dll
