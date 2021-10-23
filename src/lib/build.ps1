@@ -28,6 +28,7 @@ md $BuildDir -Force | Out-Null
 pushd $BuildDir
 
 cmake -G "Visual Studio 16 2019" -A x64 -Thost=x64 `
+      -DCMAKE_BUILD_TYPE=$BuildType `
   "$WorkDir"
 
 
