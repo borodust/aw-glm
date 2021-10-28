@@ -54,8 +54,8 @@ function build_android {
     esac
 
     mkdir -p $BUILD_DIR && cd $BUILD_DIR
-    cmake -DCLAW_ANDROID_BUILD=ON \
-          -DANDROID_ABI=$ANDROID_ABI \
+    cmake -DANDROID_ABI=$ANDROID_ABI \
+          -DANDROID_PLATFORM=23 \
           -DANDROID_ARM_NEON=ON \
           -DCMAKE_TOOLCHAIN_FILE="$NDK/build/cmake/android.toolchain.cmake" \
           $WORK_DIR
