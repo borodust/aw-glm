@@ -1,3 +1,3 @@
-# claw-glm
+# AW-GLM
 
-Work in progress playground for `:claw` `C++` generator.
+Bindings to [GLM](https://github.com/g-truc/glm) math library.
