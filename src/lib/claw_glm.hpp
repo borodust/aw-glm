@@ -1,12 +1,12 @@
-#define GLM_FORCE_MESSAGES
-#define GLM_FORCE_INLINE
-#define GLM_FORCE_DEFAULT_ALIGNED_GENTYPES
-#define GLM_FORCE_SINGLE_ONLY
+#define GLM_FORCE_MESSAGES 1
+#define GLM_FORCE_INLINE 1
+#define GLM_FORCE_DEFAULT_ALIGNED_GENTYPES 1
+#define GLM_FORCE_SINGLE_ONLY 1
 
 #ifdef __ANDROID__
-#  define GLM_FORCE_NEON
+#  define GLM_FORCE_NEON 1
 #else
-#  define GLM_FORCE_AVX
+#  define GLM_FORCE_AVX2 1
 #endif
 
 /*
@@ -69,3 +69,15 @@
 #include <glm/gtc/reciprocal.hpp>
 #include <glm/gtc/round.hpp>
 #include <glm/gtc/type_ptr.hpp>
+
+namespace claw {
+::glm::vec4 VERY_MY_VEC;
+
+ class MuchVec2: public ::glm::vec2 {
+
+ };
+
+ class MuchVec4: public ::glm::vec4 {
+
+ };
+ }

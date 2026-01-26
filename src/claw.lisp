@@ -1,13 +1,12 @@
 (cl:defpackage :glm
   (:use :cl)
   (:export))
-(cl:defpackage :%glm
-  (:use))
 (cl:in-package :glm)
 
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (defun instantiate-gentype (name location)
+    (declare (ignore name))
     (cond
       ((search "scalar_constants" location)
        (list (list "float")))))
@@ -17,7 +16,8 @@
                   ((member name '("isMultiple"
                                   "findMSB"
                                   "bitCount"
-                                  "bitfieldReverse") :test #'string=)
+                                  "bitfieldReverse")
+                           :test #'string=)
                    nil)
                   ((or (member name
                                '("operator&"
@@ -60,10 +60,7 @@
              (params (claw.resect:declaration-template-parameters decl)))
         (if (equal '("genType") params)
             (instantiate-gentype name location)
-            (instantiate-decomposed name location params)))))
-
-  (defun ignore-some ()
-    (claw.resect:ignore-names "vec<.*bool.*>")))
+            (instantiate-decomposed name location params))))))
 
 
 (claw.wrapper:defwrapper (:aw-glm
@@ -71,14 +68,14 @@
                           (:headers "claw_glm.hpp")
                           (:includes :glm-includes :wrapper-includes)
                           (:instantiate #'instantiate-some)
-                          (:include-definitions "glm::.*")
-                          (:exclude-definitions "glm::detail::")
+                          (:include-definitions "^glm::(?!detail::).*")
+                          (:exclude-definitions "^glm::vec<.*bool.*>"
+                                                "^glm::vec<.*packed_.*>"
+                                                "^glm::mat<.*packed_.*>"
+                                                "^glm::qua<.*packed_.*>"
+                                                "^glm::splat.*")
                           (:targets ((:and :x86-64 :linux) "x86_64-pc-linux-gnu"
-                                     (:intrinsics :avx))
-                                    ((:and :aarch64 :android) "aarch64-linux-android"
-                                     (:intrinsics :neon))
-                                    ((:and :x86-64 :windows) "x86_64-w64-mingw32"
-                                     (:intrinsics :avx)))
+                                     (:intrinsics :avx2)))
                           (:persistent t :depends-on (:claw-utils))
                           (:language :c++)
                           (:standard :c++17))
@@ -86,7 +83,6 @@
   :trim-enum-prefix t
   :recognize-bitfields t
   :recognize-strings t
-  :ignore-entities (ignore-some)
   :with-adapter (:static
                  :path "src/lib/adapter.cxx")
   :override-types ((:string claw-utils:claw-string)
