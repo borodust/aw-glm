@@ -26,7 +26,7 @@
   :author "Pavel Korolev"
   :mailto "dev@borodust.org"
   :license "MIT"
-  :depends-on (:aw-glm)
+  :depends-on (:cffi :aw-glm)
   :serial t
   :pathname "example/"
   :components ((:file "example")))

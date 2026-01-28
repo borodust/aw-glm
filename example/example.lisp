@@ -1,7 +1,14 @@
 (cl:defpackage :glm.example
   (:use :cl)
-  (:export #:run))
+  (:export #:run
+           #:load-glm
+           #:close-glm))
 (cl:in-package :glm.example)
+
+
+(cffi:define-foreign-library (glm
+                              :search-path (asdf:system-relative-pathname :aw-glm/wrapper "src/lib/build/desktop/"))
+  (:linux "libglm.clawed.so"))
 
 
 (defun vec4 (vec idx)
@@ -115,6 +122,15 @@
     (loop repeat 100000000
           do (setf result (vec4-dot this that)))
     (values result)))
+
+
+(defun load-glm ()
+  (cffi:load-foreign-library 'glm))
+
+
+(defun close-glm ()
+  (cffi:close-foreign-library 'glm))
+
 
 (defun run ()
   (values (run-vec3) (run-vec4)))
