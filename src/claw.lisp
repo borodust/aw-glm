@@ -76,7 +76,7 @@
                                                 "^glm::splat.*")
                           (:targets ((:and :x86-64 :linux) "x86_64-pc-linux-gnu"
                                      (:intrinsics :avx2)))
-                          (:persistent t :depends-on (:claw-utils))
+                          (:persistent t)
                           (:language :c++)
                           (:standard :c++17))
   :in-package :%glm
@@ -84,6 +84,4 @@
   :recognize-bitfields t
   :recognize-strings t
   :with-adapter (:static
-                 :path "src/lib/adapter.cxx")
-  :override-types ((:string claw-utils:claw-string)
-                   (:pointer claw-utils:claw-pointer)))
+                 :path "src/lib/adapter.cxx"))
